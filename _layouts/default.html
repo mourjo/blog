@@ -1,20 +1,43 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% include head.html %}
+  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-  <body>
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Outline|Overlock" rel="stylesheet">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+  <script src="{{site.baseurl}}/js/jquery-3.3.1.min.js"></script>
+  <script async src="{{site.baseurl}}/js/navbar.js"></script>
+  {% seo %}
+</head>
+<body style="background-color: rgb(255, 255, 255)">
+  
+  <header>
+<span style="cursor:pointer" onclick="openNav()" class="home">&#9776;</span>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="{{site.baseurl}}/">Home</a>
+    <a href="{{site.baseurl}}/about">About</a>
+    <a href="{{site.baseurl}}/contact">Contact</a>
+  </div>
+</div>
 
-    {% include header.html %}
+  </header>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    <main>
+    <article>
+    {{ content }}
+    </article>
+    </main>
 
-    {% include footer.html %}
-
-  </body>
-
+<footer>
+    <p class="copy"><small>&copy; Authored by <a href="http://mourjo.me">Mourjo</a></small></p>
+</footer>
+{% include analytics.html %}
+</body>
 </html>
