@@ -6,15 +6,27 @@ layout: compress
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-<!--   <link href="https://fonts.googleapis.com/css?family=Lato:900|Work+Sans" rel="stylesheet"> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Outline|Overlock" rel="stylesheet">
   <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+  <script src="{{site.baseurl}}/js/jquery-3.3.1.min.js"></script>
+  <script async src="{{site.baseurl}}/js/navbar.js"></script>
   {% seo %}
 </head>
 <body style="background-color: rgb(255, 255, 255)">
- <script async src="{{site.baseurl}}/js/theme.min.js"></script>
+  
   <header>
-      <a href="{{site.baseurl}}/"><div class="home"></div></a>
+<span style="cursor:pointer" onclick="openNav()" class="home">&#9776;</span>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="{{site.baseurl}}/">Home</a>
+    <a href="{{site.baseurl}}/about">About</a>
+    <a href="{{site.baseurl}}/contact">Contact</a>
+  </div>
+</div>
+
   </header>
 
     <main>
@@ -24,12 +36,7 @@ layout: compress
     </main>
 
 <footer>
-    <div class="links">
-        <a href="{{site.baseurl}}/about/">About</a>
-        <a href="{{site.baseurl}}/contact/">Contact</a>
-        <a class="theme" onclick="theme()">Dark/Light</a>
-    </div>
-    <p class="copy"><small>Copyrights by {{site.title}} | Developed by <a href="http://webjeda.com">webjeda</a></small></p>
+    <p class="copy"><small>&copy; Authored by <a href="http://mourjo.me">Mourjo</a></small></p>
 </footer>
 {% include analytics.html %}
 </body>
