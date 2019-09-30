@@ -3,9 +3,26 @@ layout: default
 permalink: /
 ---
 <h1 class="headline">{{site.title}}</h1>
+
+
 <div class="article-list">
-{% for post in site.posts %}
-    <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <h1>Medium posts</h1>
+    <ul>
+        <li><a href="https://medium.com/@mourjo_sen/a-detailed-comparison-between-autocompletion-strategies-in-elasticsearch-66cb9e9c62c4" target="_blank">A detailed comparison between autocompletion strategies in ElasticSearch</a></li>
+
+        <li><a href="https://medium.com/helpshift-engineering/a-study-in-parallelising-tests-b5253817beae" target="_blank">A Study in Parallelising Clojure Tests</a></li>
+
+        <li><a href="https://medium.com/helpshift-engineering/scylladb-the-helpshift-story-3d332bf80ce2" target="_blank">ScyllaDB: The Helpshift Story</a></li>
+    </ul>
+</div>
+
+
+<div class="article-list">
+    <h1>Other posts</h1>
+    <ul>
+    {% for post in site.posts %}
+        <li><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></li>
     
-{% endfor %}
+    {% endfor %}
+    </ul>
 </div>
