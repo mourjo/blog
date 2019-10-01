@@ -1,22 +1,25 @@
 title: Confessions of a master procrastinator
+description: Thoughts of a software engineer about life, tech and everything in between. A place to put down my thoughts for my own recollection more than anything else. If you like it, be sure to drop me an email!
 baseurl: /blog
+author:
+  twitter: mourjo_sen
 email: mourjo@mourjo.me
 markdown: kramdown
 
+twitter:
+  username: mourjo_sen
+  card: summary
+
+social:
+  name: Mourjo Sen
+  links:
+    - https://github.com/mourjo
+    - http://in.linkedin.com/in/mourjosen
+    - https://www.facebook.com/sen.mourjo
+    - https://twitter.com/mourjo_sen
+
 # Tracker
 analytics: UA-115015256-1
-
-
-#optimization -- compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
 
 
 sass:
@@ -25,4 +28,5 @@ sass:
 exclude:
 - README.md
 
-
+plugins:
+  - jekyll-seo-tag
