@@ -1,15 +1,17 @@
 ---
 layout: post
-title:  "[recurrent] Reading List"
+title:  "[recurrent] Stuff I am reading"
 date:   2019-09-20 23:14:11 +0530
 category: tech
+notes: lein run -m "lganguly.scrape/url->title-html-main" https://google.com http://mourjo.me/
 ---
 
 This is a list of readings I have found to be extremely useful and
 hence I am bookmarking them here, for my future self mostly. This is
 an ever-increasing unordered list, which I am constantly trying to keep up with.
 
-Last update: October 1, 2019.
+Last update: October 3, 2019.
+
 
 # Conceptual
 - Critical Rendering Path <a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/" target="_blank">https://developers.google.com/web/fundamentals/performance/critical-rendering-path/</a>
@@ -61,6 +63,7 @@ Last update: October 1, 2019.
 - Open Distro for Elasticsearch <a href="https://opendistro.github.io/for-elasticsearch/" target="_blank">https://opendistro.github.io/for-elasticsearch/</a>
 - New – Open Distro for Elasticsearch – AWS <a href="https://aws.amazon.com/blogs/aws/new-open-distro-for-elasticsearch/" target="_blank">https://aws.amazon.com/blogs/aws/new-open-distro-for-elasticsearch/</a>
 - Smart sticky sessions using HAProxy for Apache Phoenix <a href="https://medium.com/helpshift-engineering/smart-sticky-sessions-using-haproxy-for-apache-phoenix-911bdca7e2c" target="_blank">https://medium.com/helpshift-engineering/smart-sticky-sessions-using-haproxy-for-apache-phoenix-911bdca7e2c</a>
+- How to get HTTPS working on your local development environment in 5 minutes <a href="https://www.freecodecamp.org/news/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec/" target="_blank">https://www.freecodecamp.org/news/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec/</a>
 
 
 # Architecture
