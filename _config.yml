@@ -5,6 +5,7 @@ author:
   twitter: mourjo_sen
 email: mourjo@mourjo.me
 markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
 
 twitter:
   username: mourjo_sen
