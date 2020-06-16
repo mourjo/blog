@@ -6,7 +6,6 @@ for category in `ls _site | grep tech`; do
       for day in `ls _site/$category/$year/$month`; do
          for postdir in `ls _site/$category/$year/$month/$day/`; do
            if [[ $postdir != *"html" ]];then
-             # testmystring does not contain c0
              echo "Migrating $postdir"
              cp "_site/$category/$year/$month/$day/$postdir/index.html" "_site/$category/$year/$month/$day/$postdir.html";
              git add "_site/$category/$year/$month/$day/$postdir.html";
