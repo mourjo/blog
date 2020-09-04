@@ -15,4 +15,7 @@ jobs:
         with:
           max_post_count: 10
           feed_list: "https://medium.com/feed/@mourjo_sen"
-          readme_path: "_posts/2020-09-03-medium-index.md" 
+          readme_path: "_posts/2020-09-03-medium-index.md"
+          template: "- [$title]($url)<span class='copy'>&nbsp;—&nbsp;$date</span>$newline"
+          date_format: "dd mmm yyyy"
+          tag_post_pre_newline: true
