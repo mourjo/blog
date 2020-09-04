@@ -3,3 +3,7 @@
 .DS_Store
 _posts/.DS_Store
 Gemfile.lock
+.idea/
+_site/blog/
+_site/hidden/
+blog/
