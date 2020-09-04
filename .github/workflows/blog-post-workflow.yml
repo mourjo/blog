@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - uses: gautamkrishnar/blog-post-workflow@1.2.5
         with:
           max_post_count: 10
           feed_list: "https://medium.com/feed/@mourjo_sen"
