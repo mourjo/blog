@@ -2,10 +2,9 @@
 layout: default
 permalink: /
 ---
-<h1 class="headline">{{site.title}}</h1>
 
-<div class="article-list">
-    <h1>Medium posts</h1>
+<div>
+    <h1>Medium Articles</h1>
     {% for post in site.posts %}
       {% if post.title == "Medium Index" %}
         {{post.content}}
@@ -15,12 +14,15 @@ permalink: /
 
 
 
-<div class="article-list">
-    <h1>Other posts</h1>
+<div>
+    <h1>Other Articles</h1>
     <ul>
       {% for post in site.posts %}
         {% if post.category != "hidden" %}
-          <li><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span></li>
+          <li>
+            <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
+            <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
+          </li>
         {% endif %}
       {% endfor %}
     </ul>

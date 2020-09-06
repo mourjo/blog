@@ -23,11 +23,10 @@ social:
 analytics: UA-115015256-1
 
 
-sass:
- style: compressed
-
 exclude:
 - README.md
+- Makefile
+- Gemfile
 
 plugins:
   - jekyll-seo-tag
