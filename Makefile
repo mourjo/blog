@@ -1,5 +1,5 @@
 build:
-	bundle exec jekyll b && rm _site/Makefile
+	bundle exec jekyll b 
 watchbuild:
 	bundle exec jekyll s
 migrate:
