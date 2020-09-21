@@ -6,6 +6,7 @@ category: hidden
 ---
 
 <!-- BLOG-POST-LIST:START -->
+- [Load Shedding in Clojure](https://medium.com/helpshift-engineering/load-shedding-in-clojure-d4857ce11588?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;21 Sep 2020</span>
 - [Load Shedding in Web Services](https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;04 Sep 2020</span>
 - [The Convoluted Magic of Leiningen Test Selectors](https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;02 May 2020</span>
 - [Killing me softly: Graceful shutdowns in Clojure](https://medium.com/helpshift-engineering/achieving-graceful-restarts-of-clojure-services-b3a3b9c1d60d?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;27 Jan 2020</span>
