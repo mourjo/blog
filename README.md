@@ -4,27 +4,34 @@ My personal blog, published [here](https://mourjo.me/blog/).
 
 
 ### Install Jekyll
-This uses an older version of Jekyll, the official docs use Ruby 3.0.0, but that doesn't
-work for now.
+This uses Jekyll `4.2.0`.
 
 ```shell
-
 brew install ruby
 brew install rbenv
 rbenv init
 
 # Add to .zshrc:
 # eval "$(rbenv init -)"
-# export PATH=$PATH:$HOME/.gem/ruby/2.6.3/bin
+# export PATH=$PATH:$HOME/.gem/ruby/3.0.0/bin
 
 # Install jekyll locally
 gem install --user-install bundler jekyll
 
 # Install gems
 bundle install
+```
 
-# Test works
-bundle exec jekyll serve
+After this, the correct Jekyll version should be installed
+
+```shell
+bundle exec jekyll -v
+#jekyll 4.2.0
+```
+
+Serve using
+```shell
+bundle exec jekyll s
 ```
 
 ### Publishing

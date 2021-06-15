@@ -7,3 +7,4 @@ Gemfile.lock
 _site/blog/
 _site/hidden/
 blog/
+.jekyll-cache
