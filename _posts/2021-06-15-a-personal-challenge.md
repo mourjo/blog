@@ -2,7 +2,7 @@
 layout: post
 title:  "A personal challenge"
 date:   2021-06-15 11:07:11 +0530
-category: tech
+category: mentoring
 ---
 
 

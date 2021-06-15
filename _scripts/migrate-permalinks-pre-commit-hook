@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "RUNNING PERMALINK MIGRATION `pwd`";
-for category in `ls _site | grep tech`; do
+for category in `grep -nR "category:" */*.md | awk 'NF>1{print $NF}' | sort | uniq | grep -v hidden`; do
   for year in `ls _site/$category`; do
     for month in `ls _site/$category/$year`; do
       for day in `ls _site/$category/$year/$month`; do
