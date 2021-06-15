@@ -1,6 +1,31 @@
 ## Blog
 
-This is my first attempt at a blog.
+My personal blog, published [here](https://mourjo.me/blog/).
+
+
+### Install Jekyll
+This uses an older version of Jekyll, the official docs use Ruby 3.0.0, but that doesn't
+work for now.
+
+```shell
+
+brew install ruby
+brew install rbenv
+rbenv init
+
+# Add to .zshrc:
+# eval "$(rbenv init -)"
+# export PATH=$PATH:$HOME/.gem/ruby/2.6.3/bin
+
+# Install jekyll locally
+gem install --user-install bundler jekyll
+
+# Install gems
+bundle install
+
+# Test works
+bundle exec jekyll serve
+```
 
 ### Publishing
 Make all chanegs on any branch other than `gh-pages`.
