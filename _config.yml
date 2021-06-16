@@ -1,6 +1,7 @@
 title: Mourjo Sen's Blog
 description: Thoughts of a software engineer about life, tech and everything in between. A place to put down my thoughts for my own recollection more than anything else. If you like it, be sure to drop me an email!
 baseurl: /blog
+url: https://mourjo.me
 author:
   twitter: mourjo_sen
 email: mourjo@mourjo.me
@@ -33,3 +34,9 @@ exclude:
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+
+feed:
+  categories:
+    - tech
+    - non-tech
+    - mentoring
