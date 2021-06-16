@@ -4,27 +4,63 @@ My personal blog, published [here](https://mourjo.me/blog/).
 
 
 ### Install Jekyll
-This uses an older version of Jekyll, the official docs use Ruby 3.0.0, but that doesn't
-work for now.
+This uses Jekyll `4.2.0`.
 
 ```shell
-
 brew install ruby
 brew install rbenv
 rbenv init
+```
 
-# Add to .zshrc:
-# eval "$(rbenv init -)"
-# export PATH=$PATH:$HOME/.gem/ruby/2.6.3/bin
+If on Ubuntu, uninstall `ruby-build` from package-manager to get the latest Ruby
+versions in `rbenv`.
+```shell
+sudo apt remove ruby-build
 
-# Install jekyll locally
-gem install --user-install bundler jekyll
+# Install it as an rbenv plugin
+mkdir -p "$(rbenv root)"/plugins
+git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+
+```
+
+Add to `.zshrc`:
+
+```shell
+eval "$(rbenv init -)"
+export PATH=$PATH:$HOME/.gem/ruby/3.0.0/bin
+```
+
+Install Jekyll:
+```shell
+# Install Ruby version
+cd path/to/repo
+ls .ruby-version
+rbenv install
+
+# Install jekyll locally (add --user-install if appropriate)
+gem install bundler jekyll
 
 # Install gems
 bundle install
+```
 
-# Test works
-bundle exec jekyll serve
+If there are some older gems that don't work, try uninstalling them and reinstalling it
+```shell
+gem uninstall ffi
+gem install bundler jekyll
+bundle install
+```
+
+After this, the correct Jekyll version should be installed
+
+```shell
+bundle exec jekyll -v
+#jekyll 4.2.0
+```
+
+Serve using
+```shell
+bundle exec jekyll s
 ```
 
 ### Publishing

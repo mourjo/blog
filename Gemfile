@@ -1,2 +1,6 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll','4.2.0'
+gem 'jekyll-seo-tag','2.7.1'
+gem 'webrick','1.7.0'
+gem 'jekyll-octicons','14.2.2'
+gem 'jekyll-feed','0.15.1'
