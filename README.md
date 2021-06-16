@@ -10,13 +10,35 @@ This uses Jekyll `4.2.0`.
 brew install ruby
 brew install rbenv
 rbenv init
+```
 
-# Add to .zshrc:
-# eval "$(rbenv init -)"
-# export PATH=$PATH:$HOME/.gem/ruby/3.0.0/bin
+If on Ubuntu, uninstall `ruby-build` from package-manager to get the latest Ruby
+versions in `rbenv`.
+```shell
+sudo apt remove ruby-build
 
-# Install jekyll locally
-gem install --user-install bundler jekyll
+# Install it as an rbenv plugin
+mkdir -p "$(rbenv root)"/plugins
+git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+
+```
+
+Add to `.zshrc`:
+
+```shell
+eval "$(rbenv init -)"
+export PATH=$PATH:$HOME/.gem/ruby/3.0.0/bin
+```
+
+Install Jekyll:
+```shell
+# Install Ruby version
+cd path/to/repo
+ls .ruby-version
+rbenv install
+
+# Install jekyll locally (add --user-install if appropriate)
+gem install bundler jekyll
 
 # Install gems
 bundle install
