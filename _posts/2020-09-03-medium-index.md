@@ -3,6 +3,7 @@ layout: post
 title:  "Medium Index"
 date:   2020-09-03 07:14:11 +0530
 category: hidden
+tag: hidden
 ---
 
 <!-- BLOG-POST-LIST:START -->
@@ -16,4 +17,3 @@ category: hidden
 - [A detailed comparison between autocompletion strategies in ElasticSearch](https://medium.com/helpshift-engineering/a-detailed-comparison-between-autocompletion-strategies-in-elasticsearch-66cb9e9c62c4?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;30 Aug 2018</span>
 
 <!-- BLOG-POST-LIST:END -->
-

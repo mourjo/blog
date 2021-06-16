@@ -36,7 +36,6 @@ plugins:
   - jekyll-feed
 
 feed:
-  categories:
-    - tech
-    - non-tech
-    - mentoring
+  tags:
+    except:
+      - hidden
