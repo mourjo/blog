@@ -44,6 +44,13 @@ gem install bundler jekyll
 bundle install
 ```
 
+If there are some older gems that don't work, try uninstalling them and reinstalling it
+```shell
+gem uninstall ffi
+gem install bundler jekyll
+bundle install
+```
+
 After this, the correct Jekyll version should be installed
 
 ```shell
