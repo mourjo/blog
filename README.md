@@ -64,7 +64,7 @@ bundle exec jekyll s
 ```
 
 ### Publishing
-Make all chanegs on any branch other than `gh-pages`.
+Make all changes on any branch other than `gh-pages`.
 Generating the site is done by locally running Jekyll to build the site.
 Publishing is done by copying generated files from a branch (usually `master`) to `gh-pages`.
 
