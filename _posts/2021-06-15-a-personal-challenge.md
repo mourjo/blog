@@ -18,7 +18,7 @@ Here's what I have in mind (it is probably going to change). I have created the 
 broad headings of what I think are the most useful areas to spend time on.
 
 1. CS fundamentals
-   * Computer Architecturen
+   * Computer Architecture
    * Networking
    * Operating Systems
    * Databases
