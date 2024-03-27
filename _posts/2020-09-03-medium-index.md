@@ -7,6 +7,8 @@ tag: hidden
 ---
 
 <!-- BLOG-POST-LIST:START -->
+- [Unlocking observability: Structured logging in Spring Boot](https://medium.com/booking-com-development/unlocking-observability-structured-logging-in-spring-boot-c81dbabfb9e7?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;26 Mar 2024</span>
+- [Building a Secure Web Chat With Redis, mTLS and GCP](https://medium.com/@mourjo_sen/building-a-secure-web-chat-with-redis-mtls-and-gcp-e52007ba362d?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;22 Feb 2023</span>
 - [Load Shedding in Clojure](https://medium.com/helpshift-engineering/load-shedding-in-clojure-d4857ce11588?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;21 Sep 2020</span>
 - [Load Shedding in Web Services](https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;04 Sep 2020</span>
 - [The Convoluted Magic of Leiningen Test Selectors](https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;02 May 2020</span>
