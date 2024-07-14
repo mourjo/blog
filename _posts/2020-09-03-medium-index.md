@@ -17,5 +17,6 @@ tag: hidden
 - [On the testability of Ring Middlewares in Clojure](https://medium.com/helpshift-engineering/on-the-testability-of-ring-middlewares-in-clojure-6795eae60f2a?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;06 Dec 2019</span>
 - [A Study in Parallelising Tests](https://medium.com/helpshift-engineering/a-study-in-parallelising-tests-b5253817beae?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;15 May 2019</span>
 - [ScyllaDB: The Helpshift Story](https://medium.com/helpshift-engineering/scylladb-the-helpshift-story-3d332bf80ce2?source=rss-c69a7b7ed0c5------2)<span class='copy'>&nbsp;—&nbsp;03 Apr 2019</span>
+- [A detailed comparison between autocompletion strategies in ElasticSearch](https://medium.com/@mourjo_sen/a-detailed-comparison-between-autocompletion-strategies-in-elasticsearch-66cb9e9c62c4)<span class='copy'>&nbsp;—&nbsp;30 Aug 2018</span>
 
 <!-- BLOG-POST-LIST:END -->
