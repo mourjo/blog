@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: gautamkrishnar/blog-post-workflow@1.2.5
         with:
-          max_post_count: 20
+          max_post_count: 30
           feed_list: "https://medium.com/feed/@mourjo_sen"
           readme_path: "_posts/2020-09-03-medium-index.md"
           template: "- [$title]($url)<span class='copy'>&nbsp;—&nbsp;$date</span>$newline"
