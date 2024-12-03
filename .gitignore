@@ -8,3 +8,5 @@ _site/blog/
 _site/hidden/
 blog/
 .jekyll-cache
+
+.bundle/config
