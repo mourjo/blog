@@ -30,6 +30,7 @@ exclude:
 - README.md
 - Makefile
 - Gemfile
+- copy_from_obsidian.py
 
 plugins:
   - jekyll-seo-tag
