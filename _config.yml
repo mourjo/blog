@@ -35,6 +35,7 @@ exclude:
 - Makefile
 - Gemfile
 - copy_from_obsidian.py
+- deploy.sh
 
 plugins:
   - jekyll-seo-tag
