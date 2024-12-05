@@ -15,7 +15,7 @@ five minutes. Through it, I learnt a lot about the process of learning, looking 
   
 There are very few things that pay off as much as self-discipline and habit forming.
 
-> Some people say the most important thing a fighter can have is heart. Frankie'd say: show me a fighter who was nothing but heart and I'll show you a man waiting for a beating.
+> Some people say the most important thing a fighter can have is heart. Frankie would say, show me a fighter who's nothing but heart, and I'll show you a man waiting for a beating.
 >
 > -- Million Dollar Baby
 
