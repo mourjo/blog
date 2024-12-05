@@ -10,10 +10,10 @@ five minutes. Through it, I learnt a lot about the process of learning, looking 
 - **Motivation** comes and goes, relying on motivation alone is unsustainable
 - There will be good days and there will be better days
 - **Showing up every day** is winning half the battle
-- I overestimated what I can do in a day
-- I underestimated what I can do in a year
+- I overestimated what I can do in **one day**
+- I underestimated what I can do in **one year**
   
-There are very few things that pay off as much as self discipline and habit forming.
+There are very few things that pay off as much as self-discipline and habit forming.
 
 > Some people say the most important thing a fighter can have is heart. Frankie'd say: show me a fighter who was nothing but heart and I'll show you a man waiting for a beating.
 >
