@@ -1,13 +1,23 @@
 #!/usr/bin/env bash
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+# Check if the branch is not "master"
+if [[ "$current_branch" != "master" ]]; then
+  echo "Error: You are on branch '$current_branch'. Please switch to 'master' to proceed."
+  exit 1
+fi
 
 MSG=$(git --no-pager log -1 --pretty=%B)
-echo "This will build the blog, assumes initial commit contains the addition of the blog post.";
+echo "This will build the blog, assumes latest commit contains the blog post.";
+echo "The latest commit is:";
+echo -e "\033[34m$MSG\033[0m";
+echo "";
 echo "Type 'y' to proceed";
 
 while true; do
     read -r input
     if [[ "$input" == "y" ]]; then
-        echo "Thank you! Proceeding..."
+        echo "Proceeding..."
         break
     else
         echo "Invalid input. Exiting";
@@ -16,7 +26,6 @@ while true; do
 done
 
 
-echo "$MSG";
 
 make build;
 git add .;

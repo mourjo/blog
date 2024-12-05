@@ -64,6 +64,16 @@ bundle exec jekyll s
 ```
 
 ### Publishing
+
+1. Use `make watchbuild` to build the site incrementally on `master` branch
+2. Commit new changes (the Github actions bot changes already commits from feed URLs)
+3. Use the following
+```shell
+./deploy.sh
+```
+
+Or manually:
+
 Make all changes on any branch other than `gh-pages`.
 Generating the site is done by locally running Jekyll to build the site.
 Publishing is done by copying generated files from a branch (usually `master`) to `gh-pages`.
