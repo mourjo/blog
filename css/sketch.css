@@ -47,10 +47,6 @@ a:hover {
     color:inherit; 
 }
 
-pre {
-    border: 1px solid #888;
-    overflow: auto;
-}
 
 blockquote {
     border-left: 1px solid #aaa;
@@ -132,6 +128,16 @@ img {
     line-height: 1.1em;
     font-weight: bolder;
     color: #000;
+}
+
+pre {
+  border: 1px solid #888;
+  overflow: auto;
+  font-size: 13px;
+  line-height: 1.42857143;
+  font-family: 'Roboto Mono', monospace;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 @media (max-width: 480px) {
