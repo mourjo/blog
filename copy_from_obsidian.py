@@ -24,7 +24,7 @@ def from_obsidian(filename):
 
         image_count = 1
 
-        matching_images = re.findall(r'\[\[(([^]]*\.)(jpeg|svg|png))\]\]', content)
+        matching_images = re.findall(r'\[\[(([^]]*\.)(jpeg|svg|png|jpg))\]\]', content)
         images = map(lambda img_matches: img_matches[0], matching_images)
         images = sorted(images)
 
