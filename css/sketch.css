@@ -140,6 +140,16 @@ pre {
   border-radius: 4px;
 }
 
+code {
+  border: 1px solid #ffbdbd;
+  color: #c14c4c;
+  font-size: 14px;
+  font-family: 'Roboto Mono', monospace;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: #fff2f2;
+}
+
 @media (max-width: 480px) {
     .page {
         max-width: 300px;
