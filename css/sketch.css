@@ -2,13 +2,10 @@ body {
     color: rgb(75, 75, 75);
     background-color:white;
     font-family: 'Spectral', serif;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+    
 }
 
 strong {
@@ -46,7 +43,8 @@ a:visited,
 a:link,
 a:active {
     text-decoration: underline;
-    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-underline-offset: 3px;
     text-decoration-color: rgb(219, 219, 219);
     color:inherit; 
     
@@ -54,7 +52,8 @@ a:active {
 
 a:hover {
     text-decoration: underline;
-    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-underline-offset: 3px;
     text-decoration-color: rgb(134, 134, 134);
     color:inherit; 
 }
@@ -67,7 +66,7 @@ blockquote {
 }
 
 img {
-    max-width: 568px;
+    max-width: 70ch;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
@@ -76,8 +75,8 @@ img {
 }
 
 .page {
-    max-width: 568px;
-    min-width: 300px;
+    max-width: 70ch;
+    min-width: 30ch;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -135,6 +134,7 @@ img {
     padding-top: 10px;
 }
 
+
 .papertitle {
     font-size: 1.2em;
     line-height: 1.1em;
@@ -153,24 +153,27 @@ pre {
 }
 
 code {
-  border: 1px solid #ffbdbd;
-  color: #c14c4c;
   font-size: 14px;
   font-family: 'Roboto Mono', monospace;
-  padding: 2px;
+  padding: 3px;
   border-radius: 4px;
-  background-color: #fff2f2;
+  background-color: #ededed;
 }
+
+.social-icon {
+    font-size: 30px;
+}
+
 
 @media (max-width: 480px) {
     .page {
-        max-width: 300px;
-        width: 300px;
+        max-width: 350px;
+        width: 350px;
         line-height: 27px;
     }
 
     .page h1,h2,h3 {
-        line-height: 45px;
+        line-height: 35px;
     }
 
     .optional {
@@ -178,7 +181,7 @@ code {
     }
 
     img {
-        max-width: 300px;
+        max-width: 340px;
         margin-left: auto;
         margin-right: auto;
         border-radius: 5px;
