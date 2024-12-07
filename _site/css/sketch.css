@@ -11,6 +11,18 @@ body {
     hyphens: auto;
 }
 
+strong {
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+b {
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -135,7 +147,7 @@ pre {
   overflow: auto;
   font-size: 13px;
   line-height: 1.42857143;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
