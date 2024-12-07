@@ -19,31 +19,28 @@ layout: compress
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script>hljs.highlightAll();</script>
 
-  <meta name="description"
-    content="Mourjo is a software engineer working on distributed systems and big data analytics. He writes code and likes to write about code. Learn more about him, read his blog posts and reach out to him for interesting opportunities.">
+  <meta name="description" content="{{ page.title }}">
   <meta name="author" content="Mourjo Sen">
   <meta name="robots" content="all" />
 
   <!-- Open Graph data-->
-  <meta property="og:title" content="Get to know Mourjo Sen!" />
+  <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://mourjo.me" />
-  <meta property="og:image" content="https://mourjo.me/resources/images/MourjoSen.jpg" />
-  <meta property="og:description"
-    content="Mourjo is a software engineer working on distributed systems and big data analytics. He writes code and likes to write about code. Learn more about him, read his blog posts and reach out to him for interesting opportunities." />
-  <meta property="og:site_name" content="Mourjo Sen" />
-  <meta property="fb:admins" content="sen.mourjo" />
-
+  <meta property="og:url" content="{{ page.url }}" />
+  <meta property="og:image" content="https://mourjo.me/resources/images/card.jpg" />
+  {% assign first_paragraph = page.content | markdownify | split: '</p>' | first %}
+  <meta property="og:description" content="{{ first_paragraph | strip_html | strip | truncate: 160 }}" />
+  <meta property="og:site_name" content="Mourjo Sen's Blog" />
+  
   <!--Twitter Card data-->
-  <meta name="twitter:card" content="Mourjo Sen" />
+  <meta name="twitter:card" content="{{ post.excerpt }}" />
   <meta name="twitter:site" content="@mourjo_sen" />
-  <meta name="twitter:title" content="Get to know Mourjo Sen!" />
-  <meta name="twitter:description"
-    content="Mourjo is a software engineer working on distributed systems and big data analytics. He writes code and likes to write about code. Learn more about him, read his blog posts and reach out to him for interesting opportunities." />
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{{ post.excerpt }}" />
   <meta name="twitter:creator" content="@mourjo_sen" />
-  <meta name="twitter:image" content="https://mourjo.me/resources/images/MourjoSen.jpg" />
+  <meta name="twitter:image" content="https://mourjo.me/resources/images/card.jpg" />
 
-  <title>Mourjo Sen</title>
+  <title>{{ page.title }} | Mourjo Sen</title>
 </head>
 
 <body>
