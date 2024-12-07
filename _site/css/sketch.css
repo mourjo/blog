@@ -153,13 +153,11 @@ pre {
 }
 
 code {
-  border: 1px solid #ffbdbd;
-  color: #c14c4c;
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'Roboto Mono', monospace;
-  padding: 2px;
+  padding: 3px;
   border-radius: 4px;
-  background-color: #fff2f2;
+  background-color: #ededed;
 }
 
 @media (max-width: 480px) {
