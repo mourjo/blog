@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Motivation Is Not Everything
+title: "Motivation Is Not Everything"
 date: 2024-12-04 00:01:00 +0530
 category: musings
 ---

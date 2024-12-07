@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Relevance of Developer Tooling in the Age of AI
+title: "Relevance of Developer Tooling in the Age of AI"
 date: 2024-12-06 07:22:50 +0100
 category: musings
 ---
