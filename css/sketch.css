@@ -2,13 +2,10 @@ body {
     color: rgb(75, 75, 75);
     background-color:white;
     font-family: 'Spectral', serif;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+    
 }
 
 strong {
@@ -67,7 +64,7 @@ blockquote {
 }
 
 img {
-    max-width: 568px;
+    max-width: 70ch;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
@@ -76,8 +73,8 @@ img {
 }
 
 .page {
-    max-width: 568px;
-    min-width: 300px;
+    max-width: 70ch;
+    min-width: 30ch;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -135,6 +132,7 @@ img {
     padding-top: 10px;
 }
 
+
 .papertitle {
     font-size: 1.2em;
     line-height: 1.1em;
@@ -153,7 +151,7 @@ pre {
 }
 
 code {
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'Roboto Mono', monospace;
   padding: 3px;
   border-radius: 4px;
@@ -162,13 +160,13 @@ code {
 
 @media (max-width: 480px) {
     .page {
-        max-width: 300px;
-        width: 300px;
+        max-width: 350px;
+        width: 350px;
         line-height: 27px;
     }
 
     .page h1,h2,h3 {
-        line-height: 45px;
+        line-height: 35px;
     }
 
     .optional {
@@ -176,7 +174,7 @@ code {
     }
 
     img {
-        max-width: 300px;
+        max-width: 340px;
         margin-left: auto;
         margin-right: auto;
         border-radius: 5px;

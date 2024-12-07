@@ -4,7 +4,7 @@ permalink: /
 ---
 
 <div>
-    <h1>Medium Articles</h1>
+    <h1>Long-form Articles</h1>
     {% for post in site.posts %}
       {% if post.title == "Medium Index" %}
         {{post.content}}
@@ -13,17 +13,34 @@ permalink: /
 </div>
 
 
-
 <div>
-    <h1>Other Articles</h1>
+    <h1>Musings</h1>
     <ul>
       {% for post in site.posts %}
-        {% if post.category != "hidden" %}
+        {% if post.category != 'hidden' %}
+          {% if post.category != 'non-tech' %}
           <li>
             <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
             <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
           </li>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </ul>
 </div>
+
+<div>
+    <h1>Non-technical Articles</h1>
+    <ul>
+      {% for post in site.posts %}
+        {% if post.category == 'non-tech' %}
+              <li>
+                <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
+                <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
+              </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+</div>
+
+

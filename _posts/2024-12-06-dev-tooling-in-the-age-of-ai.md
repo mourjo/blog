@@ -2,7 +2,7 @@
 layout: post
 title: Relevance of Developer Tooling in the Age of AI
 date: 2024-12-06 07:22:50 +0100
-category: non-tech
+category: musings
 ---
 I have worked with unconventional languages all [throughout my career](https://mourjo.me/cv.pdf) - from `Clojure` and `Elixir` to `bash` and  `Perl`. Whether statically typed or not, the success of a language (among other things) *depends on the developer tooling and developer experience in general*. Or have I been spoilt by [IntelliJ Idea](https://www.jetbrains.com/idea/)?
 

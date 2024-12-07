@@ -2,7 +2,7 @@
 layout: post
 title:  "Exposing the page-view analytics of this site"
 date:   2021-11-15 11:07:12 +0530
-category: non-tech
+category: tech
 ---
 
 In this post, I expose the analytics of this site, mostly to convince myself that someone reads this (even if it's my own private browser sessions)!
