@@ -16,31 +16,56 @@ layout: compress
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  
+  {% if page.title %}
+    <meta name="description" content="{{ page.title }}">
+    <meta name="author" content="Mourjo Sen">
+    <meta name="robots" content="all" />
+    
+    <!-- Open Graph data-->
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:image" content="https://mourjo.me/resources/images/card.jpg" />
+    {% assign first_paragraph = page.content | markdownify | split: '</p>' | first %}
+    <meta property="og:description" content="{{ first_paragraph | strip_html | strip | truncate: 160 }}" />
+    <meta property="og:site_name" content="Mourjo Sen's Blog" />
+    
+    <!--Twitter Card data-->
+    <meta name="twitter:card" content="{{ first_paragraph | strip_html | strip | truncate: 160 }}" />
+    <meta name="twitter:site" content="@mourjo_sen" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:description" content="{{ first_paragraph | strip_html | strip | truncate: 160 }}" />
+    <meta name="twitter:creator" content="@mourjo_sen" />
+    <meta name="twitter:image" content="https://mourjo.me/resources/images/card.jpg" />
+  
+  <title>{{ page.title }} | Mourjo Sen</title>
+  {% else %}
+  <title>Blog | Mourjo Sen</title>
+    <meta name="description" content="Mourjo Sen's Blog">
+    <meta name="author" content="Mourjo Sen">
+    <meta name="robots" content="all" />
+    
+    <!-- Open Graph data-->
+    <meta property="og:title" content="Blog | Mourjo Sen" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://mourjo.me/blog" />
+    <meta property="og:image" content="https://mourjo.me/resources/images/card.jpg" />
+    <meta property="og:description" content="Blog articles by Mourjo Sen - long form articles and musings on Software Engineering." />
+    <meta property="og:site_name" content="Mourjo Sen's Blog" />
+    
+    <!--Twitter Card data-->
+    <meta name="twitter:card" content="Blog articles by Mourjo Sen - long form articles and musings on Software Engineering." />
+    <meta name="twitter:site" content="@mourjo_sen" />
+    <meta name="twitter:title" content="Blog | Mourjo Sen" />
+    <meta name="twitter:description" content="Blog articles by Mourjo Sen - long form articles and musings on Software Engineering." />
+    <meta name="twitter:creator" content="@mourjo_sen" />
+    <meta name="twitter:image" content="https://mourjo.me/resources/images/card.jpg" />
+  {% endif %}
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script>hljs.highlightAll();</script>
 
-  <meta name="description" content="{{ page.title }}">
-  <meta name="author" content="Mourjo Sen">
-  <meta name="robots" content="all" />
-
-  <!-- Open Graph data-->
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="{{ page.url }}" />
-  <meta property="og:image" content="https://mourjo.me/resources/images/card.jpg" />
-  {% assign first_paragraph = page.content | markdownify | split: '</p>' | first %}
-  <meta property="og:description" content="{{ first_paragraph | strip_html | strip | truncate: 160 }}" />
-  <meta property="og:site_name" content="Mourjo Sen's Blog" />
-  
-  <!--Twitter Card data-->
-  <meta name="twitter:card" content="{{ post.excerpt }}" />
-  <meta name="twitter:site" content="@mourjo_sen" />
-  <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content="{{ post.excerpt }}" />
-  <meta name="twitter:creator" content="@mourjo_sen" />
-  <meta name="twitter:image" content="https://mourjo.me/resources/images/card.jpg" />
-
-  <title>{{ page.title }} | Mourjo Sen</title>
 </head>
 
 <body>
