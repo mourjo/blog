@@ -63,18 +63,16 @@ Serve using
 bundle exec jekyll s
 ```
 
-### Publishing
+### Publishing from Obsidian
 
-1. Use `make watchbuild` to build the site incrementally on `master` branch
-2. Commit new changes (the Github actions bot changes already commits from feed URLs)
-3. Use the following
-```shell
-./deploy.sh
-```
+1. Copy posts from Obsidian `python3 copy_from_obsidian.py 2024-12-06-dev-tooling-in-the-age-of-ai.md`
+2. Use `make watchbuild` to build the site incrementally on `master` branch
+3. Commit new changes (the Github actions bot changes already commits from feed URLs)
+4. Use the deploy script `./deploy.sh`
 
-Or manually:
+### Publishing Manually
 
-Make all changes on any branch other than `gh-pages`.
+Make all changes on `master`.
 Generating the site is done by locally running Jekyll to build the site.
 Publishing is done by copying generated files from a branch (usually `master`) to `gh-pages`.
 
