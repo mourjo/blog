@@ -63,6 +63,10 @@ Serve using
 bundle exec jekyll s
 ```
 
+
+### Adding new category
+Remember to the category to Makefile's `publish` target - otherwise it will not get refreshed
+
 ### Publishing from Obsidian
 
 1. Copy posts from Obsidian `python3 copy_from_obsidian.py 2024-12-06-dev-tooling-in-the-age-of-ai.md`
