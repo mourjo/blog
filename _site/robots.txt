@@ -1,1 +1,4 @@
-Sitemap: http://localhost:4000/blog/sitemap.xml
+User-agent: *
+Allow: /
+
+Sitemap: https://mourjo.me/blog/sitemap.xml
