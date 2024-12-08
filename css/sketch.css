@@ -127,7 +127,6 @@ img {
 .copy {
     color: rgb(170, 170, 170);
     font-style: italic;
-    font-size: smaller;
 }
 
 .post {
@@ -160,6 +159,10 @@ code {
   background-color: #ededed;
 }
 
+.article-list-item {
+    margin-top: 5px;
+}
+
 .social-icon {
     font-size: 30px;
 }
@@ -170,6 +173,10 @@ code {
         max-width: 350px;
         width: 350px;
         line-height: 27px;
+    }
+
+    .article-list-item {
+        margin-top: 10px;
     }
 
     .page h1,h2,h3 {

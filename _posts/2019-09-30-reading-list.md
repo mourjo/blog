@@ -2,7 +2,7 @@
 layout: post
 title:  "[recurrent] Stuff I am reading"
 date:   2019-09-20 23:14:11 +0530
-category: tech
+category: hidden
 notes: lein run -m "lganguly.scrape/url->title-html-main" https://google.com http://mourjo.me/
 lastsaved: Apr 23rd at 3:30 PM
 ---

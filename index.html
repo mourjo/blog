@@ -4,43 +4,46 @@ permalink: /
 ---
 
 <div>
-    <h1>Long-form Articles</h1>
+  <p>
+  <h1>Long-form Articles</h1>
     {% for post in site.posts %}
       {% if post.title == "Medium Index" %}
-        {{post.content}}
+        {{ post.content }}
       {% endif %}
-    {% endfor %}
+  {% endfor %}
+  </p>
 </div>
 
 
 <div>
-    <h1>Musings</h1>
-    <ul>
+    <p>
+  <h1>Musings</h1>
+
       {% for post in site.posts %}
         {% if post.category != 'hidden' %}
-          {% if post.category != 'non-tech' %}
-          <li>
+      {% if post.category != 'non-tech' %}
+      <div class="article-list-item" >
             <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
             <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
-          </li>
+           </div> 
           {% endif %}
         {% endif %}
-      {% endfor %}
-    </ul>
+            {% endfor %}
+            </p>
 </div>
 
 <div>
+  <p>
     <h1>Non-technical Articles</h1>
-    <ul>
       {% for post in site.posts %}
-        {% if post.category == 'non-tech' %}
-              <li>
+    {% if post.category == 'non-tech' %}
+    <div class="article-list-item" >
                 <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
                 <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
-              </li>
+                </div> 
         {% endif %}
-      {% endfor %}
-    </ul>
+                {% endfor %}
+                </p>
 </div>
 
 
