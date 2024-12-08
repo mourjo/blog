@@ -47,16 +47,17 @@ git push;
 git checkout master;
 git push;
 
-if [ -d "$HOME/repos/mourjo.github.io/" ]; then
+main_site_dir="$HOME/repos/mourjo.github.io/";
+
+if [ -d $main_site_dir ]; then
   echo -e "\033[33m\n\n==========================================================\nCopying site-map and robots.txt to main site\n==========================================================\n\n\033[0m";
-  cp _site/robots.txt ~/repos/mourjo.github.io/ ;
-  cp _site/sitemap.xml ~/repos/mourjo.github.io/ ;
-  cd  ~/repos/mourjo.github.io/;
+  cp _site/robots.txt "$main_site_dir";
+  cp _site/sitemap.xml "$main_site_dir";
+  cd  "$main_site_dir";
   git add robots.txt;
   git add sitemap.xml;
   git commit -m "Updating robots and sitemap";
   git push;
-  cd -;
 else
   echo -e "\033[31mUnable to sync changes to main site - maybe the directory does not exist: ~/repos/mourjo.github.io.\033[0m"
 fi
