@@ -26,24 +26,23 @@ while true; do
 done
 
 
-echo -e "\n\n***\nBuilding\n***";
+echo -e "\e[33m\n\n*****\nBuilding\n*****\n\n\e[0m";
 make build;
 git add .;
 git commit -m "$MSG - build";
 
-echo "";
+
+echo -e "\n\n*****\nMigrating\n*****\n\n";
 make migrate;
 git add .;
 git commit -m "$MSG - migrate";
 
-echo "";
+echo -e "\n\n*****\nPublishing\n*****\n\n";
 make publish;
 git add .;
 git commit -m "$MSG - publish";
 
-echo "";
+echo -e "\n\n*****\nPushing master\n*****\n\n";
 git push;
-
 git checkout master;
-
 git push;
