@@ -26,23 +26,23 @@ while true; do
 done
 
 
-echo -e "\033[33m\n\n*****\nBuilding\n*****\n\n\033[0m";
+echo -e "\033[33m\n\n***************\nBuilding\n***************\n\n\033[0m";
 make build;
 git add .;
 git commit -m "$MSG - build";
 
 
-echo -e "\n\n*****\nMigrating\n*****\n\n";
+echo -e "\033[33m\n\n***************\nMigrating\n***************\n\n\033[0m";
 make migrate;
 git add .;
 git commit -m "$MSG - migrate";
 
-echo -e "\n\n*****\nPublishing\n*****\n\n";
+echo -e "\033[33m\n\n***************\nPublishing\n***************\n\n\033[0m";
 make publish;
 git add .;
 git commit -m "$MSG - publish";
 
-echo -e "\n\n*****\nPushing master\n*****\n\n";
+echo -e "\033[33m\n\n***************\nPushing master\n***************\n\n\033[0m";
 git push;
 git checkout master;
 git push;
