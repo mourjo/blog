@@ -51,6 +51,7 @@ if [ -d "$HOME/repos/mourjo.github.io/" ]; then
   echo -e "\033[33m\n\n==========================================================\nCopying site-map and robots.txt to main site\n==========================================================\n\n\033[0m";
   cp _site/robots.txt ~/repos/mourjo.github.io/ ;
   cp _site/sitemap.xml ~/repos/mourjo.github.io/ ;
+  cd  ~/repos/mourjo.github.io/;
   git add robots.txt;
   git add sitemap.xml;
   git commit -m "Updating robots and sitemap";
