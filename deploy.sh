@@ -26,19 +26,22 @@ while true; do
 done
 
 
-
+echo -e "\n\n***\nBuilding\n***";
 make build;
 git add .;
 git commit -m "$MSG - build";
 
+echo "";
 make migrate;
 git add .;
 git commit -m "$MSG - migrate";
 
+echo "";
 make publish;
 git add .;
 git commit -m "$MSG - publish";
 
+echo "";
 git push;
 
 git checkout master;
