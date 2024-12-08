@@ -4,11 +4,11 @@ title: Relevance of Developer Tooling in the Age of AI
 date: 2024-12-06 07:22:50 +0100
 category: musings
 ---
-I have worked with unconventional languages all [throughout my career](https://mourjo.me/cv.pdf) - from Clojure and Elixir to bash and lately, Perl. Whether statically typed or not, the success of a language today *depends heavily on the developer tooling and developer experience*. Or have I been spoilt by [IntelliJ Idea](https://www.jetbrains.com/idea/)?
+I have worked with unconventional languages all [throughout my career](https://mourjo.me/cv.pdf) - from Clojure and Elixir to bash and lately, Perl. Whether statically typed or not, the success of a language today *depends heavily on the developer tooling and developer experience*. 
 
 Code is only just a means to an end — the end being value addition for the customer. Languages with extensive tooling make it easier for developers, thereby increasing their value proposition to the business. I find that the effectiveness of the median developer is dependent on a language's tooling support - finding usages of a method, renaming a method, stepping through a codepath just to see where something gets updated, and so on...
 
-This is the kind of [accidental complexity](https://www.markhneedham.com/blog/2010/03/18/essential-and-accidental-complexity/) that today’s tech ecosystem is ossified by -- **the need for fixing missing language pieces with developer tooling and in doing so, forming an over-reliance on the tooling rather than the core fundamentals of the language**. Think about it — would you write Java without Lombok or IntelliJ? If the answer is no, you are probably using Java for the wrong reasons. 
+This is the kind of [accidental complexity](https://www.markhneedham.com/blog/2010/03/18/essential-and-accidental-complexity/) that today’s tech ecosystem is ossified by -- **missing language capabilities being solved with tooling has led to an over-reliance of developers on the tooling rather than the language itself**. Think about it — would you write Java without Lombok or boilerplate code generation?  
 
 > 
 > It’s hard to imagine a surer sign that one is dealing with an irrational economic system than the fact that the prospect of eliminating drudgery is considered to be a problem.
