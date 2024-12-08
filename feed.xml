@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mourjo.me/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mourjo.me/blog/" rel="alternate" type="text/html" /><updated>2024-12-07T16:21:43+01:00</updated><id>https://mourjo.me/blog/feed.xml</id><title type="html">Mourjo Sen’s Blog</title><subtitle>Thoughts of a software engineer about life, tech and everything in between. A place to put down my thoughts for my own recollection more than anything else. If you like it, be sure to drop me an email!</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><entry><title type="html">Relevance of Developer Tooling in the Age of AI</title><link href="https://mourjo.me/blog/musings/2024/12/06/dev-tooling-in-the-age-of-ai/" rel="alternate" type="text/html" title="Relevance of Developer Tooling in the Age of AI" /><published>2024-12-06T07:22:50+01:00</published><updated>2024-12-06T07:22:50+01:00</updated><id>https://mourjo.me/blog/musings/2024/12/06/dev-tooling-in-the-age-of-ai</id><content type="html" xml:base="https://mourjo.me/blog/musings/2024/12/06/dev-tooling-in-the-age-of-ai/"><![CDATA[<p>I have worked with unconventional languages all <a href="https://mourjo.me/cv.pdf">throughout my career</a> - from Clojure and Elixir to bash and lately, Perl. Whether statically typed or not, the success of a language (among other things) <em>depends on the developer tooling and developer experience in general</em>. Or have I been spoilt by <a href="https://www.jetbrains.com/idea/">IntelliJ Idea</a>?</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mourjo.me/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mourjo.me/blog/" rel="alternate" type="text/html" /><updated>2024-12-08T08:27:09+01:00</updated><id>https://mourjo.me/blog/feed.xml</id><title type="html">Mourjo Sen’s Blog</title><subtitle>Thoughts of a software engineer about life, tech and everything in between. A place to put down my thoughts for my own recollection more than anything else. If you like it, be sure to drop me an email!</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><entry><title type="html">Relevance of Developer Tooling in the Age of AI</title><link href="https://mourjo.me/blog/musings/2024/12/06/dev-tooling-in-the-age-of-ai/" rel="alternate" type="text/html" title="Relevance of Developer Tooling in the Age of AI" /><published>2024-12-06T07:22:50+01:00</published><updated>2024-12-06T07:22:50+01:00</updated><id>https://mourjo.me/blog/musings/2024/12/06/dev-tooling-in-the-age-of-ai</id><content type="html" xml:base="https://mourjo.me/blog/musings/2024/12/06/dev-tooling-in-the-age-of-ai/"><![CDATA[<p>I have worked with unconventional languages all <a href="https://mourjo.me/cv.pdf">throughout my career</a> - from Clojure and Elixir to bash and lately, Perl. Whether statically typed or not, the success of a language (among other things) <em>depends on the developer tooling and developer experience in general</em>. Or have I been spoilt by <a href="https://www.jetbrains.com/idea/">IntelliJ Idea</a>?</p>
 
 <p>Code is only just a means to an end — the end being value addition for the customer. Languages with extensive tooling make it easier for developers, and thereby increasing their value proposition to the business.</p>
 
@@ -224,21 +224,85 @@ positions, like I did back in 2015 – only better than what I was back then.</p
 <p>In an effort to prove to myself that I could take on this long and ardous (and eventually
 rewarding) journey, I hope to publish regular posts here about the progress I am making as
 a guide, so stay tuned and if you’re reading this, wish me luck!</p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="mentoring" /><summary type="html"><![CDATA[Oitee is convinced that he can learn Computer Science basics as a part-time activity. I decided to help him with this endeavour. Being from a non-technical background, his knowledge of Computer Science is limited to high school HelloWorlds. It is both a huge responsibility and honour for me to be part of his journey. My paramount goal is to ensure the gets a good enough guidance to venture into this field. The weight of being able to show the right path is heavy, but it is worth trying.]]></summary></entry><entry><title type="html">Medium Index</title><link href="https://mourjo.me/blog/hidden/2020/09/03/medium-index/" rel="alternate" type="text/html" title="Medium Index" /><published>2020-09-03T03:44:11+02:00</published><updated>2020-09-03T03:44:11+02:00</updated><id>https://mourjo.me/blog/hidden/2020/09/03/medium-index</id><content type="html" xml:base="https://mourjo.me/blog/hidden/2020/09/03/medium-index/"><![CDATA[<!-- BLOG-POST-LIST:START -->
-<ul>
-  <li><a href="https://mourjo.medium.com/three-reasons-why-developers-should-use-duckdb-0884c8e9f02a?source=rss-c69a7b7ed0c5------2">Three reasons why developers should use DuckDB</a><span class="copy"> — 14 Jul 2024</span></li>
-  <li><a href="https://medium.com/booking-com-development/unlocking-observability-structured-logging-in-spring-boot-c81dbabfb9e7?source=rss-c69a7b7ed0c5------2">Unlocking observability: Structured logging in Spring Boot</a><span class="copy"> — 26 Mar 2024</span></li>
-  <li><a href="https://mourjo.medium.com/building-a-secure-web-chat-with-redis-mtls-and-gcp-e52007ba362d?source=rss-c69a7b7ed0c5------2">Deep-dive on mTLS with Redis on GCP</a><span class="copy"> — 22 Feb 2023</span></li>
-  <li><a href="https://medium.com/helpshift-engineering/load-shedding-in-clojure-d4857ce11588?source=rss-c69a7b7ed0c5------2">Load Shedding in Clojure</a><span class="copy"> — 21 Sep 2020</span></li>
-  <li><a href="https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4?source=rss-c69a7b7ed0c5------2">Load Shedding in Web Services</a><span class="copy"> — 04 Sep 2020</span></li>
-  <li><a href="https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf?source=rss-c69a7b7ed0c5------2">The Convoluted Magic of Leiningen Test Selectors</a><span class="copy"> — 02 May 2020</span></li>
-  <li><a href="https://medium.com/helpshift-engineering/achieving-graceful-restarts-of-clojure-services-b3a3b9c1d60d?source=rss-c69a7b7ed0c5------2">Killing me softly: Graceful shutdowns in Clojure</a><span class="copy"> — 27 Jan 2020</span></li>
-  <li><a href="https://medium.com/helpshift-engineering/on-the-testability-of-ring-middlewares-in-clojure-6795eae60f2a?source=rss-c69a7b7ed0c5------2">On the testability of Ring Middlewares in Clojure</a><span class="copy"> — 06 Dec 2019</span></li>
-  <li><a href="https://medium.com/helpshift-engineering/a-study-in-parallelising-tests-b5253817beae?source=rss-c69a7b7ed0c5------2">A Study in Parallelising Tests</a><span class="copy"> — 15 May 2019</span></li>
-  <li><a href="https://medium.com/helpshift-engineering/scylladb-the-helpshift-story-3d332bf80ce2?source=rss-c69a7b7ed0c5------2">ScyllaDB: The Helpshift Story</a><span class="copy"> — 03 Apr 2019</span></li>
-  <li><a href="https://mourjo.medium.com/a-detailed-comparison-between-autocompletion-strategies-in-elasticsearch-66cb9e9c62c4">A detailed comparison between autocompletion strategies in ElasticSearch</a><span class="copy"> — 30 Aug 2018</span></li>
-</ul>
 
-<!-- BLOG-POST-LIST:END -->]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="hidden" /><category term="hidden" /><summary type="html"><![CDATA[Three reasons why developers should use DuckDB — 14 Jul 2024 Unlocking observability: Structured logging in Spring Boot — 26 Mar 2024 Deep-dive on mTLS with Redis on GCP — 22 Feb 2023 Load Shedding in Clojure — 21 Sep 2020 Load Shedding in Web Services — 04 Sep 2020 The Convoluted Magic of Leiningen Test Selectors — 02 May 2020 Killing me softly: Graceful shutdowns in Clojure — 27 Jan 2020 On the testability of Ring Middlewares in Clojure — 06 Dec 2019 A Study in Parallelising Tests — 15 May 2019 ScyllaDB: The Helpshift Story — 03 Apr 2019 A detailed comparison between autocompletion strategies in ElasticSearch — 30 Aug 2018]]></summary></entry><entry><title type="html">Positive feedback loop, Darwin and the IITs</title><link href="https://mourjo.me/blog/tech/2020/06/13/positive-feedback-loop-darwin-and-the-iits/" rel="alternate" type="text/html" title="Positive feedback loop, Darwin and the IITs" /><published>2020-06-13T03:44:11+02:00</published><updated>2020-06-13T03:44:11+02:00</updated><id>https://mourjo.me/blog/tech/2020/06/13/positive-feedback-loop-darwin-and-the-iits</id><content type="html" xml:base="https://mourjo.me/blog/tech/2020/06/13/positive-feedback-loop-darwin-and-the-iits/"><![CDATA[<p>Being an engineer by profession, I have often battled with the fear of not hailing from an IIT. I cannot lie that no matter how many IITians I meet, I will never stop being self-conscious and intimidated by them. The lingering thought here is that I will never be able to be as successful or technically proficient as someone who studied at a prestigious and <strong>highly regarded</strong> institute like an IIT. Upon introspection, I have come to the conclusion that Darwin and the theory of natural selection might just be able to explain what I am feeling and ultimately why IITians <strong>are</strong> a distinguished subset of engineers in India.</p>
+<div class="article-list-item">
+<a href="https://mourjo.medium.com/three-reasons-why-developers-should-use-duckdb-0884c8e9f02a?source=mourjo.me">
+Three reasons why developers should use DuckDB
+</a>
+<span class="copy">&nbsp;—&nbsp;14 Jul 2024</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/booking-com-development/unlocking-observability-structured-logging-in-spring-boot-c81dbabfb9e7?source=mourjo.me">
+Unlocking observability: Structured logging in Spring Boot
+</a>
+<span class="copy">&nbsp;—&nbsp;26 Mar 2024</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://mourjo.medium.com/building-a-secure-web-chat-with-redis-mtls-and-gcp-e52007ba362d?source=mourjo.me">
+Deep-dive on mTLS with Redis on GCP
+</a>
+<span class="copy">&nbsp;—&nbsp;22 Feb 2023</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/load-shedding-in-clojure-d4857ce11588?source=mourjo.me">
+Load Shedding in Clojure
+</a>
+<span class="copy">&nbsp;—&nbsp;21 Sep 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4?source=mourjo.me">
+Load Shedding in Web Services
+</a>
+<span class="copy">&nbsp;—&nbsp;04 Sep 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf?source=mourjo.me">
+The Convoluted Magic of Leiningen Test Selectors
+</a>
+<span class="copy">&nbsp;—&nbsp;02 May 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/achieving-graceful-restarts-of-clojure-services-b3a3b9c1d60d?source=mourjo.me">
+Killing me softly: Graceful shutdowns in Clojure
+</a>
+<span class="copy">&nbsp;—&nbsp;27 Jan 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/on-the-testability-of-ring-middlewares-in-clojure-6795eae60f2a?source=mourjo.me">
+On the testability of Ring Middlewares in Clojure
+</a>
+<span class="copy">&nbsp;—&nbsp;06 Dec 2019</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/a-study-in-parallelising-tests-b5253817beae?source=mourjo.me">
+A Study in Parallelising Tests
+</a>
+<span class="copy">&nbsp;—&nbsp;15 May 2019</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/scylladb-the-helpshift-story-3d332bf80ce2?source=mourjo.me">
+ScyllaDB: The Helpshift Story
+</a>
+<span class="copy">&nbsp;—&nbsp;03 Apr 2019</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://mourjo.medium.com/a-detailed-comparison-between-autocompletion-strategies-in-elasticsearch-66cb9e9c62c4">
+Autocompletion strategies in ElasticSearch
+</a>
+<span class="copy">&nbsp;—&nbsp;30 Aug 2018</span>
+</div>
+
+<!-- BLOG-POST-LIST:END -->]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="hidden" /><category term="hidden" /><summary type="html"><![CDATA[Three reasons why developers should use DuckDB &nbsp;—&nbsp;14 Jul 2024 Unlocking observability: Structured logging in Spring Boot &nbsp;—&nbsp;26 Mar 2024 Deep-dive on mTLS with Redis on GCP &nbsp;—&nbsp;22 Feb 2023 Load Shedding in Clojure &nbsp;—&nbsp;21 Sep 2020 Load Shedding in Web Services &nbsp;—&nbsp;04 Sep 2020 The Convoluted Magic of Leiningen Test Selectors &nbsp;—&nbsp;02 May 2020 Killing me softly: Graceful shutdowns in Clojure &nbsp;—&nbsp;27 Jan 2020 On the testability of Ring Middlewares in Clojure &nbsp;—&nbsp;06 Dec 2019 A Study in Parallelising Tests &nbsp;—&nbsp;15 May 2019 ScyllaDB: The Helpshift Story &nbsp;—&nbsp;03 Apr 2019 Autocompletion strategies in ElasticSearch &nbsp;—&nbsp;30 Aug 2018]]></summary></entry><entry><title type="html">Positive feedback loop, Darwin and the IITs</title><link href="https://mourjo.me/blog/tech/2020/06/13/positive-feedback-loop-darwin-and-the-iits/" rel="alternate" type="text/html" title="Positive feedback loop, Darwin and the IITs" /><published>2020-06-13T03:44:11+02:00</published><updated>2020-06-13T03:44:11+02:00</updated><id>https://mourjo.me/blog/tech/2020/06/13/positive-feedback-loop-darwin-and-the-iits</id><content type="html" xml:base="https://mourjo.me/blog/tech/2020/06/13/positive-feedback-loop-darwin-and-the-iits/"><![CDATA[<p>Being an engineer by profession, I have often battled with the fear of not hailing from an IIT. I cannot lie that no matter how many IITians I meet, I will never stop being self-conscious and intimidated by them. The lingering thought here is that I will never be able to be as successful or technically proficient as someone who studied at a prestigious and <strong>highly regarded</strong> institute like an IIT. Upon introspection, I have come to the conclusion that Darwin and the theory of natural selection might just be able to explain what I am feeling and ultimately why IITians <strong>are</strong> a distinguished subset of engineers in India.</p>
 
 <p>The success of the IITs is not because of its teachers or research prowess, which is evident in the fact that the IITs never rank high in global University rankings. Any institute held in high regard by large enough number of people, will end up attracting the smartest minds. The invariant here is that <strong>most students</strong> in a country of India’s size want to study in the IITs. Because of the sheer competition for the very limited number of seats at the IITs, by virtue of the merit-based selection examinations (akin to natural selection in Darwin’s theory of evolution), only the smartest people end up in the IITs. If suddenly, by some divine intervention, all of Indian students stopped thinking of the IITs as the holy grail of undergraduate studies, then I would be very surprised if the best engineers in the country are still IITians. It is not the teachings at IIT that make great engineers, it is a direct correlation to the smartest people ending up in the IITs in the first place. Once a conglomerate of really smart people are formed at the IITs, there is no stopping, they practically shoot themselves into success. By passing the barrier to entry, the very few that get through, they have already proven to the world that they are better than the rest, what happens inside the gates of the IITs is immaterial.</p>
 
