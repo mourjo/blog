@@ -26,7 +26,7 @@ while true; do
 done
 
 
-echo -e "\e[33m\n\n*****\nBuilding\n*****\n\n\e[0m";
+echo -e "\033[33m\n\n*****\nBuilding\n*****\n\n\033[0m";
 make build;
 git add .;
 git commit -m "$MSG - build";
