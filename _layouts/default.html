@@ -19,7 +19,13 @@ layout: compress
   <meta name="robots" content="index,noarchive,follow,max-image-preview:large">
   
   {% if page.title %}
-    <title>{{ page.title }} | Mourjo Sen</title>
+    <title>{{ page.title }} | Mourjo Sen {{page.math}}</title>
+    {% if page.math %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    {% endif %}
+
     {% assign first_paragraph = page.content | markdownify | split: '</p>' | first %}
     <meta property="og:site_name" content="Mourjo Sen's Blog">
     <meta property="og:type" content="article">
