@@ -173,6 +173,63 @@ code {
     font-size: large;
 }
 
+.callout {
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+    border-radius: 4px;
+    margin: 10px;
+    background-color: #dedede;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: #8a8a8a
+}
+
+.callout-tip, .callout-info {
+    background-color: rgba(0, 191, 188, 0.1);
+    border-left-color: rgb(0, 191, 188);
+}
+
+.callout-tip, .callout-info > .callout-title {
+    color: rgb(0, 191, 188);
+}
+
+.callout-note, .callout-important {
+    background-color: rgba(8, 109, 221, 0.1);
+    border-left-color: rgb(8, 109, 221);
+}
+
+.callout-note, .callout-important  > .callout-title {
+    color: rgb(8, 109, 221);
+}
+
+.callout-question {
+    background-color: rgba(236, 117, 0, 0.1);
+    border-left-color: rgb(236, 117, 0);
+}
+
+.callout-question > .callout-title {
+    color: rgb(236, 117, 0);
+}
+
+.callout-example {
+    background-color: rgba(120, 82, 238, 0.1);
+    border-left-color: rgb(120, 82, 238);
+}
+
+.callout-example > .callout-title {
+    color: rgb(120, 82, 238);
+}
+
+
+.callout-title {
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    padding-bottom: 4px;
+}
+
 
 @media (max-width: 480px) {
     .page {
