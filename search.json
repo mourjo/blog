@@ -1,0 +1,15 @@
+---
+layout: compress
+---
+[
+    {% for post in site.posts %}
+    {% if post.category != 'hidden' %}
+    {
+      "title"    : "{{ post.title }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date | date_to_string }}",
+      "description" : "{{ post.content | strip_html | strip_newlines | escape }}"
+    } {% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %}
+]
