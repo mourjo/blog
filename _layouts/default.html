@@ -6,15 +6,12 @@ layout: compress
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="{{site.baseurl}}/css/sketch.css">
+  
   <link rel="shortcut icon" href="{{site.baseurl}}/favicon.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
 
   <meta name="robots" content="index,noarchive,follow,max-image-preview:large">
   
@@ -24,6 +21,12 @@ layout: compress
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    {% endif %}
+
+    {% if page.code %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     {% endif %}
 
     {% assign first_paragraph = page.content | markdownify | split: '</p>' | first %}
@@ -72,11 +75,9 @@ layout: compress
     <meta name="twitter:data1" content="5 min read">
   {% endif %}
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-  <script>hljs.highlightAll();</script>
-
+  
   {% include analytics.html %}
-
+  <link rel="stylesheet" href="{{site.baseurl}}/css/sketch.css">
 </head>
 
 <body>

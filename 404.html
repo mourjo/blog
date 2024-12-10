@@ -7,29 +7,4 @@ permalink: /404.html
     window.location.replace("/blog/");
 </script>
 
-
-
-<div>
-    <h1>Medium Articles</h1>
-    {% for post in site.posts %}
-      {% if post.title == "Medium Index" %}
-        {{post.content}}
-      {% endif %}
-    {% endfor %}
-</div>
-
-
-
-<div>
-    <h1>Other Articles</h1>
-    <ul>
-      {% for post in site.posts %}
-        {% if post.category != "hidden" %}
-          <li>
-            <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
-            <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-</div>
+This page does not exist!
