@@ -26,18 +26,15 @@ function showSearchResults() {
     resultsContainer.style.display = 'block';
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const searchInput = document.getElementById('search-bar');
     const searchContainer = document.getElementById('search-container');
     const resultsContainer = document.getElementById('search-results');
-    
 
-    
     searchInput.addEventListener('blur', () => {
         hideSearchResults();
     });
 
-    
     searchInput.addEventListener('focus', () => {
         const query = searchInput.value.toLowerCase();
         if (query) {
@@ -45,10 +42,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    
     searchInput.addEventListener('keydown', () => {
         if (event.key === 'Escape') {
-            
+
             searchInput.value = '';
             searchInput.blur();
             hideSearchResults();
@@ -59,9 +55,8 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     });
-    
-    
-    searchInput.addEventListener('input', function() {
+
+    searchInput.addEventListener('input', function () {
         const query = searchInput.value.toLowerCase();
         resultsContainer.innerHTML = '';
         resultsContainer.style.display = 'none';
@@ -73,11 +68,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     results.forEach(item => {
                         const resultItem = document.createElement('div');
                         resultItem.innerHTML = `<a href="${item.url}"><div class="search-result">${item.title}</div></a>`;
-                        
+
                         resultsContainer.appendChild(resultItem);
                         showSearchResults();
                     });
-                });
+                }
+            );
         }
     });
 });
