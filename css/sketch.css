@@ -169,6 +169,10 @@ code {
     font-size: 30px;
 }
 
+.katex {
+    font-size: large;
+}
+
 
 @media (max-width: 480px) {
     .page {
