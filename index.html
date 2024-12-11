@@ -4,46 +4,39 @@ permalink: /
 ---
 
 <div>
-  <p>
   <h1>Long-form Articles</h1>
     {% for post in site.posts %}
       {% if post.title == "Medium Index" %}
         {{ post.content }}
       {% endif %}
   {% endfor %}
-  </p>
 </div>
 
 
 <div>
-    <p>
   <h1>Musings</h1>
-
-      {% for post in site.posts %}
-        {% if post.category != 'hidden' %}
-      {% if post.category != 'non-tech' %}
-      <div class="article-list-item" >
+   {% for post in site.posts %}
+      {% if post.category != 'hidden' %}
+        {% if post.category != 'non-tech' %}
+          <div class="article-list-item" >
             <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
             <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
-           </div> 
-          {% endif %}
+          </div> 
         {% endif %}
-            {% endfor %}
-            </p>
+      {% endif %}
+    {% endfor %}
 </div>
 
 <div>
-  <p>
-    <h1>Non-technical Articles</h1>
-      {% for post in site.posts %}
+  <h1>Non-technical Articles</h1>
+  {% for post in site.posts %}
     {% if post.category == 'non-tech' %}
-    <div class="article-list-item" >
-                <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
-                <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
-                </div> 
-        {% endif %}
-                {% endfor %}
-                </p>
+      <div class="article-list-item" >
+        <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
+        <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
+      </div> 
+    {% endif %}
+  {% endfor %}
 </div>
 
 
