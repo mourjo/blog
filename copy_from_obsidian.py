@@ -11,9 +11,50 @@ attachments_dir = "/Users/mourjo/repos/transpire/attachments" # path in obsidian
 static_images_dir = "/Users/mourjo/repos/blog/images" # output image path in Jekyll
 obsidian_posts_dir = "/Users/mourjo/repos/transpire/personal-notes/mourjo-me-blog/"
 
+
+def select_file_in_directory(directory):
+
+    if not os.path.isdir(directory):
+        print(f"Error: '{directory}' is not a valid directory.")
+        return None
+
+    # List files in the directory
+    files = sorted([f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))], reverse=True)
+
+    if not files:
+        print(f"No files found in directory: {directory}")
+        return None
+
+    # Display files and let the user select one
+    print("Available files:")
+    for index, file in enumerate(files, start=1):
+        print(f"{index}: {file}")
+
+    while True:
+        try:
+            choice = int(input("Enter the number of the file you want to select (or 0 to cancel): "))
+            if choice == 0:
+                print("No file selected.")
+                return None
+            elif 1 <= choice <= len(files):
+                selected_file = files[choice - 1]
+                return os.path.join(directory, selected_file)
+            else:
+                print("Invalid choice. Please enter a valid number.")
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+        except KeyboardInterrupt:
+            return None
+    if not os.path.isdir(directory):
+        print(f"Error: '{directory}' is not a valid directory.")
+        return None
+
+
 def from_obsidian(filename):
-    if not(filename.endswith(".md")):
-        print("Markdown file names must begin with .md")
+    if filename is None:
+       print("\nNo file found")
+    elif not(filename.endswith(".md")):
+        print("\nMarkdown file names must begin with .md")
     else:
         filename = Path(filename).name
         input_filepath = os.path.join(obsidian_posts_dir, filename)
@@ -57,6 +98,6 @@ def from_obsidian(filename):
         print("Markdown files processed and images copied successfully.")
 
 if len(sys.argv) != 2:
-    print("Usage: python3 copy_from_obsidian.py path/to/obsidian_file.md")
+    from_obsidian(select_file_in_directory(obsidian_posts_dir))
 else:
     from_obsidian(sys.argv[1])
