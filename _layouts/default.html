@@ -17,42 +17,56 @@ layout: compress
 
   
   <meta name="robots" content="index,noarchive,follow,max-image-preview:large">
-  
-  {% if page.title %}
-    <title>{{ page.title }} | Mourjo Sen</title>
-    {% if page.math %}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/katex.min.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
-    {% endif %}
 
-    {% if page.code %}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
-    {% endif %}
+    {% if page.title %}
+      <title>{{ page.title }} | Mourjo Sen</title>
+      {% if page.math %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/katex.min.css">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/katex.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.14/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+      {% endif %}
 
-    {% assign first_paragraph = page.content | markdownify | split: '</p>' | first %}
-    <meta property="og:site_name" content="Mourjo Sen's Blog">
-    <meta property="og:type" content="article">
-    <meta property="article:published_time" content="{{ page.date }}">
-    <meta name="title" content="{{ page.title }}">
-    <meta property="og:title" content="{{ page.title }}">
-    <meta name="description" content="{{ first_paragraph | strip_html | strip | truncate: 250 }}">
-    <meta property="og:description" content="{{ first_paragraph | strip_html | strip | truncate: 250 }}">
-    <meta property="og:url" content="https://mourjo.me/blog{{ page.url }}">
-    <meta property="al:web:url" content="https://mourjo.me/blog{{ page.url }}">
-    <meta property="og:image" content="https://mourjo.me/resources/images/card.jpg">
-    <meta property="article:author" content="https://mourjo.me">
-    <meta name="author" content="Mourjo Sen">
-    <meta property="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:site" content="@mourjo_sen">
-    <meta property="twitter:description" content="{{ first_paragraph | strip_html | strip | truncate: 250 }}">
-    <meta name="twitter:image:src" content="https://mourjo.me/resources/images/card.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@mourjo_sen">
-    <meta name="twitter:label1" content="Reading time">
-    <meta name="twitter:data1" content="5 min read">
+      {% if page.mermaid %}
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js"></script>
+        <script>
+          function renderMermaid () {
+            mermaid.initialize({
+              startOnLoad:true,
+              theme: "default"
+            });
+            window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+          }
+          document.addEventListener('DOMContentLoaded', renderMermaid, false);
+        </script>
+      {% endif %}
+
+      {% if page.code %}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+      {% endif %}
+
+      {% assign first_paragraph = page.content | markdownify | split: '</p>' | first %}
+      <meta property="og:site_name" content="Mourjo Sen's Blog">
+      <meta property="og:type" content="article">
+      <meta property="article:published_time" content="{{ page.date }}">
+      <meta name="title" content="{{ page.title }}">
+      <meta property="og:title" content="{{ page.title }}">
+      <meta name="description" content="{{ first_paragraph | strip_html | strip | truncate: 250 }}">
+      <meta property="og:description" content="{{ first_paragraph | strip_html | strip | truncate: 250 }}">
+      <meta property="og:url" content="https://mourjo.me/blog{{ page.url }}">
+      <meta property="al:web:url" content="https://mourjo.me/blog{{ page.url }}">
+      <meta property="og:image" content="https://mourjo.me/resources/images/card.jpg">
+      <meta property="article:author" content="https://mourjo.me">
+      <meta name="author" content="Mourjo Sen">
+      <meta property="twitter:title" content="{{ page.title }}">
+      <meta name="twitter:site" content="@mourjo_sen">
+      <meta property="twitter:description" content="{{ first_paragraph | strip_html | strip | truncate: 250 }}">
+      <meta name="twitter:image:src" content="https://mourjo.me/resources/images/card.jpg">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:creator" content="@mourjo_sen">
+      <meta name="twitter:label1" content="Reading time">
+      <meta name="twitter:data1" content="5 min read">
 
         
   {% else %}

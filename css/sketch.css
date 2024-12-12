@@ -145,7 +145,7 @@ img {
 
 pre {
   border: 1px solid #888;
-  overflow: auto;
+  overflow: hidden;
   font-size: 13px;
   line-height: 1.42857143;
   font-family: "Roboto Mono", monospace;
@@ -159,6 +159,11 @@ code {
   padding: 3px;
   border-radius: 4px;
   background-color: #ededed;
+  overflow-x: auto;
+}
+
+.language-mermaid {
+  background-color: white;
 }
 
 .article-list-item {
