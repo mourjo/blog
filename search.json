@@ -8,7 +8,7 @@ layout: compress
       "title"    : "{{ post.title }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date | date_to_string }}",
-      "description" : "{{ post.content | strip_html | strip_newlines | escape | downcase }}"
+      "description" : "{{ post.content | strip_html | strip_newlines | escape | downcase | remove_non_latin }}"
     } {% unless forloop.last %},{% endunless %}
     {% endif %}
   {% endfor %}
