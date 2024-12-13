@@ -2,7 +2,7 @@
 layout: post
 title: Motivation Is Not Everything
 date: 2024-12-04 00:01:00 +0530
-category: non-tech
+category: musings
 ---
 This year, I did not miss a single day of learning French on Duolingo, even if only for five minutes. Through it, I learnt a lot about the process of learning, looking back:  
   
