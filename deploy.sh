@@ -48,7 +48,7 @@ if [ -d $main_site_dir ]; then
   echo -e "\033[33m\n\n==========================================================\nCopying site-map and robots.txt to main site\n==========================================================\n\n\033[0m";
   git checkout gh-pages -- robots.txt;
   git checkout gh-pages -- sitemap.xml;
-  mv robots.txt "$main_site_dir";
+  cp robots.txt "$main_site_dir";
   mv sitemap.xml "$main_site_dir";
   cd  "$main_site_dir";
   git add robots.txt;
