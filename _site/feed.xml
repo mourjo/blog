@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mourjo.me/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mourjo.me/blog/" rel="alternate" type="text/html" /><updated>2024-12-13T15:16:39+01:00</updated><id>https://mourjo.me/blog/feed.xml</id><title type="html">Mourjo Sen’s Blog</title><subtitle>Thoughts of a software engineer about life, tech and everything in between. A place to put down my thoughts for my own recollection more than anything else. If you like it, be sure to drop me an email!</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><entry><title type="html">On Never Being The Smartest Person In The Room</title><link href="https://mourjo.me/blog/musings/2024/12/07/on-never-being-the-smartest-person-in-the-room/" rel="alternate" type="text/html" title="On Never Being The Smartest Person In The Room" /><published>2024-12-07T07:48:59+01:00</published><updated>2024-12-07T07:48:59+01:00</updated><id>https://mourjo.me/blog/musings/2024/12/07/on-never-being-the-smartest-person-in-the-room</id><content type="html" xml:base="https://mourjo.me/blog/musings/2024/12/07/on-never-being-the-smartest-person-in-the-room/"><![CDATA[<p>I am never the smartest person in the room – and that’s okay. I am almost never the tallest person in the room either.</p>
+
+<p>It is a lost game, in my opinion, the pursuit of being the best at anything in a world of 8 billion people. Trying to be the best or rather, trying to <em>be portrayed to be the best</em>, incentivises the wrong behaviour. Admitting that I am not the smartest person in the room unburdens me from proving to an external observer and to myself, that I am the smartest.</p>
+
+<p>I can instead utilise every opportunity to learn from anyone who has an interesting idea – be it the college graduate who only joined the team last week or the veteran who has been often called an outdated dinosaur. Here is a list of things I would never have learnt about if smartness ego battles got in the way (battles I would have miserably lost):</p>
+<ul>
+  <li>Communicating sequential processes and <a href="https://github.com/clojure/core.async">core/async</a> in Clojure</li>
+  <li>The practice of note-taking in <a href="https://obsidian.md/">Obsidian</a> and the <a href="https://www.buildingasecondbrain.com/">second brain</a></li>
+  <li><a href="https://medium.com/booking-com-development/hexagonal-architecture-a-practical-guide-5bc6d5a6a056">Hexagonal architecture</a></li>
+  <li>A <a href="https://medium.com/curious-burrows/the-story-of-open-source-so-far-bfcb685d85a4">laser printer’s</a> relation to open source</li>
+  <li>Better command line tools <a href="https://zaiste.net/posts/shell-commands-rust/">written in Rust</a></li>
+  <li><a href="https://otee.dev/2021/12/31/looking-back-2021.html">Courage</a> to do the right thing when it is not easy</li>
+</ul>
+
+<p>I am <em>never going to be the smartest person in the room</em>, but I can be the person who wants to learn the most in the room – and then come out of that room a <em>relatively smarter version of myself</em>.</p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="musings" /><summary type="html"><![CDATA[I am never the smartest person in the room – and that’s okay. I am almost never the tallest person in the room either.]]></summary></entry><entry><title type="html">Relevance of Developer Tooling in the Age of AI</title><link href="https://mourjo.me/blog/musings/2024/12/06/dev-tooling-in-the-age-of-ai/" rel="alternate" type="text/html" title="Relevance of Developer Tooling in the Age of AI" /><published>2024-12-06T07:22:50+01:00</published><updated>2024-12-06T07:22:50+01:00</updated><id>https://mourjo.me/blog/musings/2024/12/06/dev-tooling-in-the-age-of-ai</id><content type="html" xml:base="https://mourjo.me/blog/musings/2024/12/06/dev-tooling-in-the-age-of-ai/"><![CDATA[<p>I have worked with unconventional languages all <a href="https://mourjo.me/cv.pdf">throughout my career</a> - from Clojure and Elixir to bash and lately, Perl. Whether statically typed or not, the success of a language today <em>depends heavily on the developer tooling and developer experience</em>.</p>
+
+<p>Code is only just a means to an end — the end being value addition for the customer. Languages with extensive tooling make it easier for developers, thereby increasing their value proposition to the business. I find that the effectiveness of the median developer is dependent on a language’s tooling support - finding usages of a method, renaming a method, stepping through a codepath just to see where something gets updated, and so on…</p>
+
+<p>This is the kind of <a href="https://www.markhneedham.com/blog/2010/03/18/essential-and-accidental-complexity/">accidental complexity</a> that today’s tech ecosystem is ossified by – <strong>missing language capabilities being solved with tooling has led to an over-reliance of developers on the tooling rather than the language itself</strong>. Think about it — would you write Java without Lombok or boilerplate code generation?</p>
+
+<blockquote>
+
+  <p>It’s hard to imagine a surer sign that one is dealing with an irrational economic system than the fact that the prospect of eliminating drudgery is considered to be a problem.</p>
+
+  <p>– David Graeber, <a href="https://www.goodreads.com/book/show/38217638-bullshit-jobs">Bullshit Jobs: A Theory</a></p>
+
+</blockquote>
+
+<p>With LLMs to assist developers writing code, I think <em>the value proposition of developer tooling will take a new shape</em>. There will always be a need for some sort of tooling, but it may turn out to be <em>general-purpose tools</em>, rather than <em>language-specific ones</em> that win.</p>
+
+<p>In a world where the barrier to entry into coding is lower, the test of a language’s success will depend solely (and rightly) on its ability to deliver business value. If a language is fundamentally more effective in doing so – irrespective of its tooling – it may come out on top in the age of AI.</p>
+
+<p>After years of working with Java (and relying heavily on the tooling ecosystem), I will now be betting on Clojure.</p>
+
+<blockquote>
+  <p>It is just simpler, and easier, and less occluding to write expressive code in Clojure. It requires fewer lines. It requires fewer characters. It requires fewer hours. It requires fewer mental gymnastics. Lisp (Clojure) is functional. And the future is looking very functional to me.</p>
+
+  <p>– <a href="https://blog.cleancoder.com/uncle-bob/2019/08/22/WhyClojure.html">Uncle Bob</a></p>
+</blockquote>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="musings" /><summary type="html"><![CDATA[I have worked with unconventional languages all throughout my career - from Clojure and Elixir to bash and lately, Perl. Whether statically typed or not, the success of a language today depends heavily on the developer tooling and developer experience.]]></summary></entry><entry><title type="html">Motivation Is Not Everything</title><link href="https://mourjo.me/blog/musings/2024/12/03/motivation-is-not-everything/" rel="alternate" type="text/html" title="Motivation Is Not Everything" /><published>2024-12-03T19:31:00+01:00</published><updated>2024-12-03T19:31:00+01:00</updated><id>https://mourjo.me/blog/musings/2024/12/03/motivation-is-not-everything</id><content type="html" xml:base="https://mourjo.me/blog/musings/2024/12/03/motivation-is-not-everything/"><![CDATA[<p>This year, I did not miss a single day of learning French on Duolingo, even if only for
+five minutes. Through it, I learnt a lot about the process of learning, looking back:</p>
+
+<ul>
+  <li><strong>Motivation</strong> comes and goes, relying on motivation alone is unsustainable</li>
+  <li>There will be good days and there will be better days</li>
+  <li><strong>Showing up every day</strong> is winning half the battle</li>
+  <li>I overestimated what I can do in <strong>one day</strong></li>
+  <li>I underestimated what I can do in <strong>one year</strong></li>
+</ul>
+
+<p>There are very few things that pay off as much as self-discipline and habit forming.</p>
+
+<blockquote>
+  <p>Some people say the most important thing a fighter can have is heart. Frankie would say, show me a fighter who’s nothing but heart, and I’ll show you a man waiting for a beating.</p>
+
+  <p>– Million Dollar Baby</p>
+</blockquote>
+
+<p><img src="/blog/images/duolingo.png" alt="Image Description" /></p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="musings" /><summary type="html"><![CDATA[This year, I did not miss a single day of learning French on Duolingo, even if only for five minutes. Through it, I learnt a lot about the process of learning, looking back: Motivation comes and goes, relying on motivation alone is unsustainable There will be good days and there will be better days Showing up every day is winning half the battle I overestimated what I can do in one day I underestimated what I can do in one year There are very few things that pay off as much as self-discipline and habit forming.]]></summary></entry><entry><title type="html">In memoriam</title><link href="https://mourjo.me/blog/non-tech/2024/01/03/in-memoriam/" rel="alternate" type="text/html" title="In memoriam" /><published>2024-01-03T20:37:12+01:00</published><updated>2024-01-03T20:37:12+01:00</updated><id>https://mourjo.me/blog/non-tech/2024/01/03/in-memoriam</id><content type="html" xml:base="https://mourjo.me/blog/non-tech/2024/01/03/in-memoriam/"><![CDATA[<p>The similarity was uncanny. Over the years, I remember comparing my palm side-by-side to his - it is an almost identical copy of Dadua’s. In fact, I would say it with pride – a cherished emblem that I carried with a sense of honour. When I heard the heartbreaking news at three in the morning, my immediate response was to look at my own palm in the dim light of the smartphone, not knowing what this meant or how to feel about it.</p>
+
+<p><em>I kept staring at my palm in the engulfing darkness of the cold Dutch night.</em></p>
+
+<p>As a child of parents with transferable jobs, my boyhood unfolded across various locations: Alipore, Birbhum, Bardhaman and Salt Lake. One place that was constant throughout was Lake Temple Road and Dadua. My earliest memories as a child were with Dadua. His cane with an elephant’s trunk curve at the end, his fast strides which were so hard for my short legs to keep up with, the crisp morning air of Rabindra Sarobar lake before day break, and of course the “notun jinish dekhbo” which was an euphemism for toys without my mother realising I am asking for something new.</p>
+
+<p>While I was too young to fully remember the morning walks I took with Dadua, fragments of those memories linger in my mind. I recall moments such as meeting his friends by the lake, to the local chaiwalla who knew precisely what everyone wanted, to the almost superhero names I had for each of his friends (like Amloki-dadu and Bhim-dadu). Sometimes in the evenings he would take me for a walk around the lake as well, but this time, it was not to meet his friends, but to have a Vadilal ice cream and sometimes freshly roasted peanuts. To this day, the smell of warm peanuts takes me back to that time. I was old enough when I got the news of him passing away in his sleep, yet deep down, I was still the little boy who yearns for one more morning walk with his grandfather.</p>
+
+<p><em>I kept staring at my palm in the engulfing darkness of the cold Dutch night.</em></p>
+
+<p>In Bardhaman, we resided in an expansive estate adorned with boundless fields of crops and parks full of flowers and orchards teeming with trees. I remember Dadua took me on a tour of the estate sharing his knowledge about crops and the art of nurturing plant life. As a lifelong gardener himself, he imparted a wealth of wisdom to my uncomprehending preadolescent ears.</p>
+
+<p>Although I may not recall the intricacies of gardening techniques, certain moments are indelibly engraved as if they were from last week. One such recollection is him showing me how to collect dried seeds from different fruits and use them as beads to play with and make little craft items of it. Of all the toys I received as gifts that birthday in Bardhaman, today I seem to only recall this: a concoction of odd plant seeds that remain etched in memory because of the loving embrace of a grandfather and the spark of creativity that was so very characteristic of Dadua.</p>
+
+<p>He not only was creative himself, but ignited creativity in others too. I daresay, my mother’s fondness for recitation was kindled by Dadua. During one summer, I made a toy “smart” watch from a piece of black cardboard and a few hand-drawn digital dials. Mimi took me to a tailor to procure an elastic strap for the watch band, and with Dadua’s assistance, we assembled it all together. While I merely did it to emulate all the watch-wearing grown ups around me, Dadua confided in me that as a boy he also used scrap material as a child to craft things. This early inclination eventually led him to create his vast collection of handmade artefacts. I recall he said to me a few years later that art is different to each of us –  everyone looking at the same tree but since every other person is seeing it from a different vantage point, it is not really the same tree they are looking at – everyone’s impression of the same tree is different.</p>
+
+<p><em>I kept staring at my palm in the engulfing darkness of the cold Dutch night.</em></p>
+
+<p>Atop the four-storey building on Lake Temple Road, was a sanctuary of lush platlife – all meticulously tended to by Dadua. For the longest time, Lake Temple felt akin to the story of Charlie’s chocolate factory, only healthier – abounding with banana, papaya, cauliflower, coriander, mango, pumpkin, chillies, shojne, and the lemons. On numerous occasions, Dadua would take my brother and me to the roof to pick out lemons straight from the tree. As we plucked the fruit from the plant, the natural aroma of the gondhoraj lemons permeated the air while we helped him bag the lemons for us to take home.</p>
+
+<p>At one point of time, there was even a water reservoir to cultivate fish on the same rooftop.
+Picture this: smack in the heart of the urban grey slate of Calcutta, a green nugget of nature nestled in the unlikely location of a rooftop, tended to by one man - where plant and waterlife thrived alike. I would call that Eden on Earth, wouldn’t you?</p>
+
+<p style="font-size: 18px; text-align: center;">
+আমার মুক্তি আলোয় আলোয় এই আকাশে <br />
+আমার মুক্তি ধুলায় ধুলায় ঘাসে ঘাসে
+</p>
+
+<p>Dadua was a man at one with nature, and nature reciprocated that connection. He used to often tell us that plants have feelings and plants understand when they are cared for. During his younger days, he ventured far and wide in search of plants that were uncommon and unthinkable to grow on small pots. The mango plant for instance, that grew on a pot and bore fruit all throughout the year, was an accomplishment that filled him particularly with pride.</p>
+
+<p><em>I kept staring at my palm in the engulfing darkness of the cold Dutch night.</em></p>
+
+<p>As I grew from a toddler to “a young man”, as he would phrase it, Dadua shared stories, folktales, Sanskrit slokas and poems with me and my brother. He tried his best to instil in us the wisdom from passages from many pieces of literature. Long before I could grasp the concept of religion, I had already committed to memory some of the verses from Ma Durga’s prayers. Even these days during Ashtami anjali, the verse “Sarbamangala Mangalyay” triggers the memory of Dadua sitting on is armchair, with his red book of Hindu Slokas in his hand reading passages out to us in the backdrop of the soft rustling of leaves from the trees he planted in the driveway of Lake Temple road.</p>
+
+<p>Dadua was known to be a master-reciter, with the innate ability to recall thousand-line poems like he was reading an invisible paper in front of him. Once on Rabindrajayanti at the Lake, he brought me to one of his performances. Although I did not understand the poem, I did understand that everyone’s attention was pinned on his recitation. He taught me many poems from the “Sishu” collection of Tagore’s poems made specifically for children.</p>
+
+<p style="font-size: 18px; text-align: center;">
+মনে করো যেন বিদেশ ঘুরে <br />
+মাকে নিয়ে যাচ্ছি অনেক দূরে <br />
+তুমি যাচ্ছ পালকিতে মা চড়ে <br />
+আমি যাচ্ছি রাঙা ঘোড়ার ‘পরে <br />
+</p>
+
+<p><em>I kept staring at my palm in the engulfing darkness of the cold Dutch night.</em></p>
+
+<p>Dadua was a captivating storyteller. As I grew older, the stories he told me also took a more mature form. What were stories from the Ramayan and Mahabharat, became anecdotes from his own life and choices that defined who he was. He recounted the river next to his childhood home in Comilla where fishermen sold fish right after catching it, his boyhood days spent in his school Ishwar Pathshala, his meeting Rabindranath Tagore, about his aspirations for going to art school, fond recollections of his mother, whom he lost at an early age, of the stern yet spirited chancellor of BE college of yesteryear and of Vergese Kurian, founder of Amul, who was his classmate at National Dairy Research Institute in Bangalore.</p>
+
+<p>His home in SN Banerjee Road was close to Anadi Cabin. On the day of his graduation from BE College, he recalled how much he enjoyed a plate of Mughlai Parathas – he fondly recalled that the owner of the restaurant (I think Anadi himself) decided not to charge him when he found out it was his graduation day.</p>
+
+<p>I felt a profound connection to his stories, bupt none more than those centred around Kurseong and Keventer’s. Even till this day, a trip to Darjeeling is incomplete without visiting Keventer’s restaurant. His stories always took me to faraway hill stations that he visited – sometimes to supervise tea estates – sometimes to overlook another part of his business. On one occasion, he told us how he found his way to a cabin when his car had broken down in a hilly deserted forest, and in his hour of despair, he met a classmate from BE college.</p>
+
+<p><em>I kept staring at my palm in the engulfing darkness of the cold Dutch night.</em></p>
+
+<p>Mimi’s passing marked the end of what I recall as childhood. The house became quieter and both Dadua and Dia suddenly seemed to age overnight. Thus began a different era in Lake temple. Over the ensuing years, Dadua got ill a few times. After coming back from the hospital one time, he was quite frail and could barely make it to the dining table. Words that will forever keep ringing in my ears were “Dadua kheyecho” (he used to call me “Dadua” as well) – even in the weakest moments, he was still enquiring about my well-being. Lake temple right there, as it was, and as it is today, will always be defined by moments like these – transforming what I used to call “Daduar bari” to much more than a house and into something greater than myself, a cornerstone and source of eternal strength.</p>
+
+<p><em>I kept staring at my palm in the engulfing darkness of the cold Dutch night.</em></p>
+
+<p>The day after I got the news, I was looking for some photos of Dadua – I found many of Dia’s, only a few of Dadua’s. In one of them during bhai-phota, Dadua was there just in the background. I was about to scroll past it when it struck me that that was him in his true essence – ever present and away from the limelight. Even then, there was one photo on a warm summer’s noon, when he was front and centre, smiling as bright as the sun overhead. Being the eldest, I was the first in my generation to get a job. Mimi had long left for the heavenly abode and in the ensuing five years, the deepest sense of pride I ever allowed myself was when using my own money, I bought Dadua a Panjabi and Dia a saree. Oh you should have been there to see his smile. He didn’t have the habit of dressing up or going outside to restaurants but in his words “it’s to celebrate my Dadua’s first job, of course I will dress up”. One of the photos from that day captured his effervescent smile so well that it is being framed to be the photograph to remember him by. To mean as much to someone is not something I know how to put into words.</p>
+
+<p><em>I kept staring at my palm in the engulfing darkness of the cold Dutch night.</em></p>
+
+<p>Mohana met Dadua only after we got married. But she knew of him from our college days – till date, she recalls how awestruck she was hearing of Dadua’s technological prowess. Back in the early 2010s, we were all on the broadband bandwagon and it was liberating to have an omnipresent connection called “wifi”. It might have been considered a young man’s experiment in most households, but not in Lake Temple Road. Not only did Dadua have his own laptop, smartphone and wifi setup, he became quite famous among my friends for insisting to upgrade his poor BSNL network to a faster Airtel one! He honed new ideas for handicraft from the internet and I often got to see him trying new tools like a hot glue gun and coloured glue sticks, which he used to make desk items like pen holders.</p>
+
+<p><em>I kept staring at my palm in the engulfing darkness of the cold Dutch night.</em></p>
+
+<p>If you pass by Shib Mandir, you may be forgiven for not noticing the otherwise unremarkable building that stands at Lake Temple Road. To me though, it is a foundational pillar to who I was as a child and who I became as an adult, and Dadua is an integral part of that and I will forever miss him. I met Dadua for the last time on March 24, 2023. I am still grappling with the harsh reality that I will never see him again. What stays with me are his stories, his lifestyle, his teachings, and his appreciation for the arts. I recall him reciting the following passage often with glistening eyes. Today it holds a very special place as I cling to his memory.</p>
+
+<p style="font-size: 18px; text-align: center;">
+ফিরায়ে দিনু দ্বারের চাবি,  রাখি না আর ঘরের দাবি— <br />
+সবার আজি প্রসাদবাণী চাই॥ <br />
+অনেক দিন ছিলাম প্রতিবেশী, <br />
+দিয়েছি যত নিয়েছি তার বেশি। <br />
+</p>
+
+<p><em>I kept staring at my palm in the engulfing darkness of the cold Dutch night.</em></p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="non-tech" /><summary type="html"><![CDATA[The similarity was uncanny. Over the years, I remember comparing my palm side-by-side to his - it is an almost identical copy of Dadua’s. In fact, I would say it with pride – a cherished emblem that I carried with a sense of honour. When I heard the heartbreaking news at three in the morning, my immediate response was to look at my own palm in the dim light of the smartphone, not knowing what this meant or how to feel about it.]]></summary></entry><entry><title type="html">Exposing the page-view analytics of this site</title><link href="https://mourjo.me/blog/tech/2021/11/15/site-analytics/" rel="alternate" type="text/html" title="Exposing the page-view analytics of this site" /><published>2021-11-15T06:37:12+01:00</published><updated>2021-11-15T06:37:12+01:00</updated><id>https://mourjo.me/blog/tech/2021/11/15/site-analytics</id><content type="html" xml:base="https://mourjo.me/blog/tech/2021/11/15/site-analytics/"><![CDATA[<p>In this post, I expose the analytics of this site, mostly to convince myself that someone reads this (even if it’s my own private browser sessions)!</p>
+<iframe width="100%" height="700" src="https://datastudio.google.com/embed/reporting/7f7b943a-c3a6-401e-9613-8f78b452befc/page/1jWfC" frameborder="0" style="border:0" allowfullscreen=""></iframe>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="tech" /><summary type="html"><![CDATA[In this post, I expose the analytics of this site, mostly to convince myself that someone reads this (even if it’s my own private browser sessions)!]]></summary></entry><entry><title type="html">On building habits</title><link href="https://mourjo.me/blog/non-tech/2021/10/25/on-building-habits/" rel="alternate" type="text/html" title="On building habits" /><published>2021-10-25T06:37:12+02:00</published><updated>2021-10-25T06:37:12+02:00</updated><id>https://mourjo.me/blog/non-tech/2021/10/25/on-building-habits</id><content type="html" xml:base="https://mourjo.me/blog/non-tech/2021/10/25/on-building-habits/"><![CDATA[<p>During the last five years of my working life, I have come to realise that there are few
+things that pay off in the long run as much as the ability to form habits easily. In
+retrospect, starting to do something like working out every other day, reading at a
+particular time of day, preparing for teaching a lesson – all have benefited from
+repetitive incremental progress through habits. Here are three things that have helped me
+build habits.</p>
+
+<ul>
+  <li>
+    <p><strong>Anchoring</strong>: While building habits, it is easier to associate the new activity to an
+existing habit that you’re used to. For example, if going out for a run is already part
+of your day, then adding a post-run task like having your pills is easier than
+remembering to have it at 7 am. Once a habit becomes part of the day, it can then become
+an anchor for another new habit.</p>
+  </li>
+  <li>
+    <p><strong>Planning</strong>: Part of building a habit is repetition, and for something to be
+repeatable, it should not change much. That is, chalk out a plan beforehand, maybe the
+previous day (tweak it if required) but stick to it through thick and thin – take
+the thinking or optionality out of the activity. If I am planning to run 5 km in the
+morning, the option of cutting the run short should not even be present. A more detailed
+plan, for example, a 1 km pre-run warm up and a post run cool down, takes the thinking
+out of the picture and knowing it is obligatory even in those days that are
+tiring, makes build the habit.</p>
+  </li>
+  <li>
+    <p><strong>Reviewing</strong>: One of the best things a smart watch has helped me with, in so far as
+workouts are considered, is a review of the last day/week’s activities. If I had been
+able to do all of my workouts in the week, looking back and reviewing it is a great
+sense of accomplishment, while not being able to do so is a reason to push harder in the
+next day/week. In terms of general habit-building, such reviewing of past activities has
+helped me make a conscious effort for those missed triggers, because as humans those are
+bound to happen.</p>
+  </li>
+</ul>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="non-tech" /><summary type="html"><![CDATA[During the last five years of my working life, I have come to realise that there are few things that pay off in the long run as much as the ability to form habits easily. In retrospect, starting to do something like working out every other day, reading at a particular time of day, preparing for teaching a lesson – all have benefited from repetitive incremental progress through habits. Here are three things that have helped me build habits.]]></summary></entry><entry><title type="html">Learning by teaching</title><link href="https://mourjo.me/blog/mentoring/2021/09/23/learning-by-teaching/" rel="alternate" type="text/html" title="Learning by teaching" /><published>2021-09-23T06:37:11+02:00</published><updated>2021-09-23T06:37:11+02:00</updated><id>https://mourjo.me/blog/mentoring/2021/09/23/learning-by-teaching</id><content type="html" xml:base="https://mourjo.me/blog/mentoring/2021/09/23/learning-by-teaching/"><![CDATA[<p>In an <a href="/blog/mentoring/2021/06/15/a-personal-challenge/">earlier post</a>, I wrote that I was embarking on a journey of teaching the fundamentals of Computer Science to Otee. The journey thus far has been incredible, and it is inspiring to think that in the span of three months, all of the following have happened.</p>
+
+<ul>
+  <li>Functional programming</li>
+  <li>Advanced data structures (including Bloom filters!)</li>
+  <li>Two major projects: A <a href="https://otee.dev/2021/08/24/crisp-a-simple-lisp-interpreter.html">Lisp interpreter</a> and a <a href="https://twitter.com/cardimomT">blog post tweet bot</a> that I hope will publish this post</li>
+  <li>Computer architecture, all the way from the hardware to the instruction execution cycle</li>
+</ul>
+
+<p>One of the perks of being able to have the opportunity to teach the fundamentals is that I get to relearn these concepts from a very different perspective, all over again. I have had to research on my own before I feel confident enough to teach and what that has opened up for me, is to see those concepts deep down through the experience of being in the industry for five years.</p>
+
+<p>Teaching something convincingly requires research and it is liberating to be able to learn all those things again, and I would highly recommend this to anyone who enjoys this subject. Imagine thinking from first principles and even questioning those first principles. When I was first exposed to the fundamentals, I didn’t know any better than to take things at their face value and that obviously left holes in my knowledge, not to mention all the things I didn’t even remember I had once learned. During the depths of the pandemic, learning by teaching has been one of the most rewarding exercises.</p>
+
+<p>If you are curious about <a href="https://twitter.com/oteecodes">Otee’s</a> journey, you can follow <a href="https://otee.dev">him here</a>!</p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="mentoring" /><summary type="html"><![CDATA[In an earlier post, I wrote that I was embarking on a journey of teaching the fundamentals of Computer Science to Otee. The journey thus far has been incredible, and it is inspiring to think that in the span of three months, all of the following have happened.]]></summary></entry><entry><title type="html">A personal challenge</title><link href="https://mourjo.me/blog/mentoring/2021/06/15/a-personal-challenge/" rel="alternate" type="text/html" title="A personal challenge" /><published>2021-06-15T07:37:11+02:00</published><updated>2021-06-15T07:37:11+02:00</updated><id>https://mourjo.me/blog/mentoring/2021/06/15/a-personal-challenge</id><content type="html" xml:base="https://mourjo.me/blog/mentoring/2021/06/15/a-personal-challenge/"><![CDATA[<p>Oitee is convinced that he can learn Computer Science basics as a part-time activity. I
+decided to help him with this endeavour. Being from a non-technical background, his
+knowledge of Computer Science is limited to high school HelloWorlds. It is both a huge
+responsibility and honour for me to be part of his journey. My paramount goal is to ensure
+the gets a <em>good enough</em> guidance to venture into this field. The weight of being able to
+show the right path is heavy, but it is worth trying.</p>
+
+<p>Here’s what I have in mind (it is probably going to change). I have created the following
+broad headings of what I think are the most useful areas to spend time on.</p>
+
+<ol>
+  <li>CS fundamentals
+    <ul>
+      <li>Computer Architecture</li>
+      <li>Networking</li>
+      <li>Operating Systems</li>
+      <li>Databases</li>
+      <li>Basics of a compiler</li>
+    </ul>
+  </li>
+  <li>Programming
+    <ul>
+      <li>Javascript basics from <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#claim-cert-block">FreeCodeCamp</a></li>
+      <li>Data structures</li>
+      <li>Algorithms</li>
+      <li>Problem solving (something like <a href="http://leetcode.com">Leetcode</a>)</li>
+      <li>Functional languages / OOP</li>
+    </ul>
+  </li>
+  <li>Tooling workflows
+    <ul>
+      <li>Linux CLI</li>
+      <li>Git</li>
+      <li>Visual Studio Code</li>
+    </ul>
+  </li>
+  <li>Web Development (after 1)
+    <ul>
+      <li>Server / Client</li>
+      <li>Web scale, components, technologies</li>
+    </ul>
+  </li>
+</ol>
+
+<p>I pondered a lot on which language and IDE to suggest for him to learn. Eventually I concluded
+that Javascript and VS Code seem to be the most ubiquitous combination there is for web
+development. <a href="https://lambdaschool.com/courses/full-stack-web-development">Lambda School</a>
+also seems to be favouring Javascript.</p>
+
+<p>The list above is biased on what I think I am good enough to guide with. Much to the same
+reason, there is no mention of machine learning or frontend technologies like CSS,
+although a bit of that might be necessary.</p>
+
+<p>At the end of six months from now, based on the progress, my objective is for him to be
+ready for applying to coding bootcamps like <a href="https://www.recurse.com">Recurse Centre</a>. If
+not that, then with some more work, a candidate for applying to junior engineering
+positions, like I did back in 2015 – only better than what I was back then.</p>
+
+<p>In an effort to prove to myself that I could take on this long and ardous (and eventually
+rewarding) journey, I hope to publish regular posts here about the progress I am making as
+a guide, so stay tuned and if you’re reading this, wish me luck!</p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="mentoring" /><summary type="html"><![CDATA[Oitee is convinced that he can learn Computer Science basics as a part-time activity. I decided to help him with this endeavour. Being from a non-technical background, his knowledge of Computer Science is limited to high school HelloWorlds. It is both a huge responsibility and honour for me to be part of his journey. My paramount goal is to ensure the gets a good enough guidance to venture into this field. The weight of being able to show the right path is heavy, but it is worth trying.]]></summary></entry><entry><title type="html">Medium Index</title><link href="https://mourjo.me/blog/hidden/2020/09/03/medium-index/" rel="alternate" type="text/html" title="Medium Index" /><published>2020-09-03T03:44:11+02:00</published><updated>2020-09-03T03:44:11+02:00</updated><id>https://mourjo.me/blog/hidden/2020/09/03/medium-index</id><content type="html" xml:base="https://mourjo.me/blog/hidden/2020/09/03/medium-index/"><![CDATA[<!-- BLOG-POST-LIST:START -->
+
+<div class="article-list-item">
+<a href="https://mourjo.medium.com/three-reasons-why-developers-should-use-duckdb-0884c8e9f02a?source=mourjo.me">
+Three reasons why developers should use DuckDB
+</a>
+<span class="copy">&nbsp;—&nbsp;14 Jul 2024</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/booking-com-development/unlocking-observability-structured-logging-in-spring-boot-c81dbabfb9e7?source=mourjo.me">
+Unlocking observability: Structured logging in Spring Boot
+</a>
+<span class="copy">&nbsp;—&nbsp;26 Mar 2024</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://mourjo.medium.com/building-a-secure-web-chat-with-redis-mtls-and-gcp-e52007ba362d?source=mourjo.me">
+Deep-dive on mTLS with Redis on GCP
+</a>
+<span class="copy">&nbsp;—&nbsp;22 Feb 2023</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/load-shedding-in-clojure-d4857ce11588?source=mourjo.me">
+Load Shedding in Clojure
+</a>
+<span class="copy">&nbsp;—&nbsp;21 Sep 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4?source=mourjo.me">
+Load Shedding in Web Services
+</a>
+<span class="copy">&nbsp;—&nbsp;04 Sep 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf?source=mourjo.me">
+The Convoluted Magic of Leiningen Test Selectors
+</a>
+<span class="copy">&nbsp;—&nbsp;02 May 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/achieving-graceful-restarts-of-clojure-services-b3a3b9c1d60d?source=mourjo.me">
+Killing me softly: Graceful shutdowns in Clojure
+</a>
+<span class="copy">&nbsp;—&nbsp;27 Jan 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/on-the-testability-of-ring-middlewares-in-clojure-6795eae60f2a?source=mourjo.me">
+On the testability of Ring Middlewares in Clojure
+</a>
+<span class="copy">&nbsp;—&nbsp;06 Dec 2019</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/a-study-in-parallelising-tests-b5253817beae?source=mourjo.me">
+A Study in Parallelising Tests
+</a>
+<span class="copy">&nbsp;—&nbsp;15 May 2019</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/scylladb-the-helpshift-story-3d332bf80ce2?source=mourjo.me">
+ScyllaDB: The Helpshift Story
+</a>
+<span class="copy">&nbsp;—&nbsp;03 Apr 2019</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://mourjo.medium.com/a-detailed-comparison-between-autocompletion-strategies-in-elasticsearch-66cb9e9c62c4">
+Autocompletion strategies in ElasticSearch
+</a>
+<span class="copy">&nbsp;—&nbsp;30 Aug 2018</span>
+</div>
+
+<!-- BLOG-POST-LIST:END -->]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="hidden" /><category term="hidden" /><summary type="html"><![CDATA[Three reasons why developers should use DuckDB &nbsp;—&nbsp;14 Jul 2024 Unlocking observability: Structured logging in Spring Boot &nbsp;—&nbsp;26 Mar 2024 Deep-dive on mTLS with Redis on GCP &nbsp;—&nbsp;22 Feb 2023 Load Shedding in Clojure &nbsp;—&nbsp;21 Sep 2020 Load Shedding in Web Services &nbsp;—&nbsp;04 Sep 2020 The Convoluted Magic of Leiningen Test Selectors &nbsp;—&nbsp;02 May 2020 Killing me softly: Graceful shutdowns in Clojure &nbsp;—&nbsp;27 Jan 2020 On the testability of Ring Middlewares in Clojure &nbsp;—&nbsp;06 Dec 2019 A Study in Parallelising Tests &nbsp;—&nbsp;15 May 2019 ScyllaDB: The Helpshift Story &nbsp;—&nbsp;03 Apr 2019 Autocompletion strategies in ElasticSearch &nbsp;—&nbsp;30 Aug 2018]]></summary></entry><entry><title type="html">Positive feedback loop, Darwin and the IITs</title><link href="https://mourjo.me/blog/tech/2020/06/13/positive-feedback-loop-darwin-and-the-iits/" rel="alternate" type="text/html" title="Positive feedback loop, Darwin and the IITs" /><published>2020-06-13T03:44:11+02:00</published><updated>2020-06-13T03:44:11+02:00</updated><id>https://mourjo.me/blog/tech/2020/06/13/positive-feedback-loop-darwin-and-the-iits</id><content type="html" xml:base="https://mourjo.me/blog/tech/2020/06/13/positive-feedback-loop-darwin-and-the-iits/"><![CDATA[<p>Being an engineer by profession, I have often battled with the fear of not hailing from an IIT. I cannot lie that no matter how many IITians I meet, I will never stop being self-conscious and intimidated by them. The lingering thought here is that I will never be able to be as successful or technically proficient as someone who studied at a prestigious and <strong>highly regarded</strong> institute like an IIT. Upon introspection, I have come to the conclusion that Darwin and the theory of natural selection might just be able to explain what I am feeling and ultimately why IITians <strong>are</strong> a distinguished subset of engineers in India.</p>
+
+<p>The success of the IITs is not because of its teachers or research prowess, which is evident in the fact that the IITs never rank high in global University rankings. Any institute held in high regard by large enough number of people, will end up attracting the smartest minds. The invariant here is that <strong>most students</strong> in a country of India’s size want to study in the IITs. Because of the sheer competition for the very limited number of seats at the IITs, by virtue of the merit-based selection examinations (akin to natural selection in Darwin’s theory of evolution), only the smartest people end up in the IITs. If suddenly, by some divine intervention, all of Indian students stopped thinking of the IITs as the holy grail of undergraduate studies, then I would be very surprised if the best engineers in the country are still IITians. It is not the teachings at IIT that make great engineers, it is a direct correlation to the smartest people ending up in the IITs in the first place. Once a conglomerate of really smart people are formed at the IITs, there is no stopping, they practically shoot themselves into success. By passing the barrier to entry, the very few that get through, they have already proven to the world that they are better than the rest, what happens inside the gates of the IITs is immaterial.</p>
+
+<p>This influences the companies that are looking to recruit engineers as well. Since the institute is perceived highly by the common people, because of competition for the few seats and the merit-based selection exams, only the best people end up there, so the probability of recruiting smart people is much higher at the IITs, so more and more companies look to recruit at the IITs, causing more interest in the IITs among aspiring engineers. The feedback loop reinforces the superiority of the IITs. It doesn’t even have to be an IIT, anything that is perceived as “good” by enough people will eventually attract enough “good people” to actually make the thing “good”.</p>
+
+<p>In hindsight, there is perhaps no reason to be intimidated by people from the IITs or to think that one is not technically as proficient as someone from an IIT because not being from an IIT doesn’t necessarily demerit one. But it would be naive and remiss to think that those who have out-raced millions to get into the IITs are not among the distinguished subset of engineers in India.</p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="tech" /><summary type="html"><![CDATA[Being an engineer by profession, I have often battled with the fear of not hailing from an IIT. I cannot lie that no matter how many IITians I meet, I will never stop being self-conscious and intimidated by them. The lingering thought here is that I will never be able to be as successful or technically proficient as someone who studied at a prestigious and highly regarded institute like an IIT. Upon introspection, I have come to the conclusion that Darwin and the theory of natural selection might just be able to explain what I am feeling and ultimately why IITians are a distinguished subset of engineers in India.]]></summary></entry></feed>
