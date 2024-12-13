@@ -57,51 +57,61 @@ async function matchingPosts(q) {
         .sort((a, b) => b.score - a.score);
 }
 
-document.addEventListener('DOMContentLoaded', function () {
+function debounce(callback, delay = 750) {
+  let timeoutId;
+  return function(...args) {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      callback.apply(this, args);
+    }, delay)
+  }
+}
+
+async function performSearch() {
     const searchInput = document.getElementById('search-bar');
     const resultsContainer = document.getElementById('search-results');
+    const query = searchInput.value.toLowerCase();
+    resultsContainer.innerHTML = '';
+    resultsContainer.style.display = 'none';
 
-    searchInput.addEventListener('blur', () => {
-        hideSearchResults();
-    });
+    matchingPosts(query).then(results => {
+        results.forEach(item => {
+            const resultItem = document.createElement('div');
+            resultItem.innerHTML = `<a href="${item.url}"><div class="search-result">${item.title}</div></a>`;
 
-    searchInput.addEventListener('focus', () => {
-        const query = searchInput.value.toLowerCase();
-        if (query) {
+            resultsContainer.appendChild(resultItem);
             showSearchResults();
-        }
+        });
     });
+}
 
-    searchInput.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape') {
-            searchInput.value = '';
-            searchInput.blur();
-            hideSearchResults();
-        } else if (event.key === 'Enter') {
-            const query = searchInput.value.toLowerCase();
-            if (query && resultsContainer && resultsContainer.children.length > 0) {
-                resultsContainer.children[0].children[0].click();
-            }
-        }
-    });
-
-    searchInput.addEventListener('input', function () {
+function searchKeyPress(event) {
+    const searchInput = document.getElementById('search-bar');
+    const resultsContainer = document.getElementById('search-results');
+    if (event.key === 'Escape') {
+        searchInput.value = '';
+        searchInput.blur();
+        hideSearchResults();
+    } else if (event.key === 'Enter') {
         const query = searchInput.value.toLowerCase();
-        resultsContainer.innerHTML = '';
-        resultsContainer.style.display = 'none';
-
-
-
-        if (query) {
-            matchingPosts(query).then(results => {
-                results.forEach(item => {
-                    const resultItem = document.createElement('div');
-                    resultItem.innerHTML = `<a href="${item.url}"><div class="search-result">${item.title}</div></a>`;
-
-                    resultsContainer.appendChild(resultItem);
-                    showSearchResults();
-                });
-            })
+        if (query && resultsContainer && resultsContainer.children.length > 0) {
+            resultsContainer.children[0].children[0].click();
         }
-    });
+    }
+}
+
+function searchFocus() {
+    const searchInput = document.getElementById('search-bar');
+    const query = searchInput.value.toLowerCase();
+    if (query) {
+        showSearchResults();
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('search-bar');
+    searchInput.addEventListener('blur', hideSearchResults);
+    searchInput.addEventListener('focus', searchFocus);
+    searchInput.addEventListener('keydown', searchKeyPress);
+    searchInput.addEventListener('input', debounce(performSearch));
 });
