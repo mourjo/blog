@@ -7,4 +7,4 @@ migrate:
 updatefeed: build
 	git add _site/feed.xml && git commit -m "Update feed.xml" 
 publish: build updatefeed migrate
-    rm -rf /tmp/_site && mv _site /tmp/_site && git checkout gh-pages && cp -R /tmp/_site/* . && rm hidden
+	 _scripts/publish.sh
