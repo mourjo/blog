@@ -34,42 +34,43 @@ function showSearchResults() {
 
 async function matchingPosts(q) {
     const wordsInQuery = q.toLowerCase()
-                          .split(/\s+/)
-                          .filter(w => w.length > 2);
+        .split(/\s+/)
+        .filter(w => w.length > 2);
+
     if (wordsInQuery.length == 0) {
         return [];
     }
 
     const data = await jsonData;
-        data.forEach(post => {
-            let score = 0;
-            for (let queryWord of wordsInQuery) {
-                for (let postWord of post.words) {
-                    if (postWord === queryWord) {
-                        score += 1;
-                    } else if (postWord.startsWith(queryWord)) {
-                        score += 0.5;
-                    } else if (postWord.includes(queryWord)) {
-                        score += 0.1;
-                    }
+    data.forEach(post => {
+        let score = 0;
+        for (let queryWord of wordsInQuery) {
+            for (let postWord of post.words) {
+                if (postWord === queryWord) {
+                    score += 1;
+                } else if (postWord.startsWith(queryWord)) {
+                    score += 0.5;
+                } else if (postWord.includes(queryWord)) {
+                    score += 0.1;
                 }
             }
-            post.score = score;
-        });
+        }
+        post.score = score;
+    });
 
-        return data
+    return data
         .filter(post => post.score > 0)
         .sort((a, b) => b.score - a.score);
 }
 
 function debounce(callback, delay = 750) {
-  let timeoutId;
-  return function(...args) {
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(() => {
-      callback.apply(this, args);
-    }, delay)
-  }
+    let timeoutId;
+    return function (...args) {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => {
+            callback.apply(this, args);
+        }, delay)
+    }
 }
 
 async function performSearch() {
