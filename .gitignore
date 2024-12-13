@@ -10,3 +10,4 @@ blog/
 .jekyll-cache
 
 .bundle/config
+_site/*
