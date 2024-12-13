@@ -33,7 +33,12 @@ function showSearchResults() {
 }
 
 async function matchingPosts(q) {
-    const wordsInQuery = q.split(/\s+/).filter(w => w.length > 0);
+    const wordsInQuery = q.toLowerCase()
+                          .split(/\s+/)
+                          .filter(w => w.length > 2);
+    if (wordsInQuery.length == 0) {
+        return [];
+    }
 
     const data = await jsonData;
         data.forEach(post => {
