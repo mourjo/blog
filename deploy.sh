@@ -44,9 +44,12 @@ git push;
 main_site_dir="$HOME/repos/mourjo.github.io/";
 
 if [ -d $main_site_dir ]; then
+  git checkout master;
   echo -e "\033[33m\n\n==========================================================\nCopying site-map and robots.txt to main site\n==========================================================\n\n\033[0m";
-  cp _site/robots.txt "$main_site_dir";
-  cp _site/sitemap.xml "$main_site_dir";
+  git checkout gh-pages -- robots.txt;
+  git checkout gh-pages -- sitemap.xml;
+  mv robots.txt "$main_site_dir";
+  mv sitemap.xml "$main_site_dir";
   cd  "$main_site_dir";
   git add robots.txt;
   git add sitemap.xml;
