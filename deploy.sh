@@ -53,6 +53,7 @@ if [ -d $main_site_dir ]; then
   cd  "$main_site_dir";
   git add robots.txt;
   git add sitemap.xml;
+  git add resources;
   git commit -m "Updating robots and sitemap";
   git push;
 else
