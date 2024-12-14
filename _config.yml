@@ -34,8 +34,10 @@ exclude:
 - README.md
 - Makefile
 - Gemfile
+- Gemfile.lock
 - copy_from_obsidian.py
 - deploy.sh
+- _scripts
 
 plugins:
   - jekyll-seo-tag
