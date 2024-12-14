@@ -4,7 +4,7 @@ title: Motivation Is Not Everything
 date: 2024-12-04 00:01:00 +0530
 category: musings
 ---
-This year, I did not miss a single day of learning French on Duolingo, even if only for five minutes. Through it, I learnt a lot about the process of learning, looking back:  
+This year, I did not miss a single day of learning French on Duolingo, even though sometimes only for five minutes. Through it, I learnt a lot about the process of learning, looking back:  
   
 - **Motivation** comes and goes, relying on motivation alone is unsustainable  
 - There will be good days and there will be better days  

@@ -2,5 +2,5 @@ build:
 	bundle exec jekyll b 
 watchbuild:
 	bundle exec jekyll s
-publish: build
+publish:
 	 _scripts/publish.sh
