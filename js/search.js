@@ -43,24 +43,28 @@ async function matchingPosts(q) {
 
     const data = await jsonData;
     data.forEach(post => {
+        let isMatch = false;
         let score = 0;
         for (let queryWord of wordsInQuery) {
             for (let postWord of post.words) {
                 if (postWord === queryWord) {
+                    isMatch = true;
                     score += 1;
                 } else if (postWord.startsWith(queryWord)) {
-                    score += 0.5;
-                } else if (postWord.includes(queryWord)) {
+                    isMatch = true;
                     score += 0.1;
+                } else if (postWord.includes(queryWord)) {
+                    isMatch = true;
+                    score += 0.01;
                 }
             }
         }
-        post.score = score;
+        post.isMatch = isMatch;
     });
 
     return data
-        .filter(post => post.score > 0)
-        .sort((a, b) => b.score - a.score);
+        .filter(post => post.isMatch)
+        .sort((a, b) => b.recency_score - a.recency_score);
 }
 
 function debounce(callback, delay = 750) {
