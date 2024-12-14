@@ -73,6 +73,8 @@ function debounce(callback, delay = 750) {
     }
 }
 
+let searchedOnce = false;
+
 async function performSearch() {
     const searchInput = document.getElementById('search-bar');
     const resultsContainer = document.getElementById('search-results');
@@ -81,6 +83,7 @@ async function performSearch() {
     resultsContainer.style.display = 'none';
 
     matchingPosts(query).then(results => {
+        searchedOnce = true;
         results.forEach(item => {
             const resultItem = document.createElement('div');
             resultItem.innerHTML = `<a href="${item.url}"><div class="search-result">${item.title}</div></a>`;
@@ -109,7 +112,7 @@ function searchKeyPress(event) {
 function searchFocus() {
     const searchInput = document.getElementById('search-bar');
     const query = searchInput.value.toLowerCase();
-    if (query) {
+    if (query && searchedOnce) {
         showSearchResults();
     }
 }
