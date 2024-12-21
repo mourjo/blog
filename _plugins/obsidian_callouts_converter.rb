@@ -22,6 +22,7 @@ module Jekyll
         type = Regexp.last_match[:type].downcase
         title = Regexp.last_match[:title]&.strip || ""
         content = Regexp.last_match[:content].gsub(/^> /, "").strip
+        content = content.gsub(/\[(.*?)\]\((.*?)\)/, '<a href="\2">\1</a>')
         puts "ObsidianCalloutsConverter - Replacing Obsidian Callouts"
        
         # Generate the custom HTML for the callout
