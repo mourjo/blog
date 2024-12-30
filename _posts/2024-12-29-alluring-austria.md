@@ -10,7 +10,7 @@ category: non-tech
 
 I woke up at the wee hours of the morning, excited to finally take the trip to Austria, which we had been planning for months. The last few weeks were quite stressful at work, and I was very earnestly looking forward to a break. Any vacation would have been been a break I needed but the trip to Austria was nothing short of alluring. 
 
-# December 22 - Arriving in Austria
+# 22nd December - Arriving in Austria
 
 The flight from Amsterdam to  the captivating city of Vienna was an hour-and-a-half long. The temperature was colder than in Amsterdam but there is no wind. Still, with the same amount of rain and absence of the sun, it felt much more comfortable here. 
 
@@ -21,7 +21,7 @@ Although we were naturally tired from the day's travels, we made it a point to g
 ![Image Description](/blog/images/2024-12-29-alluring-austria-1.jpeg)
 
 
-# 23 December - Vienna's Wonder
+# 23rd December - Vienna's Wonder
 I woke up with a mild headache, perhaps from last night’s bad dinner. I remember it being pretty cold and windy, not unlike Amsterdam. The wind reduces the temperature by five degrees, it feels.
 
 The trams in Vienna go through narrow inner streets, quite hard to imagine it’s the same city with five-lane main roads. Different parts of the city have their own distinguishing character, and they coexist in harmony. The city has a blend of historical charm and modern vibrancy -- buildings and telephone booths of decades past in coexistence with fast cars and modern camera phones in the hands of its citizens. 
@@ -45,7 +45,7 @@ In the afternoon, we were quite puzzled that we could not find any open restaura
 
   
 
-# 25 December - My first white Christmas
+# 25th December - My first white Christmas
 
 It was Christmas morning in the snow-clad village of Innsbruck. Mohana and I left the warm hotel room to take a walk in -8 degrees. We saw the sunrise reflect on the grand white mountain peaks, we slipped on the snow, we held hands in allure of this mortal world's incomprehensible beauty. Neither pictures nor words can capture the scenic marvel.
 
