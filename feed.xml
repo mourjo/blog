@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mourjo.me/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mourjo.me/blog/" rel="alternate" type="text/html" /><updated>2024-12-31T07:37:36+01:00</updated><id>https://mourjo.me/blog/feed.xml</id><title type="html">Mourjo Sen’s Blog</title><subtitle>Thoughts of a software engineer about life, tech and everything in between. A place to put down my thoughts for my own recollection more than anything else. If you like it, be sure to drop me an email!</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><entry><title type="html">Alluring Austria</title><link href="https://mourjo.me/blog/non-tech/2024/12/29/alluring-austria/" rel="alternate" type="text/html" title="Alluring Austria" /><published>2024-12-29T16:43:42+01:00</published><updated>2024-12-29T16:43:42+01:00</updated><id>https://mourjo.me/blog/non-tech/2024/12/29/alluring-austria</id><content type="html" xml:base="https://mourjo.me/blog/non-tech/2024/12/29/alluring-austria/"><![CDATA[<p>I woke up at the wee hours of the morning, excited to finally take the trip to Austria, which we had been planning for months. The last few weeks were quite stressful at work, and I was very earnestly looking forward to a break. Any vacation would have been the break I needed but Austria was nothing short of alluring.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mourjo.me/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mourjo.me/blog/" rel="alternate" type="text/html" /><updated>2025-01-04T07:29:26+01:00</updated><id>https://mourjo.me/blog/feed.xml</id><title type="html">Mourjo Sen’s Blog</title><subtitle>Thoughts of a software engineer about life, tech and everything in between. A place to put down my thoughts for my own recollection more than anything else. If you like it, be sure to drop me an email!</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><entry><title type="html">Alluring Austria</title><link href="https://mourjo.me/blog/non-tech/2024/12/29/alluring-austria/" rel="alternate" type="text/html" title="Alluring Austria" /><published>2024-12-29T16:43:42+01:00</published><updated>2024-12-29T16:43:42+01:00</updated><id>https://mourjo.me/blog/non-tech/2024/12/29/alluring-austria</id><content type="html" xml:base="https://mourjo.me/blog/non-tech/2024/12/29/alluring-austria/"><![CDATA[<p>I woke up at the wee hours of the morning, excited to finally take the trip to Austria, which we had been planning for months. The last few weeks were quite stressful at work, and I was very earnestly looking forward to a break. Any vacation would have been the break I needed but Austria was nothing short of alluring.</p>
 
 <h1 id="22nd-december---arriving-in-austria">22nd December - Arriving in Austria</h1>
 
@@ -118,373 +118,7 @@ Johann Schnegg. It was a statue made of ivory, depicting St. Michael in white an
   <p>It is just simpler, and easier, and less occluding to write expressive code in Clojure. It requires fewer lines. It requires fewer characters. It requires fewer hours. It requires fewer mental gymnastics. Lisp (Clojure) is functional. And the future is looking very functional to me.</p>
 
   <p>– <a href="https://blog.cleancoder.com/uncle-bob/2019/08/22/WhyClojure.html">Uncle Bob</a></p>
-</blockquote>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="musings" /><summary type="html"><![CDATA[I have worked with unconventional languages all throughout my career - from Clojure and Elixir to bash and lately, Perl. Whether statically typed or not, the success of a language today depends heavily on the developer tooling and developer experience.]]></summary></entry><entry><title type="html">Overcoming Barriers To Entry: Writing With Obsidian</title><link href="https://mourjo.me/blog/musings/2024/12/05/overcoming-barriers-to-entry-writing-with-obsidian/" rel="alternate" type="text/html" title="Overcoming Barriers To Entry: Writing With Obsidian" /><published>2024-12-05T13:26:53+01:00</published><updated>2024-12-05T13:26:53+01:00</updated><id>https://mourjo.me/blog/musings/2024/12/05/overcoming-barriers-to-entry-writing-with-obsidian</id><content type="html" xml:base="https://mourjo.me/blog/musings/2024/12/05/overcoming-barriers-to-entry-writing-with-obsidian/"><![CDATA[<p>“In ten years you’ll see me as a writer”. That is what my 2008 yearbook says. I always wanted to write – in some form or the other. But I don’t write as much as I had wanted in 2008. Take this post as a rite of passing, or as an evolutionary next step from my short-form LinkedIn posts.</p>
-
-<h4 id="why">Why?</h4>
-
-<p>I always found the written word to be a better articulation of my thoughts than the spoken word. Writing fundamentally to me, is a reflection of my thoughts – organised in a way that long after I have forgotten my passing thoughts, something remains for me to get back to.</p>
-
-<p>Reflecting on things is one way to get self feedback. Looking back is a way to improve myself going forward. Writing about things as I look at them today after my ten years of experience may help you, perhaps it won’t. Perhaps in another ten years, I will see how naive I am today and advise you to do better – or perhaps not. Perhaps, perhaps, perhaps… But it definitely won’t help you or me if what I write never sees the light of day.</p>
-
-<p>Unfortunately most of what I wrote over the years stayed private or got lost – imposter syndrome is not easy to escape. Fear of being called out, I wouldn’t write at all. After all, you can’t be wrong if you don’t say anything. This changed over the course of 2024. I started with short-form LinkedIn posts, which did not need much scrutiny or proof reading. I got few likes on those posts and that reinforced my loosely held belief that it is better to write than to perfect writing.</p>
-
-<h4 id="breaking-the-barrier-to-writing">Breaking the barrier to Writing</h4>
-
-<p>I use <a href="https://obsidian.md">Obsidian</a> to keep day-to-day log. I maintain this static blog built with <a href="https://jekyllrb.com">Jekyll</a>. Both use <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> files but because Markdown is primarily text based, the blog-writing experience on Markdown purely is suboptimal</p>
-<ul>
-  <li>Pasting images is not easy</li>
-  <li>Text wrapping, bold fonts, italics and live preview requires manual setup</li>
-  <li>Pasting links on like <a href="https://mourjo.me">this</a> needs to be done manually in the Markdown syntax</li>
-  <li>No direct support for code formatting</li>
-  <li>Markdown tables are not easy to write</li>
-  <li>Writing on the go is hard (mobile support is almost always lacking)</li>
-</ul>
-
-<p>None of these are major blockers to writing - but for my writing to flow, the barrier to entry needs to be much lower. This is where Obsidian’s excellent user experience comes in.</p>
-
-<h4 id="writing-with-obsidian">Writing with Obsidian</h4>
-
-<p>I am writing this post on Obsidian - with the help of <a href="https://github.com/mourjo/blog/blob/master/copy_from_obsidian.py">a simple Python script</a>, I can migrate this from Obsidian to Jekyll. And that allows me to keep my writing experience entirely on Obsidian.</p>
-
-<h4 id="code-formatting">Code formatting</h4>
-
-<pre><code class="language-java">public class HelloWorld {
-	public static void main(String args[]) {
-		System.out.println("Hello, world!");
-	}
-}
-</code></pre>
-
-<h4 id="tables">Tables</h4>
-
-<table>
-  <thead>
-    <tr>
-      <th>No</th>
-      <th>Topic</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Obsidian - tips and tricks</td>
-      <td>Basics of using a note-taking tool</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Effective writing</td>
-      <td>Quickly jotting notes down that later become full fledged blog posts</td>
-    </tr>
-  </tbody>
-</table>
-
-<h4 id="callouts">Callouts</h4>
-
-<div class="callout callout-question">
-  <div class="callout-title">Idea for writing?</div>
-  <div class="callout-content">- A <a href="https://github.com/mourjo/blog/blob/master/_plugins/obsidian_callouts_converter.rb">plugin</a> that converts Obsidian callouts to Jekyll</div>
-</div>
-
-<h4 id="math">Math</h4>
-<p>\(P(A∣B)=\frac{P(A \cap B)}{P(B)}\)</p>
-
-<h4 id="diagrams-as-code">Diagrams As Code</h4>
-<pre><code class="language-mermaid">pie
-    title Writing Use Cases
-    "Experience Report" : 56
-    "Code Snippets" : 180
-    "Reflection" : 386 
-</code></pre>
-
-<p>It’s time I went back to writing. Not for the company or my medium account, but for shorter form, more thoughts than articles. Putting to paper has been part of my thinking process for a while, this is me putting some of that out in the public. I will still write ob medium, but those will be deep technical articles that need much more of my analytical mind. This is for my creative side. To write for the joy of it.</p>
-
-<p>It was haphazard and I often lost track of what I was writing or lost the motivation or forgot about it later on. Many ideas I thought of are now scattered in the ether.</p>
-
-<p>I feel happy when I write. But the imposter syndrome, coupled with the barrier to entry breaks the loop entirely. This post is all about getting the second one out of the way. The technical challenges although minor were</p>
-<ul>
-  <li>pasting images</li>
-  <li>Writing experience - text wrapping, expand section, live preview</li>
-  <li>Pasting links</li>
-  <li>Shortcuts like bold and italics</li>
-</ul>
-
-<p>I am taking a step to constructively write more, and mostly in the non-technical sphere.</p>
-
-<p>How I got into Obsidian
-Why it is much better than Emacs or Google docs.
-One place for all things to write</p>
-<ul>
-  <li>Daily journal (also the scratchpad)</li>
-  <li>Monthly personal and professional goals</li>
-  <li>Todos</li>
-  <li>Being able to dump thoughts as they appear sometimes in between work items, sometimes from my phone on the go</li>
-</ul>
-
-<p>How ideas form in my head</p>
-<ul>
-  <li>Scratch pad, just a sentence often centered on a larger idea</li>
-  <li>Writing is not about the idea, writing is about the presentation</li>
-  <li>Convincing an external intelligent being
-    <ul>
-      <li>Story telling</li>
-      <li>Without forgetting the original central point</li>
-    </ul>
-  </li>
-  <li>Ideas if not put down in stone, fizzles away</li>
-  <li>Baking of ideas don’t happen if they fizzle away</li>
-  <li>Best of what I have ever written starts with a random thought spark - which has no story, and is only interesting to me
-    <ul>
-      <li>Transient nature of it - If this spark or wave is missed, I will never end up getting back to it</li>
-    </ul>
-  </li>
-  <li>Packaging it is work that is independent of the core idea and independent of motivation</li>
-</ul>
-
-<p>Details about how</p>
-<ul>
-  <li>Watched video about using Obsidian for writing in static site blog posts like mine with Hugo (can be done with Jekyll too)
-    <ul>
-      <li>Added <a href="https://github.com/mourjo/blog/blob/master/copy_from_obsidian.py">it here</a></li>
-      <li>Obsidian template</li>
-      <li>Images and code</li>
-      <li>Publish pipeline</li>
-      <li>Needs some changes
-        <ul>
-          <li>(done) Test code snippets</li>
-          <li>In the python script
-            <ul>
-              <li>Handle scaled images (ones with a <code>|</code>)</li>
-              <li>(done) Update it to take as input a single file name (not all)</li>
-              <li>(done) Copy the markdown file</li>
-              <li>(done) Add <code>/blog</code> prefix to url for images</li>
-              <li>(done) Remove spaces in image file name - add images as <code>&lt;markdown-file-name&gt;-&lt;N&gt;.png</code> where N is the number of the image so that it is easier to find</li>
-            </ul>
-          </li>
-          <li>In Obsidian (done)
-            <ul>
-              <li>(done) Rename file to snakecase based on the front matter</li>
-              <li>(done) Add template for mourjo-me blog frontmatter like [[2024-12-04-motivation-is-not-everything]]</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<p>Not notion because markdown files are accessible</p>
-
-<pre><code class="language-javascript">function toAsciiKebabCase(text) {
-  // Normalize the string to remove diacritics and special characters
-  const normalized = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  
-  // Remove non-alphanumeric characters (except spaces and hyphens)
-  const alphanumeric = normalized.replace(/[^a-zA-Z0-9\s-]/g, "");
-  
-  // Replace spaces and multiple hyphens with a single hyphen
-  const kebabCase = alphanumeric
-    .trim()
-    .replace(/\s+/g, "-")       // Replace spaces with hyphens
-    .replace(/-+/g, "-")        // Remove consecutive hyphens
-    .toLowerCase();             // Convert to lowercase
-  
-  return kebabCase;
-}
-
-// Example usage
-const text = "Hello, World! 123 Café Déjà Vu";
-console.log(toAsciiKebabCase(text)); 
-// Output: "hello-world-123-cafe-deja-vu"
-
-</code></pre>
-
-<p>And some python</p>
-<pre><code class="language-python">import os
-import re
-import sys
-import shutil
-from pathlib import Path
-
-
-# Paths
-jekyll_posts_dir = "/Users/mourjo/repos/blog/_posts" # path in blog containing posts
-attachments_dir = "/Users/mourjo/repos/transpire/attachments" # path in obsidian that contains the images
-static_images_dir = "/Users/mourjo/repos/blog/images" # output image path in Jekyll
-obsidian_posts_dir = "/Users/mourjo/repos/transpire/personal-notes/mourjo-me-blog/"
-
-
-def select_file_in_directory(directory):
-
-    if not os.path.isdir(directory):
-        print(f"Error: '{directory}' is not a valid directory.")
-        return None
-
-    # List files in the directory
-    files = sorted([f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))], reverse=True)
-
-    if not files:
-        print(f"No files found in directory: {directory}")
-        return None
-
-    # Display files and let the user select one
-    print("Available files:")
-    for index, file in enumerate(files, start=1):
-        print(f"{index}: {file}")
-
-    while True:
-        try:
-            choice = int(input("Enter the number of the file you want to select (or 0 to cancel): "))
-            if choice == 0:
-                print("No file selected.")
-                return None
-            elif 1 &lt;= choice &lt;= len(files):
-                selected_file = files[choice - 1]
-                return os.path.join(directory, selected_file)
-            else:
-                print("Invalid choice. Please enter a valid number.")
-        except ValueError:
-            print("Invalid input. Please enter a number.")
-        except KeyboardInterrupt:
-            return None
-    if not os.path.isdir(directory):
-        print(f"Error: '{directory}' is not a valid directory.")
-        return None
-
-
-def from_obsidian(filename):
-    if filename is None:
-       print("\nNo file found")
-    elif not(filename.endswith(".md")):
-        print("\nMarkdown file names must begin with .md")
-    else:
-        filename = Path(filename).name
-        input_filepath = os.path.join(obsidian_posts_dir, filename)
-        output_filepath = os.path.join(jekyll_posts_dir, filename)
-
-        with open(input_filepath, "r") as file:
-            content = file.read()
-
-        image_count = 1
-
-        matching_images = re.findall(r'\[\[(([^]]*\.)(jpeg|svg|png|jpg))\]\]', content)
-        images = map(lambda img_matches: img_matches[0], matching_images)
-        images = sorted(images)
-
-        filename_without_path = os.path.basename(filename)
-        filename_without_ext = filename_without_path[:filename_without_path.rfind(".")]
-
-
-        for image in images:
-
-            index = image.rfind(".")
-            before = image[:index]
-
-            after = image[(index + 1):]
-
-            renamed_image = filename_without_ext + "-" + str(image_count) + "." + after
-            image_count = image_count + 1
-
-            image_source = os.path.join(attachments_dir, image)
-            if os.path.exists(image_source):
-                image_output_path = os.path.join(static_images_dir, renamed_image)
-                print(f"Copying '{image}' as '{image_output_path}'")
-                shutil.copy(image_source, image_output_path)
-
-            markdown_image = f"[Image Description](/blog/images/{renamed_image})"
-            content = content.replace(f"[[{image}]]", markdown_image)
-
-        with open(output_filepath, "w") as file:
-            file.write(content)
-
-        print("Markdown files processed and images copied successfully.")
-
-if len(sys.argv) != 2:
-    from_obsidian(select_file_in_directory(obsidian_posts_dir))
-else:
-    from_obsidian(sys.argv[1])
-
-</code></pre>
-
-<p>I can also use math!</p>
-
-\[P(A∣B)=\frac{P(A \cap B)}{P(B)}\]
-
-<p>Emojis!  😁 👾 🎉</p>
-
-<p>Dynamic JS - load whichever library I need - math then needed, code when needed</p>
-
-<div class="callout callout-question">
-  <div class="callout-title">Idea for presentation - question</div>
-  <div class="callout-content">Simulate a graph showing likelihood of missing the deadline as the deadline approaches</div>
-</div>
-
-<div class="callout callout-tip">
-  <div class="callout-title">Idea for presentation - tip</div>
-  <div class="callout-content">Simulate a graph showing likelihood of missing the deadline as the deadline approaches</div>
-</div>
-
-<div class="callout callout-note">
-  <div class="callout-title">Title - note</div>
-  <div class="callout-content">Contents</div>
-</div>
-
-<div class="callout callout-important">
-  <div class="callout-title">Title IMPORTANT</div>
-  <div class="callout-content">Contents</div>
-</div>
-
-<div class="callout callout-example">
-  <div class="callout-title">Title example</div>
-  <div class="callout-content">Contents</div>
-</div>
-
-<div class="callout callout-info">
-  <div class="callout-title">Title info</div>
-  <div class="callout-content">Contents</div>
-</div>
-
-<h3 id="tables-1">Tables</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>No</th>
-      <th>Topic</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Obsidian - tips and tricks</td>
-      <td>Basics of using a note-taking tool</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Effective writing</td>
-      <td>Quickly jotting notes down that later become full fledged blog posts</td>
-    </tr>
-  </tbody>
-</table>
-
-<pre><code class="language-mermaid">pie
-    title Writing Use Cases
-    "Experience Report" : 56
-    "Code Snippets" : 180
-    "Reflection" : 386 
-</code></pre>
-
-<pre><code class="language-mermaid">gantt
-    title A Gantt Diagram
-    dateFormat YYYY-MM-DD
-    section Section
-        A task          :a1, 2014-01-01, 30d
-        Another task    :after a1, 20d
-    section Another
-        Task in Another :2014-01-12, 12d
-        another task    :24d
-</code></pre>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="musings" /><summary type="html"><![CDATA[“In ten years you’ll see me as a writer”. That is what my 2008 yearbook says. I always wanted to write – in some form or the other. But I don’t write as much as I had wanted in 2008. Take this post as a rite of passing, or as an evolutionary next step from my short-form LinkedIn posts.]]></summary></entry><entry><title type="html">Motivation Is Not Everything</title><link href="https://mourjo.me/blog/musings/2024/12/03/motivation-is-not-everything/" rel="alternate" type="text/html" title="Motivation Is Not Everything" /><published>2024-12-03T19:31:00+01:00</published><updated>2024-12-03T19:31:00+01:00</updated><id>https://mourjo.me/blog/musings/2024/12/03/motivation-is-not-everything</id><content type="html" xml:base="https://mourjo.me/blog/musings/2024/12/03/motivation-is-not-everything/"><![CDATA[<p>This year, I did not miss a <em>single</em> day of learning French on Duolingo, even though sometimes only for five minutes. Through it, I learnt a lot about the process of learning, looking back:</p>
+</blockquote>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="musings" /><summary type="html"><![CDATA[I have worked with unconventional languages all throughout my career - from Clojure and Elixir to bash and lately, Perl. Whether statically typed or not, the success of a language today depends heavily on the developer tooling and developer experience.]]></summary></entry><entry><title type="html">Motivation Is Not Everything</title><link href="https://mourjo.me/blog/musings/2024/12/03/motivation-is-not-everything/" rel="alternate" type="text/html" title="Motivation Is Not Everything" /><published>2024-12-03T19:31:00+01:00</published><updated>2024-12-03T19:31:00+01:00</updated><id>https://mourjo.me/blog/musings/2024/12/03/motivation-is-not-everything</id><content type="html" xml:base="https://mourjo.me/blog/musings/2024/12/03/motivation-is-not-everything/"><![CDATA[<p>This year, I did not miss a <em>single</em> day of learning French on Duolingo, even though sometimes only for five minutes. Through it, I learnt a lot about the process of learning, looking back:</p>
 
 <ul>
   <li><strong>Motivation</strong> comes and goes, relying on motivation alone is unsustainable</li>
@@ -683,4 +317,83 @@ positions, like I did back in 2015 – only better than what I was back then.</p
 
 <p>In an effort to prove to myself that I could take on this long and ardous (and eventually
 rewarding) journey, I hope to publish regular posts here about the progress I am making as
-a guide, so stay tuned and if you’re reading this, wish me luck!</p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="mentoring" /><summary type="html"><![CDATA[Oitee is convinced that he can learn Computer Science basics as a part-time activity. I decided to help him with this endeavour. Being from a non-technical background, his knowledge of Computer Science is limited to high school HelloWorlds. It is both a huge responsibility and honour for me to be part of his journey. My paramount goal is to ensure the gets a good enough guidance to venture into this field. The weight of being able to show the right path is heavy, but it is worth trying.]]></summary></entry></feed>
+a guide, so stay tuned and if you’re reading this, wish me luck!</p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="mentoring" /><summary type="html"><![CDATA[Oitee is convinced that he can learn Computer Science basics as a part-time activity. I decided to help him with this endeavour. Being from a non-technical background, his knowledge of Computer Science is limited to high school HelloWorlds. It is both a huge responsibility and honour for me to be part of his journey. My paramount goal is to ensure the gets a good enough guidance to venture into this field. The weight of being able to show the right path is heavy, but it is worth trying.]]></summary></entry><entry><title type="html">Medium Index</title><link href="https://mourjo.me/blog/hidden/2020/09/03/medium-index/" rel="alternate" type="text/html" title="Medium Index" /><published>2020-09-03T03:44:11+02:00</published><updated>2020-09-03T03:44:11+02:00</updated><id>https://mourjo.me/blog/hidden/2020/09/03/medium-index</id><content type="html" xml:base="https://mourjo.me/blog/hidden/2020/09/03/medium-index/"><![CDATA[<!-- BLOG-POST-LIST:START -->
+
+<div class="article-list-item">
+<a href="https://mourjo.medium.com/three-reasons-why-developers-should-use-duckdb-0884c8e9f02a?source=mourjo.me">
+Three reasons why developers should use DuckDB
+</a>
+<span class="copy">&nbsp;—&nbsp;14 Jul 2024</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/booking-com-development/unlocking-observability-structured-logging-in-spring-boot-c81dbabfb9e7?source=mourjo.me">
+Unlocking observability: Structured logging in Spring Boot
+</a>
+<span class="copy">&nbsp;—&nbsp;26 Mar 2024</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://mourjo.medium.com/building-a-secure-web-chat-with-redis-mtls-and-gcp-e52007ba362d?source=mourjo.me">
+Deep-dive on mTLS with Redis on GCP
+</a>
+<span class="copy">&nbsp;—&nbsp;22 Feb 2023</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/load-shedding-in-clojure-d4857ce11588?source=mourjo.me">
+Load Shedding in Clojure
+</a>
+<span class="copy">&nbsp;—&nbsp;21 Sep 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/load-shedding-in-web-services-9fa8cfa1ffe4?source=mourjo.me">
+Load Shedding in Web Services
+</a>
+<span class="copy">&nbsp;—&nbsp;04 Sep 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf?source=mourjo.me">
+The Convoluted Magic of Leiningen Test Selectors
+</a>
+<span class="copy">&nbsp;—&nbsp;02 May 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/achieving-graceful-restarts-of-clojure-services-b3a3b9c1d60d?source=mourjo.me">
+Killing me softly: Graceful shutdowns in Clojure
+</a>
+<span class="copy">&nbsp;—&nbsp;27 Jan 2020</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/on-the-testability-of-ring-middlewares-in-clojure-6795eae60f2a?source=mourjo.me">
+On the testability of Ring Middlewares in Clojure
+</a>
+<span class="copy">&nbsp;—&nbsp;06 Dec 2019</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/a-study-in-parallelising-tests-b5253817beae?source=mourjo.me">
+A Study in Parallelising Tests
+</a>
+<span class="copy">&nbsp;—&nbsp;15 May 2019</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://medium.com/helpshift-engineering/scylladb-the-helpshift-story-3d332bf80ce2?source=mourjo.me">
+ScyllaDB: The Helpshift Story
+</a>
+<span class="copy">&nbsp;—&nbsp;03 Apr 2019</span>
+</div>
+
+<div class="article-list-item">
+<a href="https://mourjo.medium.com/a-detailed-comparison-between-autocompletion-strategies-in-elasticsearch-66cb9e9c62c4">
+Autocompletion strategies in ElasticSearch
+</a>
+<span class="copy">&nbsp;—&nbsp;30 Aug 2018</span>
+</div>
+
+<!-- BLOG-POST-LIST:END -->]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="hidden" /><category term="hidden" /><summary type="html"><![CDATA[Three reasons why developers should use DuckDB &nbsp;—&nbsp;14 Jul 2024 Unlocking observability: Structured logging in Spring Boot &nbsp;—&nbsp;26 Mar 2024 Deep-dive on mTLS with Redis on GCP &nbsp;—&nbsp;22 Feb 2023 Load Shedding in Clojure &nbsp;—&nbsp;21 Sep 2020 Load Shedding in Web Services &nbsp;—&nbsp;04 Sep 2020 The Convoluted Magic of Leiningen Test Selectors &nbsp;—&nbsp;02 May 2020 Killing me softly: Graceful shutdowns in Clojure &nbsp;—&nbsp;27 Jan 2020 On the testability of Ring Middlewares in Clojure &nbsp;—&nbsp;06 Dec 2019 A Study in Parallelising Tests &nbsp;—&nbsp;15 May 2019 ScyllaDB: The Helpshift Story &nbsp;—&nbsp;03 Apr 2019 Autocompletion strategies in ElasticSearch &nbsp;—&nbsp;30 Aug 2018]]></summary></entry></feed>
