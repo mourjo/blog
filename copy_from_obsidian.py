@@ -6,6 +6,16 @@ import re
 import sys
 import shutil
 from pathlib import Path
+from PIL import Image, ImageOps
+
+# ***************
+# using venv
+# ***************
+# python3 -m venv _scripts/venv
+# source _scripts/venv/bin/activate
+# # commented pip freeze > _scripts/requirements.txt
+# pip install -r _scripts/requirements.txt
+# deactivate
 
 
 # Paths
@@ -14,6 +24,21 @@ attachments_dir = "/Users/mourjo/repos/transpire/attachments" # path in obsidian
 static_images_dir = "/Users/mourjo/repos/blog/images" # output image path in Jekyll
 obsidian_posts_dir = "/Users/mourjo/repos/transpire/personal-notes/mourjo-me-blog/"
 
+def compress_image(input_path, output_path, quality=85):
+    # Open the image
+    img = Image.open(input_path)
+
+    img = ImageOps.exif_transpose(img)
+
+    width, height = img.size
+    ratio = 1200 / width
+    new_width = int(width * ratio)
+    new_height = int(height * ratio)
+
+    resized_img = img.resize((new_width, new_height))
+
+    # Save the image with reduced quality (you can adjust the quality from 0 to 100)
+    resized_img.save(output_path, quality=quality)
 
 def select_file_in_directory(directory):
 
@@ -90,7 +115,8 @@ def from_obsidian(filename):
             if os.path.exists(image_source):
                 image_output_path = os.path.join(static_images_dir, renamed_image)
                 print(f"Copying '{image}' as '{image_output_path}'")
-                shutil.copy(image_source, image_output_path)
+                compress_image(image_source, image_output_path)
+                # shutil.copy(image_source, image_output_path)
 
             markdown_image = f"[Image Description](/blog/images/{renamed_image})"
             content = content.replace(f"[[{image}]]", markdown_image)
