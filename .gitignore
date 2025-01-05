@@ -11,3 +11,4 @@ blog/
 
 .bundle/config
 _site/*
+venv
