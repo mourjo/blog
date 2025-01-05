@@ -8,6 +8,7 @@ mv _site "$TMP_DIR"
 git checkout gh-pages
 cp -r "$TMP_DIR/_site/" .
 rm -rf hidden
+rm -rf _scripts
 rm -rf Gemfile
 rm -rf Gemfile.lock
 rm -rf LICENCE.md
