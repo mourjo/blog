@@ -14,7 +14,11 @@ Sure, I do many things at my job that I have grown to love (the yellows) -- writ
 ![Image Description](/blog/images/2025-01-05-having-some-fucking-fun-1.png)
 
 
-In the show, Ted Lasso, football is to the players, what software engineering is to me -- I do it because I enjoy it. In all honesty though, I would be lying if I said I love every bit of it. On good weeks, the yellows often become greens, and the reds start looking like yellows. Yet, as I grow older, I start recognising -- and thereby paying homage -- to the few constants I can rely on on a cold slow Sunday. When the yellows start looking like the reds, finding my way back to the never-changing greens always works.
+On good weeks, the yellows often become greens, and the reds start looking like yellows. I know I am having a bad day when the yellows start resembling the reds. As I grow older, I start recognising -- and thereby paying homage -- to the few constants I can rely on on a cold slow Sunday -- the never-changing greens.
+
+![Image Description](/blog/images/2025-01-05-having-some-fucking-fun-2.png)
+
+In the show, Ted Lasso, football is to the players, what software engineering is to me -- I do it because I enjoy it. In all honesty though, I would be lying if I said I love every bit of it. 
 
 > During my career, when I was going through a bad patch, I'd come back here and play.
 > 
