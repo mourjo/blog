@@ -1,4 +1,128 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mourjo.me/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mourjo.me/blog/" rel="alternate" type="text/html" /><updated>2025-01-06T07:29:39+01:00</updated><id>https://mourjo.me/blog/feed.xml</id><title type="html">Mourjo Sen’s Blog</title><subtitle>Thoughts of a software engineer about life, tech and everything in between. A place to put down my thoughts for my own recollection more than anything else. If you like it, be sure to drop me an email!</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><entry><title type="html">Having Some Fucking Fun</title><link href="https://mourjo.me/blog/musings/2025/01/05/having-some-fucking-fun/" rel="alternate" type="text/html" title="Having Some Fucking Fun" /><published>2025-01-05T11:40:28+01:00</published><updated>2025-01-05T11:40:28+01:00</updated><id>https://mourjo.me/blog/musings/2025/01/05/having-some-fucking-fun</id><content type="html" xml:base="https://mourjo.me/blog/musings/2025/01/05/having-some-fucking-fun/"><![CDATA[<p>A day in a software engineer’s week becomes blurry from one another. It is not uncommon to get caught up in the rut of things. Today happens to be one of those slow Sunday mornings at the end of a busy week. I have a lot of reading to catch up on, but I just cannot concentrate on any of it.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mourjo.me/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mourjo.me/blog/" rel="alternate" type="text/html" /><updated>2025-01-09T05:37:29+01:00</updated><id>https://mourjo.me/blog/feed.xml</id><title type="html">Mourjo Sen’s Blog</title><subtitle>Thoughts of a software engineer about life, tech and everything in between. A place to put down my thoughts for my own recollection more than anything else. If you like it, be sure to drop me an email!</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><entry><title type="html">Overcoming Barriers To Entry: Writing With Obsidian</title><link href="https://mourjo.me/blog/musings/2025/01/08/overcoming-barriers-to-entry-writing-with-obsidian/" rel="alternate" type="text/html" title="Overcoming Barriers To Entry: Writing With Obsidian" /><published>2025-01-08T13:26:53+01:00</published><updated>2025-01-08T13:26:53+01:00</updated><id>https://mourjo.me/blog/musings/2025/01/08/overcoming-barriers-to-entry-writing-with-obsidian</id><content type="html" xml:base="https://mourjo.me/blog/musings/2025/01/08/overcoming-barriers-to-entry-writing-with-obsidian/"><![CDATA[<p>“In ten years you’ll see me as a writer”. My 2008 yearbook would be disappointed in how things turned out. But it is the new year and it is never too late to start.</p>
+
+<p>If I am being honest, though, I have not entirely lost touch with writing – only that today it serves quite a different purpose. Back in school, I wrote because I found it to be the easiest way of expressing myself. Today, writing has become the fabric for a structured thinking process.</p>
+
+<p>I do not write as much as I had wanted to in 2008 – at least not for the joy of it. Take this post as a rite of passing to find my way back to writing for the joy of it – not long-form technical articles or mindmaps which require a lot of effort and research, but reflections and musings – an evolutionary next step from my short-form LinkedIn posts.</p>
+
+<h1 id="why-write-at-all-active-externalism">Why Write at All: Active Externalism</h1>
+
+<p>Putting pen to paper lays structure to otherwise haphazard thought processes — a structure with a clear narrative that is consumable for others. Engineers do not work in isolation, and in order to collaborate, a structured thinking is key. Writing is one way to put structure to haphazard thoughts.</p>
+
+<p>While at the surface writing does not seem to be a hard requirement of the software engineer’s job, structured thinking is. Writing helps convoluted, passing thoughts take a more permanent form, which my future self can come back to – ideas fleet, written artefacts remain. In fact, the permanence of written artefacts has influenced in setting better goals for myself – from haphazard maybes to definitive idea execution plans.</p>
+
+<p>In the 1998 paper <a href="https://www.alice.id.tue.nl/references/clark-chalmers-1998.pdf">“The extended mind”</a>, Clark and Chalmers posit that our human minds go beyond the boundaries of skin and skull – that elements in our environment play a great role in driving our cognitive processes.</p>
+
+<blockquote>
+  <p>Where does the mind stop and the rest of the world begin? The human organism is linked with an external entity in a two-way interaction, creating a coupled system that can be seen as a cognitive system in its own right. All the components in the system play an active causal role, and they jointly govern behaviour in the same sort of way that cognition usually does.</p>
+</blockquote>
+
+<p>The authors call this active externalism – an extension of our cognitive processes. Writing in some way has been an extension of my cognitive process, just like the calculator became an integral part of my math classes. Just like me being faster at typing with qwerty keyboards now than writing with my own hands.</p>
+
+<p>The process of note-taking has become an extension of my thought process.</p>
+
+<h1 id="writing-for-myself">Writing for Myself</h1>
+<p>Reflecting on things is one way to get self feedback. Looking back is a way to improve myself going forward. Writing about things as I look at them today after my ten years of experience may help you, perhaps it won’t. Perhaps in another ten years, I will see how naive I am today and advise you to do better – or perhaps not. Perhaps, perhaps, perhaps… But it definitely won’t help you or me if what I write never sees the light of day.</p>
+
+<p>Unfortunately most of what I wrote over the years stayed private or got lost – imposter syndrome is not easy to escape. This changed over the course of 2024. I started with short-form LinkedIn posts, which did not need much scrutiny or proof reading. I got few likes on those posts and that reinforced my loosely held belief that it is better to write than to perfect writing.</p>
+
+<h1 id="idea-capturing-where-do-good-ideas-come-from">Idea capturing: Where do good ideas come from?</h1>
+<p><a href="https://www.youtube.com/watch?v=NugRZGDbPFU">Good ideas come from hunches</a> - and hunches consistently occur to me when and where I least expect it – in the middle of the night while getting a glass of water, on the commute back home after a tough day at the office, atop the snowy peaks of the <a href="https://mourjo.me/blog/non-tech/2024/12/29/alluring-austria/">Austrian Alps</a>.</p>
+
+<p>It is not guaranteed by any stretch of the imagination that I will recall any of the fleeting ideas the next time I sit at the laptop. This is why I started using <a href="https://obsidian.md">Obsidian</a> to keep a day-to-day log of thoughts on the go – it simply works on every device I own – making idea capturing possible anywhere.</p>
+
+<h1 id="idea-presenting-breaking-the-barrier-to-writing">Idea presenting: Breaking the barrier to Writing</h1>
+<p>Writing is not just about the idea, writing is equally about the presentation. “Write without inhibition, edit with clarity”, as Jared explains in <a href="https://www.youtube.com/watch?v=ZcljLAmDIY4">this video</a>. Again, Obsidian plays a key role for me here.</p>
+
+<p>I maintain a static blog built with <a href="https://jekyllrb.com">Jekyll</a>. Both use <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> files but because Markdown is primarily a text based format, the blog-writing experience on Markdown is suboptimal:</p>
+<ul>
+  <li>Pasting images is not easy – even less so if it involves the additional step of transferring photos from my mobile phone to my laptop</li>
+  <li>Pasting links on like <a href="https://mourjo.me">this</a> needs to be done in the esoteric Markdown syntax, which breaks the flow of writing</li>
+  <li>No direct support for code formatting</li>
+  <li>Markdown tables are not easy to work with</li>
+  <li>Text wrapping, bold fonts, italics and live preview requires manual setup</li>
+</ul>
+
+<p>I would not like to spend too much time on the mechanics of the writing – I would much rather spend the time in the narrative of it –  as the New York Times bestseller <a href="https://www.youtube.com/watch?v=Fr5kWGWCcMs">Joshua Fields Millburn puts it</a> , “if it doesn’t push the narrative forward, then it doesn’t have the urgency you need to be compelling for your readers”.</p>
+
+<h1 id="the-writing-process">The Writing Process</h1>
+
+<p>I am writing this post on Obsidian - with the help of <a href="https://github.com/mourjo/blog/blob/master/copy_from_obsidian.py">a simple Python script</a>, I can migrate a file that <a href="https://gist.githubusercontent.com/mourjo/3698cef9dc1c9fff79ea98b8f9337f41/raw/7fd22fcfd76f2cfad1e4a1587a01a12a4c36f002/2025-01-06-overcoming-barriers-to-entry-writing-with-obsidian.md">looks like this</a> to Jekyll (the idea came from <a href="https://www.youtube.com/watch?v=dnE7c0ELEH8">this video</a> by NetworkChuck). This script allows me to keep my writing experience entirely on Obsidian.</p>
+
+<p>Following are a few indications of making writing a joy with Obsidian and publishing to my blog.</p>
+
+<h3 id="code-blocks">Code blocks</h3>
+<p>Most markdown flavours support code blocks, but again, it’s the experience of writing that seals the deal.</p>
+
+<pre><code class="language-java">public class HelloWorld {
+	public static void main(String args[]) {
+		System.out.println("Hello, world!");
+	}
+}
+</code></pre>
+
+<h3 id="tables">Tables</h3>
+<p>Often used but tables in Markdown are notoriously hard to get right, especially in simple text editors. Obsidian’s preview makes tables as friendly as Google docs. Well almost.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Topic</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Obsidian - tips and tricks</td>
+      <td>Basics of using a note-taking tool</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Effective writing</td>
+      <td>Quickly jotting notes down that later become full fledged blog posts</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="mermaid-diagrams">Mermaid Diagrams</h3>
+
+<p>The icing on the cake is the ability to generate Mermaid images in place and have the same exported to my blog.</p>
+
+<pre><code class="language-mermaid">pie
+    title Writing Use Cases
+    "Experience Report" : 56
+    "Code Snippets" : 180
+    "Reflection" : 386 
+</code></pre>
+
+<h3 id="callouts">Callouts</h3>
+<p>A simple format like Markdown doesn’t support much more than basic formatting. But sometimes I have found myself using call-outs to draw attention to an idea or mark an open question - like the one below.</p>
+
+<div class="callout callout-question">
+  <div class="callout-title">Idea for writing?</div>
+  <div class="callout-content">- A <a href="https://github.com/mourjo/blog/blob/master/_plugins/obsidian_callouts_converter.rb">plugin</a> that converts Obsidian callouts to Jekyll</div>
+</div>
+
+<h3 id="math">Math</h3>
+<p>A software engineer is bound to encounter math in some shape or form. But even if you don’t like Math, you have got to admire the LaTex style of mathematical equations: 
+\(P(A∣B)=\frac{P(A \cap B)}{P(B)}\)</p>
+
+<h3 id="images">Images</h3>
+
+<p>I’m writing this post on my mobile, while pasting an image as I would with my private notes. The same image gets copied and published seamlessly with this Python script. Again, the key to writing consistently is the low barrier to entry.</p>
+
+<p><img style="width: 250px" src="/blog/images/2025-01-08-overcoming-barriers-to-entry-writing-with-obsidian-2.png" /></p>
+
+<h3 id="using-my-phones-camera">Using my phone’s Camera</h3>
+<p>I can add images from my phone and publish from my laptop.</p>
+
+<p><img src="/blog/images/2025-01-08-overcoming-barriers-to-entry-writing-with-obsidian-1.jpeg" alt="Image Description" /></p>
+
+<h1 id="conclusion-why-writing-matters">Conclusion: Why Writing Matters</h1>
+<p>Last month I went to Austria with my family – a much needed break to heaven on Earth. I took down <a href="https://mourjo.me/blog/non-tech/2024/12/29/alluring-austria/">a few notes</a> about what I want to recall looking back – and a picture for each day. It has been just a few weeks and I have already started forgetting the details – that is why writing matters – <strong>to put a more permanent form to fleeting thoughts.</strong></p>
+
+<p>Though I do not believe in new year’s resolutions, this is a promise and a way forward to writing more in 2025.</p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="musings" /><summary type="html"><![CDATA[“In ten years you’ll see me as a writer”. My 2008 yearbook would be disappointed in how things turned out. But it is the new year and it is never too late to start.]]></summary></entry><entry><title type="html">Having Some Fucking Fun</title><link href="https://mourjo.me/blog/musings/2025/01/05/having-some-fucking-fun/" rel="alternate" type="text/html" title="Having Some Fucking Fun" /><published>2025-01-05T11:40:28+01:00</published><updated>2025-01-05T11:40:28+01:00</updated><id>https://mourjo.me/blog/musings/2025/01/05/having-some-fucking-fun</id><content type="html" xml:base="https://mourjo.me/blog/musings/2025/01/05/having-some-fucking-fun/"><![CDATA[<p>A day in a software engineer’s week becomes blurry from one another. It is not uncommon to get caught up in the rut of things. Today happens to be one of those slow Sunday mornings at the end of a busy week. I have a lot of reading to catch up on, but I just cannot concentrate on any of it.</p>
 
 <p>Sure, I do many things at my job that I have grown to love (the yellows) – writing about software, designing systems, technical leadership, planning… But all of the things I have grown to love have their roots somehow to the crux of what I truly enjoy doing (the greens): writing code – for no reason, for no outcome, for no one – just me building something where there was nothing.</p>
 
@@ -279,64 +403,4 @@ bound to happen.</p>
 
 <p>Teaching something convincingly requires research and it is liberating to be able to learn all those things again, and I would highly recommend this to anyone who enjoys this subject. Imagine thinking from first principles and even questioning those first principles. When I was first exposed to the fundamentals, I didn’t know any better than to take things at their face value and that obviously left holes in my knowledge, not to mention all the things I didn’t even remember I had once learned. During the depths of the pandemic, learning by teaching has been one of the most rewarding exercises.</p>
 
-<p>If you are curious about <a href="https://twitter.com/oteecodes">Otee’s</a> journey, you can follow <a href="https://otee.dev">him here</a>!</p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="mentoring" /><summary type="html"><![CDATA[In an earlier post, I wrote that I was embarking on a journey of teaching the fundamentals of Computer Science to Otee. The journey thus far has been incredible, and it is inspiring to think that in the span of three months, all of the following have happened.]]></summary></entry><entry><title type="html">A personal challenge</title><link href="https://mourjo.me/blog/mentoring/2021/06/15/a-personal-challenge/" rel="alternate" type="text/html" title="A personal challenge" /><published>2021-06-15T07:37:11+02:00</published><updated>2021-06-15T07:37:11+02:00</updated><id>https://mourjo.me/blog/mentoring/2021/06/15/a-personal-challenge</id><content type="html" xml:base="https://mourjo.me/blog/mentoring/2021/06/15/a-personal-challenge/"><![CDATA[<p>Oitee is convinced that he can learn Computer Science basics as a part-time activity. I
-decided to help him with this endeavour. Being from a non-technical background, his
-knowledge of Computer Science is limited to high school HelloWorlds. It is both a huge
-responsibility and honour for me to be part of his journey. My paramount goal is to ensure
-the gets a <em>good enough</em> guidance to venture into this field. The weight of being able to
-show the right path is heavy, but it is worth trying.</p>
-
-<p>Here’s what I have in mind (it is probably going to change). I have created the following
-broad headings of what I think are the most useful areas to spend time on.</p>
-
-<ol>
-  <li>CS fundamentals
-    <ul>
-      <li>Computer Architecture</li>
-      <li>Networking</li>
-      <li>Operating Systems</li>
-      <li>Databases</li>
-      <li>Basics of a compiler</li>
-    </ul>
-  </li>
-  <li>Programming
-    <ul>
-      <li>Javascript basics from <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#claim-cert-block">FreeCodeCamp</a></li>
-      <li>Data structures</li>
-      <li>Algorithms</li>
-      <li>Problem solving (something like <a href="http://leetcode.com">Leetcode</a>)</li>
-      <li>Functional languages / OOP</li>
-    </ul>
-  </li>
-  <li>Tooling workflows
-    <ul>
-      <li>Linux CLI</li>
-      <li>Git</li>
-      <li>Visual Studio Code</li>
-    </ul>
-  </li>
-  <li>Web Development (after 1)
-    <ul>
-      <li>Server / Client</li>
-      <li>Web scale, components, technologies</li>
-    </ul>
-  </li>
-</ol>
-
-<p>I pondered a lot on which language and IDE to suggest for him to learn. Eventually I concluded
-that Javascript and VS Code seem to be the most ubiquitous combination there is for web
-development. <a href="https://lambdaschool.com/courses/full-stack-web-development">Lambda School</a>
-also seems to be favouring Javascript.</p>
-
-<p>The list above is biased on what I think I am good enough to guide with. Much to the same
-reason, there is no mention of machine learning or frontend technologies like CSS,
-although a bit of that might be necessary.</p>
-
-<p>At the end of six months from now, based on the progress, my objective is for him to be
-ready for applying to coding bootcamps like <a href="https://www.recurse.com">Recurse Centre</a>. If
-not that, then with some more work, a candidate for applying to junior engineering
-positions, like I did back in 2015 – only better than what I was back then.</p>
-
-<p>In an effort to prove to myself that I could take on this long and ardous (and eventually
-rewarding) journey, I hope to publish regular posts here about the progress I am making as
-a guide, so stay tuned and if you’re reading this, wish me luck!</p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="mentoring" /><summary type="html"><![CDATA[Oitee is convinced that he can learn Computer Science basics as a part-time activity. I decided to help him with this endeavour. Being from a non-technical background, his knowledge of Computer Science is limited to high school HelloWorlds. It is both a huge responsibility and honour for me to be part of his journey. My paramount goal is to ensure the gets a good enough guidance to venture into this field. The weight of being able to show the right path is heavy, but it is worth trying.]]></summary></entry></feed>
+<p>If you are curious about <a href="https://twitter.com/oteecodes">Otee’s</a> journey, you can follow <a href="https://otee.dev">him here</a>!</p>]]></content><author><name>{&quot;twitter&quot;=&gt;&quot;mourjo_sen&quot;}</name></author><category term="mentoring" /><summary type="html"><![CDATA[In an earlier post, I wrote that I was embarking on a journey of teaching the fundamentals of Computer Science to Otee. The journey thus far has been incredible, and it is inspiring to think that in the span of three months, all of the following have happened.]]></summary></entry></feed>
