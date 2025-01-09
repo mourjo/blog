@@ -15,7 +15,7 @@ I do not write as much as I had wanted to in 2008 -- at least not for the joy of
 
 
 
-# Why Write at All: Active Externalism
+# Why Write at all: Active Externalism
 
 Putting pen to paper lays structure to otherwise haphazard thought processes — a structure with a clear narrative that is consumable for others. Engineers do not work in isolation, and in order to collaborate, a structured thinking is key. Writing is one way to put structure to haphazard thoughts.
 
@@ -34,12 +34,12 @@ Reflecting on things is one way to get self feedback. Looking back is a way to i
 
 Unfortunately most of what I wrote over the years stayed private or got lost -- imposter syndrome is not easy to escape. This changed over the course of 2024. I started with short-form LinkedIn posts, which did not need much scrutiny or proof reading. I got few likes on those posts and that reinforced my loosely held belief that it is better to write than to perfect writing.
 
-# Idea capturing: Where do good ideas come from?
+# Idea Capturing: Where do Good Ideas come from?
 [Good ideas come from hunches](https://www.youtube.com/watch?v=NugRZGDbPFU) - and hunches consistently occur to me when and where I least expect it -- in the middle of the night while getting a glass of water, on the commute back home after a tough day at the office, atop the snowy peaks of the [Austrian Alps](https://mourjo.me/blog/non-tech/2024/12/29/alluring-austria/). 
 
 It is not guaranteed by any stretch of the imagination that I will recall any of the fleeting ideas the next time I sit at the laptop. This is why I started using [Obsidian](https://obsidian.md) to keep a day-to-day log of thoughts on the go -- it simply works on every device I own -- making idea capturing possible anywhere.
 
-# Idea presenting: Breaking the barrier to Writing
+# Idea Presenting: Breaking the Barrier to Writing
 Writing is not just about the idea, writing is equally about the presentation. "Write without inhibition, edit with clarity", as Jared explains in [this video](https://www.youtube.com/watch?v=ZcljLAmDIY4). Again, Obsidian plays a key role for me here.
  
  I maintain a static blog built with [Jekyll](https://jekyllrb.com). Both use [Markdown](https://en.wikipedia.org/wiki/Markdown) files but because Markdown is primarily a text based format, the blog-writing experience on Markdown is suboptimal:
@@ -57,7 +57,7 @@ I am writing this post on Obsidian - with the help of [a simple Python script](h
 
 Following are a few indications of making writing a joy with Obsidian and publishing to my blog.
 
-### Code blocks
+### Code Blocks
 Most markdown flavours support code blocks, but again, it’s the experience of writing that seals the deal. 
 
 ```java
@@ -78,7 +78,7 @@ Often used but tables in Markdown are notoriously hard to get right, especially 
 
 ### Mermaid Diagrams 
 
-The icing on the cake is the ability to generate Mermaid images in place and have the same exported to my blog. 
+It is a super power to generate scalable [Mermaid images](https://mermaid.js.org) like this: 
 
 ```mermaid
 pie
@@ -89,7 +89,7 @@ pie
 ```
 
 
-### Callouts
+### Informational Callouts
 A simple format like Markdown doesn’t support much more than basic formatting. But sometimes I have found myself using call-outs to draw attention to an idea or mark an open question - like the one below. 
 
 > [!question] Idea for writing?
@@ -97,19 +97,14 @@ A simple format like Markdown doesn’t support much more than basic formatting.
 
 ### Math
 A software engineer is bound to encounter math in some shape or form. But even if you don’t like Math, you have got to admire the LaTex style of mathematical equations: 
+
 $$P(A∣B)=\frac{P(A \cap B)}{P(B)} $$
 
 
 ### Images 
 
-I’m writing this post on my mobile, while pasting an image as I would with my private notes. The same image gets copied and published seamlessly with this Python script. Again, the key to writing consistently is the low barrier to entry. 
+I’m writing this post on my mobile, while pasting an image as I would with my private notes. Without me ever having to transfer it, the same image is copied and published to this blog with [a Python script](https://github.com/mourjo/blog/blob/master/copy_from_obsidian.py).
 
-
-<img style="width: 250px" src="/blog/images/2025-01-08-overcoming-barriers-to-entry-writing-with-obsidian-2.png">
-
-
-### Using my phone's Camera 
-I can add images from my phone and publish from my laptop. 
 
 ![Image Description](/blog/images/2025-01-08-overcoming-barriers-to-entry-writing-with-obsidian-1.jpeg)
 
