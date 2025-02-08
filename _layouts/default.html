@@ -94,9 +94,12 @@ layout: compress
     <meta name="twitter:data1" content="5 min read">
   {% endif %}
   
-  
   {% include analytics.html %}
+  {% include giscus.html %}
+
   <link rel="stylesheet" href="{{site.baseurl}}/css/sketch.css">
+
+</script>
 </head>
 
 <body>
@@ -122,6 +125,7 @@ layout: compress
         <article>
           {{ content }}
         </article>
+        <div class="giscus"></div>
       </main>
       <div class="footer">
         <a href="{{site.baseurl}}/">Blog</a>
