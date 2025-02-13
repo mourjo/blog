@@ -7,7 +7,7 @@ code: false
 mermaid: false
 category: musings
 ---
-"If you care about keeping your phone code secret, you should use this", the seller said, emphatically pointing to the privacy screen guard. I knew about privacy-protecting screen guards, but I was not looking to buy one when I was at [Gariahat](https://www.tripadvisor.in/Attraction_Review-g304558-d6412735-Reviews-Gariahat_Market-Kolkata_Calcutta_Kolkata_District_West_Bengal.html) market a couple of weeks ago. Reluctantly, I gave in and got one for myself and I would do it again because with it, I became more productive.
+"If you care about keeping your phone code secret, you should use this", the seller said, emphatically pointing to the privacy screen guard. I knew about privacy-protecting screen guards, but I was not looking to buy one when I was at [Gariahat](https://www.tripadvisor.in/Attraction_Review-g304558-d6412735-Reviews-Gariahat_Market-Kolkata_Calcutta_Kolkata_District_West_Bengal.html) market a couple of weeks ago. Reluctantly, I gave in and got one for myself. It made my phone miserable to use -- yet, it was the best decision I made in the past few weeks.
 
 With a privacy screen protector, other than the person holding a phone, no one can see what is on its screen. I had never used one, so I did not know about its drawbacks -- the screen became noticeably dimmer and the resolution worsened resembling a phone from the 2000s. I have to admit, I was quite fond of my new phone's screen, but with this protector on it, I kept having to zoom in and squint my eyes to read text. Accustomed to a crisp bright display, I now had to make my peace with seeing individual pixels on the screen -- it broke my heart. 
 
