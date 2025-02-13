@@ -17,27 +17,31 @@ permalink: /
 {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
 {% for year in posts_by_year %}
-  {% if year.name > "2020" %}
+  {% if year.name > "2019" %}
     <div>
       <h1>{{ year.name }}</h1>
       {% for post in year.items %}
-        <div class="article-list-item" >
-        <a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
-        <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
+        {% if post.category != 'hidden' %}
+          <div class="article-list-item" >
+          <a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
+          <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
+        {% endif %}
       {% endfor %}
     </div> 
   {% endif %}
 {% endfor %}
 
 <div>
-  <h1>2020 and before</h1>
+  <h1>2019 and Before</h1>
   {% for year in posts_by_year %}
-    {% if year.name <= "2020" %}
+    {% if year.name <= "2019" %}
       {% for post in year.items %}
-        <div class="article-list-item" >
-          <a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
-          <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
-        </div> 
+        {% if post.category != 'hidden' %}
+          <div class="article-list-item" >
+            <a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
+            <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
+          </div>
+        {% endif %}
       {% endfor %}
     {% endif %}
   {% endfor %}
