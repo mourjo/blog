@@ -4,7 +4,7 @@ permalink: /
 ---
 
 <div>
-  <h1>Long-form Articles</h1>
+  <h1>Featured Articles</h1>
     {% for post in site.posts %}
       {% if post.title == "Medium Index" %}
         {{ post.content }}
@@ -13,30 +13,32 @@ permalink: /
 </div>
 
 
-<div>
-  <h1>Musings</h1>
-   {% for post in site.posts %}
-      {% if post.category != 'hidden' %}
-        {% if post.category != 'non-tech' %}
-          <div class="article-list-item" >
-            <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
-            <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
-          </div> 
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-</div>
+
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+{% for year in posts_by_year %}
+  {% if year.name > "2020" %}
+    <div>
+      <h1>{{ year.name }}</h1>
+      {% for post in year.items %}
+        <div class="article-list-item" >
+        <a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
+        <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
+      {% endfor %}
+    </div> 
+  {% endif %}
+{% endfor %}
 
 <div>
-  <h1>Non-technical Articles</h1>
-  {% for post in site.posts %}
-    {% if post.category == 'non-tech' %}
-      <div class="article-list-item" >
-        <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
-        <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
-      </div> 
+  <h1>2020 and before</h1>
+  {% for year in posts_by_year %}
+    {% if year.name <= "2020" %}
+      {% for post in year.items %}
+        <div class="article-list-item" >
+          <a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
+          <span class="copy">&nbsp;—&nbsp;{{ post.date | date_to_string }}</span>
+        </div> 
+      {% endfor %}
     {% endif %}
   {% endfor %}
 </div>
-
-
