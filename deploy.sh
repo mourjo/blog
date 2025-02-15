@@ -54,7 +54,7 @@ if [ -d $main_site_dir ]; then
   git add robots.txt;
   git add sitemap.xml;
   git add resources;
-  git commit -m "Updating robots and sitemap";
+  git commit -m "$MSG - Updating robots and sitemap";
   git push;
 else
   echo -e "\033[31mUnable to sync changes to main site - maybe the directory does not exist: ~/repos/mourjo.github.io.\033[0m"
