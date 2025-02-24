@@ -7,7 +7,7 @@ code: false
 mermaid: false
 category: musings
 ---
-Lectures got over by three in the afternoon. Yet on most days, I did not leave the St Xavier's college campus until five -- I recall spending two hours at the central library reading books like [William Stallings' Operating Systems](https://www.amazon.in/Operating-Systems-Internals-Design-Principles/dp/9352866711),  and [Jim Kurose's Computer Networking](https://www.amazon.in/Computer-Networking-Eight-Editon-Pearson/dp/9356061319) -- sometimes even choosing the library over my future wife. 
+The last lecture finished by three in the afternoon. Yet on most days, I did not leave the St Xavier's college campus until five -- I recall spending two hours at the central library reading books like [William Stallings' Operating Systems](https://www.amazon.in/Operating-Systems-Internals-Design-Principles/dp/9352866711),  and [Jim Kurose's Computer Networking](https://www.amazon.in/Computer-Networking-Eight-Editon-Pearson/dp/9356061319) -- sometimes even choosing the library over my future wife. 
 
 Contrary to that, I never enjoyed classroom studies while I was in school. I would not want to go to school, and I would often get reprimanded for not paying attention in class.
 
@@ -27,9 +27,9 @@ While I did miss intuition in my classroom education, the classroom did leave an
 
 # Learning in Sprints
 Combining the classroom method of education with the missing intuition and applicability, since 2023, I have been following a method for learning new things - I define **learning in sprints** by:
-- **Time-boundedness**: A time-cap on what I learn -- either imposed externally (like a call for papers) or a internally by myself (like [this side project](https://liliput.mourjo.me/)). I usually spend a couple of months on a single topic, which is not too relaxed but not too hurried either. Acknowledging that I only have a limited time orients my learning process to what I want to solve rather than to scour the subject matter's landscape, as I might do in a PhD.
-- **Immediately applied to something**: My goal is not to learn, but to apply what I learn to something. I usually have a problem or question that I am trying to answer with what I am reading. This also means, I do not read text books cover-to-cover, I mostly use books and papers as references to find the answer to the original question. When I come across topics I learnt in college, I see it in a completely different light -- as it applies to the problem at hand and with the lens of ten years of work experience. 
-- **Proof of work**: As a rule, I produce an artefact of learning -- either by penning down the problem I solved or the things I learnt in the form of blog posts or talks. This is a critical step because it acts not only as proof of work but also because narrating what I learnt internalises the topics on a much deeper level (similar to the [Feynman Technique](https://www.colorado.edu/artssciences-advising/resource-library/life-skills/the-feynman-technique-in-academic-coaching)). Plus, there is the added benefit of summarizing what I learnt for me to come back to later on.
+- **Time-boundedness**: As a rule, I put a time-cap on what I learn -- either imposed externally (like a call for papers) or a internally by myself (like [this side project](https://liliput.mourjo.me/)). I usually spend a couple of months on a single topic, which is not too relaxed but not too hurried either. Acknowledging that I only have a limited time orients my learning process to what I want to solve rather than to scour the subject matter's landscape, as I might do in a PhD.
+- **Immediately applied to something**: My goal is not to learn, but to apply what I learn to something. I have a problem or question that I am trying to answer with what I am reading. This also means, I do not read text books cover-to-cover, I mostly use books and papers as references to find the answer to the original question. 
+- **Proof of work**: As a rule, I produce an artefact of learning -- either by penning down the problem I solved or the things I learnt in the form of blog posts or talks. This is a critical step because it acts not only as proof of work but also helps the learning process because narrating what I learnt internalises the topics on a much deeper level (similar to the [Feynman Technique](https://www.colorado.edu/artssciences-advising/resource-library/life-skills/the-feynman-technique-in-academic-coaching)). 
 
 
 # Things I learnt in Sprints in 2024
@@ -44,6 +44,7 @@ In the fall of 2024, I got the opportunity to explain the topic of "Separation o
 - **Modularization as a mechanism for improving flexibility and comprehensibility** from [On the criteria to be used in decomposing systems into modules](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf) by DL Parnas
 - My own implementation of a [poor example](https://github.com/mourjo/soc-movies) of separation of concerns and a [good example](https://github.com/mourjo/tinfoil) of separation of concerns
 
+I presented a 2-hour workshop on Separation of Concerns, and here is a screenshot from the pre-workshop talk on the subject. It shows about how with composing simple parts with their own concerns, we can build complex products that add value to the users.
 
 ![Image Description](/blog/images/2025-02-23-learning-in-sprints-3.jpg)
 
@@ -55,6 +56,8 @@ For the most part of 2024, I worked with a project to rearchitect some old compo
 - **Rule of Modularity** from [The Unix Philosophy](https://cscie2x.dce.harvard.edu/hw/ch01s06.html)
 - **Writing good programs by controlling complexity** (which "is the essence of computer programming") from [Software Tools](https://www.amazon.in/Software-Tools-Brian-W-Kernighan/dp/020103669X) by  Kernighan and Plauger
 - **The [project paradox](https://beyond-agility.com/project-paradox/)** that states that we make the biggest decisions at the beginning of a project when we have the least knowledge
+
+Here is a slide from a presentation I did about the modernization plans - this slide talks about how many more choices are available at the beginning of a project than at the end -- although at the beginning of a project we have many unanswered questions. This is called the project paradox:
 
 ![Image Description](/blog/images/2025-02-23-learning-in-sprints-1.png)
 
@@ -69,6 +72,8 @@ In March 2025, I will be presenting a talk at [Monster Scale 2025](https://www.s
 - I read the whole book on **[Flow metrics for scrum teams](https://cdn.prod.website-files.com/65a32de388420b743ed9dfa9/668bf79930c6eee883062ab2_flowmetricsforscrumteams.pdf)**
 - [Running Prometheus and Grafana](https://github.com/mourjo/monster-scale-2025?tab=readme-ov-file#monitoring-infrastructure) in a Docker container
 
+Below is a real demo from a [Github project](https://github.com/mourjo/monster-scale-2025/tree/main) I built to illustrate the concept of applying flow metrics - on the top is a server that allows congestion to build up, and at the bottom is a server that uses flow metrics to detect and mitigate congestion.
+
 ![Image Description](/blog/images/2025-02-23-learning-in-sprints-4.jpeg)
 
 
@@ -79,6 +84,8 @@ In April of 2024, I took a two-day course on AWS technologies. I learnt about ma
 - [**Atomic counters** in DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html#WorkingWithItems.AtomicCounters)
 - [Firecracker VMs](https://aws.amazon.com/blogs/opensource/firecracker-open-source-secure-fast-microvm-serverless/) that enable fast starts in Lambda functions
 
+Shown underneath is the flow of how [authentication works in Liliput](https://github.com/mourjo/liliput) using AWS Cognito, OAuth and PKCE. Check out Liliput here:  [liliput.mourjo.me](https://liliput.mourjo.me).
+
 ![Image Description](/blog/images/2025-02-23-learning-in-sprints-2.png)
 
 ## Project 5: REPL Driven Development
@@ -87,6 +94,8 @@ For the first five years of my professional life, I worked with a Lisp called [C
 - **Java's REPL** called [JShell](https://docs.oracle.com/en/java/javase/22/jshell/introduction-jshell.html) - which also works for Spring applications
 - Identifying that the **needs for developer interactivity are not the same as the users' interactivity needs**
 
+
+I used the diagram below in my talk about REPL driven development. It highlights the need for developer-centric tools for interacting with the application, and that user interactions do not have the same needs as developer interactions.
 ![Image Description](/blog/images/2025-02-23-learning-in-sprints-5.jpeg)
 
 # Summing up
