@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I Am Selfish - So I Want To Help You
+title: I am Selfish - So I want to Help You
 date: 2025-01-26 10:52:09 +0530
 math: false
 code: false
@@ -11,7 +11,7 @@ I am a software engineer for ten years now. Over these years, I have worked with
 
 This includes teaching, coaching, mentoring, brainstorming, mock interviews, blog post reviews and career planing. However, I do not do this out of a sense of altruism. The truth is, I benefit from this much more than those who I have helped.
 
-### People take Precedence Over Tech in a Tech Industry
+## People take Precedence Over Tech in a Tech Industry
 
 The longer I spend in the tech industry, the more I realize that in the grander scheme of things, engineering is more about the people than the software. To that end, the more I help someone the more I understand about the industry. 
 
@@ -21,7 +21,7 @@ The amount of impact I have as an engineer is limited fundamentally by how fast 
 
 The first step to becoming a better communicator is to offer to listen -- to lend a hand to another person, expecting nothing in return but the chance to understand someone's situation, and when appropriate, offer my advice.
 
-### Past Experience is Linear 
+# Past Experience is Linear 
 
 The experiences I have had so far in my life is linear, shaped by the events that happened to me. Some were curated because of the choices I made but most were just luck. If I unlink the past, the future has infinite possibilities, some of which will remain as unknown unknowns if I do not consciously open myself to experiences of others. Simply put, I have a better shot at being successful if I could access other people's viewpoint of the world.
 
@@ -29,7 +29,7 @@ Many people look back on their experience to take better calls in the present. B
 
 My mental model of the how the corporate business works gets better with more input signals. If my honest advice helped someone succeed then I have one substantial evidence that my mental model works -- and if my advice did not work, my mental model needs to be updated. For example, if I am able to predict a bottleneck in your career growth, and it actually turns out to be so, I can work around it with the next person I mentor -- or better yet, I can fix career progression plans for my team/organization.  
 
-### Experience is Currency that can be Traded for Perspective
+## Experience is Currency that can be Traded for Perspective
 
 As an introvert, communication is the hardest thing I have had to do in my career. Deciding to do so voluntarily was a pivotal moment in career. 
 
@@ -41,7 +41,7 @@ A particularly harsh critique of how my mentoring style highlighted to me that t
 
 There are no free lunches. The only way I would earn an external perspective was by putting something worth on the table for someone else. That is when it hit me -- my five years of experience was the currency I could trade for that external perspective. I scratch your back, you scratch mine. 
 
-### Not Everything is Measurable - Nor Should It Be
+## Not Everything is Measurable - Nor Should It Be
 
 During a phase in my early career, I became so consumed with the pursuit of perfecting my end-of-year performance score that I lost sight of everything else -- doing to the letter only those things that I thought moved the scoring needle. 
 
@@ -51,7 +51,7 @@ Getting caught in the labyrinth of changing expectations brought me dangerously 
 
 An organization begins at the individual's limits -- we cannot do on our own what we can do together. Just like the neurons in our brains communicate with each other to form consciousness, so do social interactions form the substrate of collective success. As I relied on my performance score, I missed the larger picture -- the ultimate goal for anyone is to add value for the organization. Realizing that the performance score was not the goal unlocked my mental block that social interactions are where collective success sprouts. And that cannot be measured -- nor should it be.
 
-### I Advise You to be Selfish
+## I Advise You to be Selfish
 Capitalism works. While it makes a few people very rich, through natural market forces, capitalism also incentivises building good products. A company ultimately wants to maximise its profits (thus being selfish), but the way to increase profits is to build products that solve problems for people. True profit lies in the creation of value. It is a virtuous cycle that does not work if one is not selfish -- building good products earns profit which enables making even better products.
 
 If, while prioritizing my own growth, I am able to contribute more effectively to my organization, elevate my personal brand, and improve my performance, then such self-interest is not only justified but is essential to create a virtuous cycle of value addition. 

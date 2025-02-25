@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On Never Being The Smartest Person In The Room
+title: On Never Being the Smartest Person in the Room
 date: 2024-12-07 07:48:59 +0100
 category: musings
 ---

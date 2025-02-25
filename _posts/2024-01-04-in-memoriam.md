@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "In memoriam"
+title:  "In Memoriam"
 date:   2024-01-04 01:07:12 +0530
 category: non-tech
 ---

@@ -18,7 +18,11 @@ A significant difference between school and college education was my understandi
 
 I understand now that I learn best in an intuition-driven methodology -- when focal point of a lesson is its applicability. In this [Nature article](https://www.nature.com/articles/s41586-024-08502-w), the authors highlight the gap between academic and applied mathematics:
 
-> Many children from low-income backgrounds worldwide fail to master school mathematics; however, some children extensively use mental arithmetic outside school. Nearly all these children used complex arithmetic calculations effectively at work. They were also proficient in solving hypothetical market maths problems and verbal maths problems that were anchored to concrete contexts. However, they were unable to solve arithmetic problems of equal or lesser complexity when presented in the abstract format typically used in school.
+> Many children from low-income backgrounds worldwide fail to master school mathematics; however, some children extensively use mental arithmetic outside school. 
+> 
+> Nearly all these children used complex arithmetic calculations effectively at work. They were also proficient in solving hypothetical market maths problems and verbal maths problems that were anchored to concrete contexts. 
+> 
+> However, they were unable to solve arithmetic problems of equal or lesser complexity when presented in the abstract format typically used in school.
 
 # Looking Back at the Classroom
 While I did miss intuition in my school education, the classroom did leave an indelible mark on me about the structure of learning. The classroom taught me two things about learning effectively:
