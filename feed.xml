@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mourjo.me/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mourjo.me/blog/" rel="alternate" type="text/html" /><updated>2025-02-25T07:26:55+01:00</updated><id>https://mourjo.me/blog/feed.xml</id><title type="html">Mourjo Sen’s Blog</title><subtitle>Thoughts of a software engineer about life, tech and everything in between. A place to put down my thoughts for my own recollection more than anything else. If you like it, be sure to drop me an email!</subtitle><author><name>{&quot;twitter&quot; =&gt; &quot;mourjo_sen&quot;}</name></author><entry><title type="html">Learning In Sprints</title><link href="https://mourjo.me/blog/musings/2025/02/22/learning-in-sprints/" rel="alternate" type="text/html" title="Learning In Sprints" /><published>2025-02-22T23:19:55+01:00</published><updated>2025-02-22T23:19:55+01:00</updated><id>https://mourjo.me/blog/musings/2025/02/22/learning-in-sprints</id><content type="html" xml:base="https://mourjo.me/blog/musings/2025/02/22/learning-in-sprints/"><![CDATA[<p>The last lecture finished by three in the afternoon. Yet on most days, I did not leave the St Xavier’s college campus until five – I recall spending two hours at the central library reading <a href="https://www.amazon.in/Operating-Systems-Internals-Design-Principles/dp/9352866711">William Stallings’ Operating Systems</a>  or <a href="https://www.amazon.in/Computer-Networking-Eight-Editon-Pearson/dp/9356061319">Jim Kurose’s Computer Networking</a> – sometimes even choosing the library over my future wife.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mourjo.me/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mourjo.me/blog/" rel="alternate" type="text/html" /><updated>2025-02-25T07:46:46+01:00</updated><id>https://mourjo.me/blog/feed.xml</id><title type="html">Mourjo Sen’s Blog</title><subtitle>Thoughts of a software engineer about life, tech and everything in between. A place to put down my thoughts for my own recollection more than anything else. If you like it, be sure to drop me an email!</subtitle><author><name>{&quot;twitter&quot; =&gt; &quot;mourjo_sen&quot;}</name></author><entry><title type="html">Learning In Sprints</title><link href="https://mourjo.me/blog/musings/2025/02/22/learning-in-sprints/" rel="alternate" type="text/html" title="Learning In Sprints" /><published>2025-02-22T23:19:55+01:00</published><updated>2025-02-22T23:19:55+01:00</updated><id>https://mourjo.me/blog/musings/2025/02/22/learning-in-sprints</id><content type="html" xml:base="https://mourjo.me/blog/musings/2025/02/22/learning-in-sprints/"><![CDATA[<p>The last lecture finished by three in the afternoon. Yet on most days, I did not leave the St Xavier’s college campus until five – I recall spending two hours at the central library reading <a href="https://www.amazon.in/Operating-Systems-Internals-Design-Principles/dp/9352866711">William Stallings’ Operating Systems</a>  or <a href="https://www.amazon.in/Computer-Networking-Eight-Editon-Pearson/dp/9356061319">Jim Kurose’s Computer Networking</a> – sometimes even choosing the library over my future wife.</p>
 
 <p>Contrary to that, I never enjoyed classroom studies while I was in school. I would not want to go to school, and I would often get reprimanded for not paying attention in class.</p>
 
@@ -10,7 +10,11 @@
 <p>I understand now that I learn best in an intuition-driven methodology – when focal point of a lesson is its applicability. In this <a href="https://www.nature.com/articles/s41586-024-08502-w">Nature article</a>, the authors highlight the gap between academic and applied mathematics:</p>
 
 <blockquote>
-  <p>Many children from low-income backgrounds worldwide fail to master school mathematics; however, some children extensively use mental arithmetic outside school. Nearly all these children used complex arithmetic calculations effectively at work. They were also proficient in solving hypothetical market maths problems and verbal maths problems that were anchored to concrete contexts. However, they were unable to solve arithmetic problems of equal or lesser complexity when presented in the abstract format typically used in school.</p>
+  <p>Many children from low-income backgrounds worldwide fail to master school mathematics; however, some children extensively use mental arithmetic outside school.</p>
+
+  <p>Nearly all these children used complex arithmetic calculations effectively at work. They were also proficient in solving hypothetical market maths problems and verbal maths problems that were anchored to concrete contexts.</p>
+
+  <p>However, they were unable to solve arithmetic problems of equal or lesser complexity when presented in the abstract format typically used in school.</p>
 </blockquote>
 
 <h1 id="looking-back-at-the-classroom">Looking Back at the Classroom</h1>
@@ -114,11 +118,11 @@
 
 <p>I want phones to become what they were always intended to be – devices to help us with our daily tasks, instead of the addiction that they have become. Therefore, I wish today’s smart phones had poorer screens, but without sacrificing any of the features that form the foundation of our digital lives – like a great camera, location sharing or biometric authentication. But I doubt that the phone industry will allow phones to become less appealing – after all, one person’s addiction is another person’s source of revenue. It is thus on us to find ways to make our phones less pleasureful. My awful screen guard did just that and I am thankful for it.</p>
 
-<p>Next time you are at the market, consider getting yourself a privacy screen protector – not because you need the privacy, but because you want to get back your productivity.</p>]]></content><author><name>{&quot;twitter&quot; =&gt; &quot;mourjo_sen&quot;}</name></author><category term="musings" /><summary type="html"><![CDATA[“If you care about keeping your phone code secret, you should use this”, the seller said, emphatically pointing to the privacy screen guard. I knew about privacy-protecting screen guards, but I was not looking to buy one when I was at Gariahat market a couple of weeks ago. Reluctantly, I gave in and got one for myself. It made my phone miserable to use – yet, it was the best decision I made in the past few weeks.]]></summary></entry><entry><title type="html">I Am Selfish - So I Want To Help You</title><link href="https://mourjo.me/blog/musings/2025/01/26/i-am-selfish-so-i-help-you/" rel="alternate" type="text/html" title="I Am Selfish - So I Want To Help You" /><published>2025-01-26T06:22:09+01:00</published><updated>2025-01-26T06:22:09+01:00</updated><id>https://mourjo.me/blog/musings/2025/01/26/i-am-selfish-so-i-help-you</id><content type="html" xml:base="https://mourjo.me/blog/musings/2025/01/26/i-am-selfish-so-i-help-you/"><![CDATA[<p>I am a software engineer for ten years now. Over these years, I have worked with a number of people to help them navigate the landscape of the industry.</p>
+<p>Next time you are at the market, consider getting yourself a privacy screen protector – not because you need the privacy, but because you want to get back your productivity.</p>]]></content><author><name>{&quot;twitter&quot; =&gt; &quot;mourjo_sen&quot;}</name></author><category term="musings" /><summary type="html"><![CDATA[“If you care about keeping your phone code secret, you should use this”, the seller said, emphatically pointing to the privacy screen guard. I knew about privacy-protecting screen guards, but I was not looking to buy one when I was at Gariahat market a couple of weeks ago. Reluctantly, I gave in and got one for myself. It made my phone miserable to use – yet, it was the best decision I made in the past few weeks.]]></summary></entry><entry><title type="html">I am Selfish - So I want to Help You</title><link href="https://mourjo.me/blog/musings/2025/01/26/i-am-selfish-so-i-help-you/" rel="alternate" type="text/html" title="I am Selfish - So I want to Help You" /><published>2025-01-26T06:22:09+01:00</published><updated>2025-01-26T06:22:09+01:00</updated><id>https://mourjo.me/blog/musings/2025/01/26/i-am-selfish-so-i-help-you</id><content type="html" xml:base="https://mourjo.me/blog/musings/2025/01/26/i-am-selfish-so-i-help-you/"><![CDATA[<p>I am a software engineer for ten years now. Over these years, I have worked with a number of people to help them navigate the landscape of the industry.</p>
 
 <p>This includes teaching, coaching, mentoring, brainstorming, mock interviews, blog post reviews and career planing. However, I do not do this out of a sense of altruism. The truth is, I benefit from this much more than those who I have helped.</p>
 
-<h3 id="people-take-precedence-over-tech-in-a-tech-industry">People take Precedence Over Tech in a Tech Industry</h3>
+<h2 id="people-take-precedence-over-tech-in-a-tech-industry">People take Precedence Over Tech in a Tech Industry</h2>
 
 <p>The longer I spend in the tech industry, the more I realize that in the grander scheme of things, engineering is more about the people than the software. To that end, the more I help someone the more I understand about the industry.</p>
 
@@ -128,7 +132,7 @@
 
 <p>The first step to becoming a better communicator is to offer to listen – to lend a hand to another person, expecting nothing in return but the chance to understand someone’s situation, and when appropriate, offer my advice.</p>
 
-<h3 id="past-experience-is-linear">Past Experience is Linear</h3>
+<h1 id="past-experience-is-linear">Past Experience is Linear</h1>
 
 <p>The experiences I have had so far in my life is linear, shaped by the events that happened to me. Some were curated because of the choices I made but most were just luck. If I unlink the past, the future has infinite possibilities, some of which will remain as unknown unknowns if I do not consciously open myself to experiences of others. Simply put, I have a better shot at being successful if I could access other people’s viewpoint of the world.</p>
 
@@ -136,7 +140,7 @@
 
 <p>My mental model of the how the corporate business works gets better with more input signals. If my honest advice helped someone succeed then I have one substantial evidence that my mental model works – and if my advice did not work, my mental model needs to be updated. For example, if I am able to predict a bottleneck in your career growth, and it actually turns out to be so, I can work around it with the next person I mentor – or better yet, I can fix career progression plans for my team/organization.</p>
 
-<h3 id="experience-is-currency-that-can-be-traded-for-perspective">Experience is Currency that can be Traded for Perspective</h3>
+<h2 id="experience-is-currency-that-can-be-traded-for-perspective">Experience is Currency that can be Traded for Perspective</h2>
 
 <p>As an introvert, communication is the hardest thing I have had to do in my career. Deciding to do so voluntarily was a pivotal moment in career.</p>
 
@@ -148,7 +152,7 @@
 
 <p>There are no free lunches. The only way I would earn an external perspective was by putting something worth on the table for someone else. That is when it hit me – my five years of experience was the currency I could trade for that external perspective. I scratch your back, you scratch mine.</p>
 
-<h3 id="not-everything-is-measurable---nor-should-it-be">Not Everything is Measurable - Nor Should It Be</h3>
+<h2 id="not-everything-is-measurable---nor-should-it-be">Not Everything is Measurable - Nor Should It Be</h2>
 
 <p>During a phase in my early career, I became so consumed with the pursuit of perfecting my end-of-year performance score that I lost sight of everything else – doing to the letter only those things that I thought moved the scoring needle.</p>
 
@@ -158,7 +162,7 @@
 
 <p>An organization begins at the individual’s limits – we cannot do on our own what we can do together. Just like the neurons in our brains communicate with each other to form consciousness, so do social interactions form the substrate of collective success. As I relied on my performance score, I missed the larger picture – the ultimate goal for anyone is to add value for the organization. Realizing that the performance score was not the goal unlocked my mental block that social interactions are where collective success sprouts. And that cannot be measured – nor should it be.</p>
 
-<h3 id="i-advise-you-to-be-selfish">I Advise You to be Selfish</h3>
+<h2 id="i-advise-you-to-be-selfish">I Advise You to be Selfish</h2>
 <p>Capitalism works. While it makes a few people very rich, through natural market forces, capitalism also incentivises building good products. A company ultimately wants to maximise its profits (thus being selfish), but the way to increase profits is to build products that solve problems for people. True profit lies in the creation of value. It is a virtuous cycle that does not work if one is not selfish – building good products earns profit which enables making even better products.</p>
 
 <p>If, while prioritizing my own growth, I am able to contribute more effectively to my organization, elevate my personal brand, and improve my performance, then such self-interest is not only justified but is essential to create a virtuous cycle of value addition.</p>
@@ -169,7 +173,7 @@
 
 <p>I do not write as much as I had wanted to in 2008 – at least not for the joy of it. Take this post as a rite of passing to find my way back to writing for the joy of it – not long-form technical articles or mindmaps which require a lot of effort and research, but reflections and musings – an evolutionary next step from my short-form LinkedIn posts.</p>
 
-<h1 id="why-write-at-all-active-externalism">Why Write at all: Active Externalism</h1>
+<h1 id="why-write-at-all-active-externalism">Why Write at All: Active Externalism</h1>
 
 <p>Putting pen to paper lays structure to otherwise haphazard thought processes — a structure with a clear narrative that is consumable for others. Engineers do not work in isolation, and in order to collaborate, a structured thinking is key. Writing is one way to put structure to haphazard thoughts.</p>
 
@@ -190,12 +194,12 @@
 
 <p>Unfortunately most of what I wrote over the years stayed private or got lost – imposter syndrome is not easy to escape. This changed over the course of 2024. I started with short-form LinkedIn posts, which did not need much scrutiny or proof reading. I got few likes on those posts and that reinforced my loosely held belief that it is better to write than to perfect writing.</p>
 
-<h1 id="idea-capturing-where-do-good-ideas-come-from">Idea Capturing: Where do Good Ideas come from?</h1>
+<h1 id="idea-capturing-where-do-good-ideas-come-from">Idea capturing: Where do good ideas come from?</h1>
 <p><a href="https://www.youtube.com/watch?v=NugRZGDbPFU">Good ideas come from hunches</a> - and hunches consistently occur to me when and where I least expect it – in the middle of the night while getting a glass of water, on the commute back home after a tough day at the office, atop the snowy peaks of the <a href="https://mourjo.me/blog/non-tech/2024/12/29/alluring-austria/">Austrian Alps</a>.</p>
 
 <p>It is not guaranteed by any stretch of the imagination that I will recall any of the fleeting ideas the next time I sit at the laptop. This is why I started using <a href="https://obsidian.md">Obsidian</a> to keep a day-to-day log of thoughts on the go – it simply works on every device I own – making idea capturing possible anywhere.</p>
 
-<h1 id="idea-presenting-breaking-the-barrier-to-writing">Idea Presenting: Breaking the Barrier to Writing</h1>
+<h1 id="idea-presenting-breaking-the-barrier-to-writing">Idea presenting: Breaking the barrier to Writing</h1>
 <p>Writing is not just about the idea, writing is equally about the presentation. “Write without inhibition, edit with clarity”, as Jared explains in <a href="https://www.youtube.com/watch?v=ZcljLAmDIY4">this video</a>. Again, Obsidian plays a key role for me here.</p>
 
 <p>I maintain a static blog built with <a href="https://jekyllrb.com">Jekyll</a>. Both use <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> files but because Markdown is primarily a text based format, the blog-writing experience on Markdown is suboptimal:</p>
@@ -215,7 +219,7 @@
 
 <p>Following are a few indications of making writing a joy with Obsidian and publishing to my blog.</p>
 
-<h3 id="code-blocks">Code Blocks</h3>
+<h3 id="code-blocks">Code blocks</h3>
 <p>Most markdown flavours support code blocks, but again, it’s the experience of writing that seals the deal.</p>
 
 <pre><code class="language-java">public class HelloWorld {
@@ -252,7 +256,7 @@
 
 <h3 id="mermaid-diagrams">Mermaid Diagrams</h3>
 
-<p>It is a super power to generate scalable <a href="https://mermaid.js.org">Mermaid images</a> like this:</p>
+<p>The icing on the cake is the ability to generate Mermaid images in place and have the same exported to my blog.</p>
 
 <pre><code class="language-mermaid">pie
     title Writing Use Cases
@@ -261,7 +265,7 @@
     "Reflection" : 386 
 </code></pre>
 
-<h3 id="informational-callouts">Informational Callouts</h3>
+<h3 id="callouts">Callouts</h3>
 <p>A simple format like Markdown doesn’t support much more than basic formatting. But sometimes I have found myself using call-outs to draw attention to an idea or mark an open question - like the one below.</p>
 
 <div class="callout callout-question">
@@ -270,13 +274,17 @@
 </div>
 
 <h3 id="math">Math</h3>
-<p>A software engineer is bound to encounter math in some shape or form. But even if you don’t like Math, you have got to admire the LaTex style of mathematical equations:</p>
-
-\[P(A∣B)=\frac{P(A \cap B)}{P(B)}\]
+<p>A software engineer is bound to encounter math in some shape or form. But even if you don’t like Math, you have got to admire the LaTex style of mathematical equations: 
+\(P(A∣B)=\frac{P(A \cap B)}{P(B)}\)</p>
 
 <h3 id="images">Images</h3>
 
-<p>I’m writing this post on my mobile, while pasting an image as I would with my private notes. Without me ever having to transfer it, the same image is copied and published to this blog with <a href="https://github.com/mourjo/blog/blob/master/copy_from_obsidian.py">a Python script</a>.</p>
+<p>I’m writing this post on my mobile, while pasting an image as I would with my private notes. The same image gets copied and published seamlessly with this Python script. Again, the key to writing consistently is the low barrier to entry.</p>
+
+<p><img src="/blog/images/2025-01-08-overcoming-barriers-to-entry-writing-with-obsidian-2.png" alt="Image Description" /></p>
+
+<h3 id="using-my-phones-camera">Using my phone’s Camera</h3>
+<p>I can add images from my phone and publish from my laptop.</p>
 
 <p><img src="/blog/images/2025-01-08-overcoming-barriers-to-entry-writing-with-obsidian-1.jpeg" alt="Image Description" /></p>
 
@@ -387,7 +395,7 @@ Johann Schnegg. It was a statue made of ivory, depicting St. Michael in white an
 
 <p>Soon after, I slept off early to catch the morning flight back to Amsterdam.</p>
 
-<p><img src="/blog/images/2024-12-29-alluring-austria-7.jpeg" alt="Image Description" /></p>]]></content><author><name>{&quot;twitter&quot; =&gt; &quot;mourjo_sen&quot;}</name></author><category term="non-tech" /><summary type="html"><![CDATA[I woke up at the wee hours of the morning, excited to finally take the trip to Austria, which we had been planning for months. The last few weeks were quite stressful at work, and I was very earnestly looking forward to a break. Any vacation would have been the break I needed but Austria was nothing short of alluring.]]></summary></entry><entry><title type="html">On Never Being The Smartest Person In The Room</title><link href="https://mourjo.me/blog/musings/2024/12/07/on-never-being-the-smartest-person-in-the-room/" rel="alternate" type="text/html" title="On Never Being The Smartest Person In The Room" /><published>2024-12-07T07:48:59+01:00</published><updated>2024-12-07T07:48:59+01:00</updated><id>https://mourjo.me/blog/musings/2024/12/07/on-never-being-the-smartest-person-in-the-room</id><content type="html" xml:base="https://mourjo.me/blog/musings/2024/12/07/on-never-being-the-smartest-person-in-the-room/"><![CDATA[<p>I am never the smartest person in the room – and that’s okay. I am almost never the tallest person in the room either.</p>
+<p><img src="/blog/images/2024-12-29-alluring-austria-7.jpeg" alt="Image Description" /></p>]]></content><author><name>{&quot;twitter&quot; =&gt; &quot;mourjo_sen&quot;}</name></author><category term="non-tech" /><summary type="html"><![CDATA[I woke up at the wee hours of the morning, excited to finally take the trip to Austria, which we had been planning for months. The last few weeks were quite stressful at work, and I was very earnestly looking forward to a break. Any vacation would have been the break I needed but Austria was nothing short of alluring.]]></summary></entry><entry><title type="html">On Never Being the Smartest Person in the Room</title><link href="https://mourjo.me/blog/musings/2024/12/07/on-never-being-the-smartest-person-in-the-room/" rel="alternate" type="text/html" title="On Never Being the Smartest Person in the Room" /><published>2024-12-07T07:48:59+01:00</published><updated>2024-12-07T07:48:59+01:00</updated><id>https://mourjo.me/blog/musings/2024/12/07/on-never-being-the-smartest-person-in-the-room</id><content type="html" xml:base="https://mourjo.me/blog/musings/2024/12/07/on-never-being-the-smartest-person-in-the-room/"><![CDATA[<p>I am never the smartest person in the room – and that’s okay. I am almost never the tallest person in the room either.</p>
 
 <p>It is a lost game, in my opinion, the pursuit of being the best at anything in a world of 8 billion people. Trying to be the best or rather, trying to <em>be portrayed to be the best</em>, incentivises the wrong behaviour. Admitting that I am not the smartest person in the room unburdens me from proving to an external observer and to myself, that I am the smartest.</p>
 
@@ -442,7 +450,7 @@ Johann Schnegg. It was a statue made of ivory, depicting St. Michael in white an
 – Million Dollar Baby</p>
 </blockquote>
 
-<p><img src="/blog/images/2024-12-04-motivation-is-not-everything-1.png" alt="Image Description" /></p>]]></content><author><name>{&quot;twitter&quot; =&gt; &quot;mourjo_sen&quot;}</name></author><category term="musings" /><summary type="html"><![CDATA[This year, I did not miss a single day of learning French on Duolingo, even though sometimes only for five minutes. Through it, I learnt a lot about the process of learning, looking back: Motivation comes and goes, relying on motivation alone is unsustainable There will be good days and there will be better days Showing up every day is winning half the battle I overestimated what I can do in a day I underestimated what I can do in a year There are very few things that pay off as much as self discipline and habit forming.]]></summary></entry><entry><title type="html">In memoriam</title><link href="https://mourjo.me/blog/non-tech/2024/01/03/in-memoriam/" rel="alternate" type="text/html" title="In memoriam" /><published>2024-01-03T20:37:12+01:00</published><updated>2024-01-03T20:37:12+01:00</updated><id>https://mourjo.me/blog/non-tech/2024/01/03/in-memoriam</id><content type="html" xml:base="https://mourjo.me/blog/non-tech/2024/01/03/in-memoriam/"><![CDATA[<p>The similarity was uncanny. Over the years, I remember comparing my palm side-by-side to his - it is an almost identical copy of Dadua’s. In fact, I would say it with pride – a cherished emblem that I carried with a sense of honour. When I heard the heartbreaking news at three in the morning, my immediate response was to look at my own palm in the dim light of the smartphone, not knowing what this meant or how to feel about it.</p>
+<p><img src="/blog/images/2024-12-04-motivation-is-not-everything-1.png" alt="Image Description" /></p>]]></content><author><name>{&quot;twitter&quot; =&gt; &quot;mourjo_sen&quot;}</name></author><category term="musings" /><summary type="html"><![CDATA[This year, I did not miss a single day of learning French on Duolingo, even though sometimes only for five minutes. Through it, I learnt a lot about the process of learning, looking back: Motivation comes and goes, relying on motivation alone is unsustainable There will be good days and there will be better days Showing up every day is winning half the battle I overestimated what I can do in a day I underestimated what I can do in a year There are very few things that pay off as much as self discipline and habit forming.]]></summary></entry><entry><title type="html">In Memoriam</title><link href="https://mourjo.me/blog/non-tech/2024/01/03/in-memoriam/" rel="alternate" type="text/html" title="In Memoriam" /><published>2024-01-03T20:37:12+01:00</published><updated>2024-01-03T20:37:12+01:00</updated><id>https://mourjo.me/blog/non-tech/2024/01/03/in-memoriam</id><content type="html" xml:base="https://mourjo.me/blog/non-tech/2024/01/03/in-memoriam/"><![CDATA[<p>The similarity was uncanny. Over the years, I remember comparing my palm side-by-side to his - it is an almost identical copy of Dadua’s. In fact, I would say it with pride – a cherished emblem that I carried with a sense of honour. When I heard the heartbreaking news at three in the morning, my immediate response was to look at my own palm in the dim light of the smartphone, not knowing what this meant or how to feel about it.</p>
 
 <p><em>I kept staring at my palm in the engulfing darkness of the cold Dutch night.</em></p>
 
