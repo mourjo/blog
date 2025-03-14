@@ -16,4 +16,4 @@ About sharing the stage with stalwarts of the industry, I got mentioned in a [co
 
 Anyway, I digress -- here is the video to my talk.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aDqtSvORFJc?si=jpmKwAhWVfcChBPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/aDqtSvORFJc?si=jpmKwAhWVfcChBPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
