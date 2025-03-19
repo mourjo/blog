@@ -33,7 +33,7 @@ Allowing motivated people to take on responsibility is not a question of organis
 We need to be flexible in the face of evolving requirements. We should have a crisp decision process to evaluate change, including a provision for re-evaluating our original project goals.
 
 # The Internet Did Not Replace People
-The Internet is helping to create Adam Smith’s ideal marketplace, in which buyers and sellers can easily find one another without taking much time or spending much money. Business today is characterised as different combinations of face-to-face, ear-to-ear and keyboard-to-keyboard. The Internet did not replace people. It made them more efficient.
+The Internet helped create Adam Smith’s ideal marketplace, in which buyers and sellers can easily find one another without taking much time or spending much money. Business today is characterised as different combinations of interactions between people: face-to-face, ear-to-ear and keyboard-to-keyboard. The Internet did not replace people. It made them more efficient.
 
 # Don’t be Lulled into Inaction
 We always overestimate the change that will occur in the next two years and underestimate the change that will occur in the next 10. Prepare for change -- don’t let yourself be lulled into inaction.
