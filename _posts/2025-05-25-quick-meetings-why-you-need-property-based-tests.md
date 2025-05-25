@@ -14,7 +14,7 @@ At its core, this project allows you to create meetings. It is a very simple app
 ![Image Description](/blog/images/2025-05-25-quick-meetings-why-you-need-property-based-tests-1.png)
 
 ## Bug 1: Non-JSON response body
-If the accept header is something like `text/html`, Spring will try to return an HTML page, which is not what we want from an API - causing errors like this:
+If the accept header is something like `text/html`, Spring will try to return an HTML page, which is not what we want from an API - causing errors like this for the client:
 ```
 com.fasterxml.jackson.core.JsonParseException:
   Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
