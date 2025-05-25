@@ -3,7 +3,7 @@ layout: post
 title: "Quick Meetings: Why You Need Property Based Tests"
 date: 2025-05-25 09:04:24 +0200
 math: false
-code: false
+code: true
 mermaid: false
 category: musings
 ---
@@ -16,9 +16,9 @@ At its core, this project allows you to create meetings. It is a very simple app
 ## Bug 1: Non-JSON response body
 If the accept header is something like `text/html`, Spring will try to return an HTML page, which is not what we want from an API - causing errors like this:
 ```
-  com.fasterxml.jackson.core.JsonParseException:
-    Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
-     at [Source: (String)"<html><body><h1>Whitelabel Error Page</h1><p>This application has no explicit mapping for /error, so you are seeing this as a fallback.</p><div id='created'>Sat May 24 14:11:11 CEST 2025</div><div>There was an unexpected error (type=Method Not Allowed, status=405).</div></body></html>"; line: 1, column: 1]
+com.fasterxml.jackson.core.JsonParseException:
+  Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+  at [Source: (String)"<html><body><h1>Whitelabel Error Page</h1><p>This application has no explicit mapping for /error, so you are seeing this as a fallback.</p><div id='created'>Sat May 24 14:11:11 CEST 2025</div><div>There was an unexpected error (type=Method Not Allowed, status=405).</div></body></html>"; line: 1, column: 1]
 ```
 
 Check out this [branch](https://github.com/mourjo/quick-meetings/tree/demo-1-server-never-returns-5xx) on how this was detected with property based testing.
@@ -162,6 +162,7 @@ OperationsGenTests.noOperationCausesEmptyMeetings:70 Invariant failed after the 
 ]
 ```
 
+Check [this branch](https://github.com/mourjo/quick-meetings/tree/demo-5-empty-meetings) for the details.
 
 ## Conclusion
 Testing invariants is different from example based tests. It requires you to think of what the product you are building _should_ do instead of _how_ it should do it. As we saw above, it is very hard to both build a new feature and ensure there are no obscure bugs (like daylight savings) and that it performs as expected in the face of complex interleaving of actions (like accepting meetings which overlap with existing meetings).
