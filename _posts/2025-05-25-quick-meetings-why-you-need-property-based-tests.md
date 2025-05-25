@@ -72,15 +72,13 @@ This is caught again by property-based tests in [this branch](https://github.com
 
 ## Bug 4: Query to check overlapping meetings
 
-The following query has a bug (in the last AND clause) - it is quite hard to catch it at first glance (`$1` and `$2` are placeholders for the start and end time of a new meeting being created):
+The following query has a bug - it is quite hard to catch it at first glance (`$1` and `$2` are placeholders for the start and end time of a new meeting being created):
 
 ```sql
 SELECT *
 FROM
 meetings existing_meeting JOIN user_meetings um ON existing_meeting.id = um.meeting_id
-WHERE um.user_id IN (:userIds)
-AND um.role_of_user IN ('OWNER', 'ACCEPTED')
-AND (
+WHERE (
   (existing_meeting.from_ts <= $1 AND existing_meeting.to_ts >= $1)
   OR
   (existing_meeting.from_ts <= $2 AND existing_meeting.to_ts >= $2)
