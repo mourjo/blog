@@ -5,7 +5,7 @@ date: 2025-05-25 09:04:24 +0200
 math: false
 code: true
 mermaid: false
-category: musings
+category: tech
 ---
 Today I am open-sourcing my [quick-meetings](https://github.com/mourjo/quick-meetings) repository. It has one aim - to show the importance of property based testing (or generative testing).
 
