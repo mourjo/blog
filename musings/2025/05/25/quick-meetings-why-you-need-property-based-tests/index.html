@@ -27,12 +27,10 @@
     to contain at least one of the following elements:
       ["Meeting created"]
     but none were found
-</code></pre><p>This happens when the start or end time falls in a local timezone which is a “gap” due to daylight savings. On 30 March 2025, at <code>02:00:00</code> clocks in France were turned forward 1 hour to <code>03:00:00</code> - the time between 2 and 3 does not exist and is a gap.</p> <p>This is caught again by property-based tests in <a href="https://github.com/mourjo/quick-meetings/tree/demo-2-invalid-date-range">this branch</a>.</p> <h2 id="bug-4-query-to-check-overlapping-meetings">Bug 4: Query to check overlapping meetings</h2> <p>The following query has a bug (in the last AND clause) - it is quite hard to catch it at first glance (<code>$1</code> and <code>$2</code> are placeholders for the start and end time of a new meeting being created):</p><pre><code class="language-sql">SELECT *
+</code></pre><p>This happens when the start or end time falls in a local timezone which is a “gap” due to daylight savings. On 30 March 2025, at <code>02:00:00</code> clocks in France were turned forward 1 hour to <code>03:00:00</code> - the time between 2 and 3 does not exist and is a gap.</p> <p>This is caught again by property-based tests in <a href="https://github.com/mourjo/quick-meetings/tree/demo-2-invalid-date-range">this branch</a>.</p> <h2 id="bug-4-query-to-check-overlapping-meetings">Bug 4: Query to check overlapping meetings</h2> <p>The following query has a bug - it is quite hard to catch it at first glance (<code>$1</code> and <code>$2</code> are placeholders for the start and end time of a new meeting being created):</p><pre><code class="language-sql">SELECT *
 FROM
 meetings existing_meeting JOIN user_meetings um ON existing_meeting.id = um.meeting_id
-WHERE um.user_id IN (:userIds)
-AND um.role_of_user IN ('OWNER', 'ACCEPTED')
-AND (
+WHERE (
   (existing_meeting.from_ts &lt;= $1 AND existing_meeting.to_ts &gt;= $1)
   OR
   (existing_meeting.from_ts &lt;= $2 AND existing_meeting.to_ts &gt;= $2)
