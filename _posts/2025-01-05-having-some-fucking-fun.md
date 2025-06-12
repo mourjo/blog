@@ -7,9 +7,9 @@ code: false
 mermaid: false
 category: musings
 ---
-A day in a software engineer's week becomes blurry from one another. It is not uncommon to get caught up in the rut of things. Today happens to be one of those slow Sunday mornings at the end of a busy week. I have a lot of reading to catch up on, but I just cannot concentrate on any of it.
+A day in a software engineer's week becomes blurry from one another. It is not uncommon to get caught up in the rut of things. Today happens to be one of those slow Sunday mornings at the end of a busy week. 
 
-Sure, I do many things at my job that I have grown to love (the yellows) -- writing about software, designing systems, technical leadership, planning... But all of the things I have grown to love have their roots somehow to the crux of what I truly enjoy doing (the greens): writing code -- for no reason, for no outcome, for no one -- just me building something where there was nothing. 
+Sure, I do many things at my job that I have grown to love (the yellows) -- writing about software, designing systems, technical leadership, planning... All of the things I have grown to love have their roots somehow to what I truly enjoy doing, even on a gloomy winter morning (the greens): writing code -- for no reason, for no outcome, for no one -- just me building something where there was nothing. 
 
 ![Image Description](/blog/images/2025-01-05-having-some-fucking-fun-1.png)
 
