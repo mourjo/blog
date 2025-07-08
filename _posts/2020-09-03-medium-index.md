@@ -11,6 +11,16 @@ excerpt_separator: "_____"
 {% raw %}
 <div class="article-list-item pill-container">
 <span>
+<a href="https://www.youtube.com/watch?v=5tCzdkPPX_s">
+​​Property Based Testing to Preserve Invariants
+<span class="pill">Youtube</span></a>
+<span class='copy'>&nbsp;—&nbsp;8 Jul 2025</span>
+</span>
+</div>
+
+
+<div class="article-list-item pill-container">
+<span>
 <a href="https://www.infoq.com/articles/flow-metrics-microservices/">
 ​​Applying Flow Metrics to Design Resilient Microservices
 <span class="pill">InfoQ</span></a>
