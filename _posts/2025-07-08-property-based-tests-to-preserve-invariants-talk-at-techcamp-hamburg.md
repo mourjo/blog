@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Property Based Tests To Preserve Invariants
+title: I spoke at Techcamp Hamburg
 date: 2025-07-08 21:51:06 +0200
 math: false
 code: false
