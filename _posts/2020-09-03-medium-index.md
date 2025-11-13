@@ -25,7 +25,7 @@ excerpt_separator: "_____"
 <a href="https://www.infoq.com/articles/generative-testing/">
 ​​Beyond Accidental Quality: Finding Hidden Bugs with Generative Testing
 <span class="pill">InfoQ</span></a>
-<span class='copy'>&nbsp;—&nbsp;26 Mar 2025</span>
+<span class='copy'>&nbsp;—&nbsp;31 Oct 2025</span>
 </span>
 </div>
 
