@@ -10,13 +10,22 @@ excerpt_separator: "_____"
 <!-- BLOG-POST-LIST:START -->
 {% raw %}
 
+<div class="article-list-item pill-container">
+<span>
+<a href="https://youtu.be/IzhJtzmXt0c">
+​​Diagram Driven Development
+<span class="pill">Youtube</span></a>
+<span class='copy'>&nbsp;—&nbsp;13 Nov 2025</span>
+</span>
+</div>
+
 
 <div class="article-list-item pill-container">
 <span>
 <a href="https://www.youtube.com/watch?v=vg9lmdKtpLM">
 ​​Resilience in Microservices with Congestion Control
 <span class="pill">Youtube</span></a>
-<span class='copy'>&nbsp;—&nbsp;8 Jul 2025</span>
+<span class='copy'>&nbsp;—&nbsp;25 Sep 2025</span>
 </span>
 </div>
 
@@ -26,7 +35,7 @@ excerpt_separator: "_____"
 <a href="https://www.youtube.com/watch?v=8ONG4nJdNXg">
 Avoiding Accidental Quality with Property Based Tests
 <span class="pill">Youtube</span></a>
-<span class='copy'>&nbsp;—&nbsp;8 Jul 2025</span>
+<span class='copy'>&nbsp;—&nbsp;26 Sep 2025</span>
 </span>
 </div>
 
