@@ -22,6 +22,16 @@ excerpt_separator: "_____"
 
 <div class="article-list-item pill-container">
 <span>
+<a href="https://www.infoq.com/articles/generative-testing/">
+​​Beyond Accidental Quality: Finding Hidden Bugs with Generative Testing
+<span class="pill">InfoQ</span></a>
+<span class='copy'>&nbsp;—&nbsp;26 Mar 2025</span>
+</span>
+</div>
+
+
+<div class="article-list-item pill-container">
+<span>
 <a href="https://www.youtube.com/watch?v=vg9lmdKtpLM">
 ​​Resilience in Microservices with Congestion Control
 <span class="pill">Youtube</span></a>
