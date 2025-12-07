@@ -32,10 +32,10 @@ excerpt_separator: "_____"
 
 <div class="article-list-item pill-container">
 <span>
-<a href="https://www.youtube.com/watch?v=vg9lmdKtpLM">
-​​Resilience in Microservices with Congestion Control
+<a href="https://www.youtube.com/watch?v=NGYX0r8dha0">
+Untangling the API Spaghetti With BPMN Diagrams
 <span class="pill">Youtube</span></a>
-<span class='copy'>&nbsp;—&nbsp;25 Sep 2025</span>
+<span class='copy'>&nbsp;—&nbsp;29 Oct 2025</span>
 </span>
 </div>
 
@@ -50,6 +50,14 @@ Avoiding Accidental Quality with Property Based Tests
 </div>
 
 
+<div class="article-list-item pill-container">
+<span>
+<a href="https://www.youtube.com/watch?v=vg9lmdKtpLM">
+​​Resilience in Microservices with Congestion Control
+<span class="pill">Youtube</span></a>
+<span class='copy'>&nbsp;—&nbsp;25 Sep 2025</span>
+</span>
+</div>
 
 <div class="article-list-item pill-container">
 <span>
