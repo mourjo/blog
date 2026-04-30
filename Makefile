@@ -1,5 +1,5 @@
 build:
-	bundle exec jekyll b 
+	bundle install && bundle exec jekyll b 
 watchbuild:
 	bundle exec jekyll s
 publish:
