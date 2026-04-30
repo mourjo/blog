@@ -10,14 +10,6 @@ excerpt_separator: "_____"
 <!-- BLOG-POST-LIST:START -->
 {% raw %}
 
-<div class="article-list-item pill-container">
-<span>
-<a href="https://youtu.be/IzhJtzmXt0c">
-​​Diagram Driven Development
-<span class="pill">Youtube</span></a>
-<span class='copy'>&nbsp;—&nbsp;13 Nov 2025</span>
-</span>
-</div>
 
 
 <div class="article-list-item pill-container">
@@ -32,45 +24,6 @@ excerpt_separator: "_____"
 
 <div class="article-list-item pill-container">
 <span>
-<a href="https://www.youtube.com/watch?v=NGYX0r8dha0">
-Untangling the API Spaghetti With BPMN Diagrams
-<span class="pill">Youtube</span></a>
-<span class='copy'>&nbsp;—&nbsp;29 Oct 2025</span>
-</span>
-</div>
-
-
-<div class="article-list-item pill-container">
-<span>
-<a href="https://www.youtube.com/watch?v=8ONG4nJdNXg">
-Avoiding Accidental Quality with Property Based Tests
-<span class="pill">Youtube</span></a>
-<span class='copy'>&nbsp;—&nbsp;26 Sep 2025</span>
-</span>
-</div>
-
-
-<div class="article-list-item pill-container">
-<span>
-<a href="https://www.youtube.com/watch?v=vg9lmdKtpLM">
-​​Resilience in Microservices with Congestion Control
-<span class="pill">Youtube</span></a>
-<span class='copy'>&nbsp;—&nbsp;25 Sep 2025</span>
-</span>
-</div>
-
-<div class="article-list-item pill-container">
-<span>
-<a href="https://www.youtube.com/watch?v=5tCzdkPPX_s">
-​​Property Based Testing to Preserve Invariants
-<span class="pill">Youtube</span></a>
-<span class='copy'>&nbsp;—&nbsp;8 Jul 2025</span>
-</span>
-</div>
-
-
-<div class="article-list-item pill-container">
-<span>
 <a href="https://www.infoq.com/articles/flow-metrics-microservices/">
 ​​Applying Flow Metrics to Design Resilient Microservices
 <span class="pill">InfoQ</span></a>
@@ -78,15 +31,6 @@ Avoiding Accidental Quality with Property Based Tests
 </span>
 </div>
 
-
-<div class="article-list-item pill-container">
-<span>
-<a href="https://www.youtube.com/watch?v=aDqtSvORFJc">
-​​What Flow Metrics Teaches Us About Designing Resilient Systems
-<span class="pill">Youtube</span></a>
-<span class='copy'>&nbsp;—&nbsp;11 Mar 2025</span>
-</span>
-</div>
 
 <div class="article-list-item pill-container">
 <span>
@@ -114,15 +58,6 @@ Unlocking observability: Structured logging in Spring Boot
 Deep-dive on mTLS with Redis on GCP
 </a>
 <span class='copy'>&nbsp;—&nbsp;22 Feb 2023</span>
-</span>
-</div>
-
-<div class="article-list-item pill-container">
-<span>
-<a href="https://www.youtube.com/watch?v=hII32IRXbAE">
-Building Resilient Services in Clojure
-<span class="pill">Youtube</span></a>
-<span class='copy'>&nbsp;—&nbsp;21 Dec 2020</span>
 </span>
 </div>
 
@@ -196,15 +131,6 @@ A Study in Parallelising Tests
 ScyllaDB: The Helpshift Story
 </a>
 <span class='copy'>&nbsp;—&nbsp;03 Apr 2019</span>
-</span>
-</div>
-
-<div class="article-list-item pill-container">
-<span>
-<a href="https://www.youtube.com/watch?v=oonmTibQgLo">
-Writing a fair task execution framework
-<span class="pill">Youtube</span></a>
-<span class='copy'>&nbsp;—&nbsp;15 May 2019</span>
 </span>
 </div>
 
