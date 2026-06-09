@@ -32,7 +32,7 @@ git add .;
 git commit -m "$MSG - build";
 
 echo -e "\033[33m\n\n==========================================================\nPublishing\n==========================================================\n\n\033[0m";
-make publish;
+make _publish;
 git add .;
 git commit -m "$MSG - publish";
 

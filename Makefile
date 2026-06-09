@@ -1,8 +1,8 @@
 build:
 	bundle install && bundle exec jekyll b 
-watchbuild:
+_watchbuild:
 	bundle exec jekyll s
-publish:
+_publish:
 	 _scripts/publish.sh
 deploy:
 	 ./deploy.sh
