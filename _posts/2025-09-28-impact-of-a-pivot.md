@@ -9,7 +9,7 @@ category: musings
 ---
 An average child's greatest obstacle is unawareness. I have never been outstanding at anything. As a child, expecting to find passion in anything was pointless. I was surviving high school from one test to the next - unaware of what I liked or what I wanted to do in life. That's when a pivot changed my life forever.
 
-While a decision is an obvious choice, a pivot hides itself in the cornucopia life. It is a choice that remains dormant, unless someone steps in to recognize the need to change course. In the seventh grade, we were first introduced to the subject of Computer Science (CS). It was no more than just another subject I needed to pass. 
+While a decision is an obvious choice, a pivot hides itself in the cornucopia of life. It is a choice that remains dormant, unless someone steps in to recognize the need to change course. In the seventh grade, we were first introduced to the subject of Computer Science (CS). It was no more than just another subject I needed to pass. 
 
 One warm humid evening, Baba came home to an abysmal CS test result. I was clearly struggling but for some reason, he was convinced that my poor result was a symptom of improper guidance rather than the more common reaction - my insufficient dedication and seriousness. Instead, Baba took a deeper look at things. He decided to teach himself Java and explain it to me, step by step, one day at a time - from haphazard class notes to college level readings.
 
