@@ -7,7 +7,7 @@ code: false
 mermaid: false
 category: musings
 ---
-My dad taught me [how to program](https://mourjo.me/blog/musings/2025/09/28/impact-of-a-pivot/). He taught me how to think about problem solving. One of his key lessons, still with me today after 20 years, was to teach oneself by reading out loud. A lesson, when read out loud, becomes much more understandable, almost magically. This is partly because I read slower aloud and partly because by hearing, I am processing it again through the hearing pathways in my brain. 
+My dad taught me [how to program](https://mourjo.me/blog/musings/2025/09/28/impact-of-a-pivot/). He taught me how to think about problem solving. One of his key lessons, still with me today after 20 years, was to teach oneself by reading out loud. A lesson, when read out loud, becomes much more understandable, almost magically.
 
 Reading my own code, just like reading a chapter, or this piece, makes the topic clearer in my head. I often used to review my own code on Github before giving it to another human. I'd see improvements that I missed in my own editor. This fundamental aspect of how I used to write code has now changed with AI.
 
