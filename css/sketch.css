@@ -387,6 +387,18 @@ th, td {
   border-color: #dc3545;
 }
 
+hr {
+    border: none;
+    text-align: center;
+    overflow: visible;
+}
+
+hr::after {
+    content: "* * *";
+    color: #ccc;
+    letter-spacing: 0.5em;
+}
+
 @media (max-width: 480px) {
     .page {
         max-width: 350px;
