@@ -46,3 +46,10 @@ feed:
   tags:
     except:
       - hidden
+
+semantic_search:
+  model: Xenova/all-MiniLM-L12-v2
+  # Cosine similarity cut-off. Tuned by hand: off-topic queries peak at ~0.27,
+  # the weakest correct match in testing scored ~0.29.
+  min_score: 0.28
+  preload_model: false   # the ~32 MB model downloads on first focus of the search bar
