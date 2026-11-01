@@ -46,3 +46,17 @@ feed:
   tags:
     except:
       - hidden
+
+# Semantic + keyword (BM25) search, see https://github.com/mourjo/jekyll-semantic-search
+# Model chosen by benchmarking 15 models on this blog's labelled queries
+# (eval/queries/mourjo-blog.json): gte-small matches the 300-400 MB models
+# within one query at a 34 MB download.
+semantic_search:
+  collections: [posts]
+  model: Xenova/gte-small
+  dtype: q8
+  min_score: auto
+  keyword_search:
+    enabled: true
+    weight: 0.3       # 0.2-0.5 gave identical results
+    min_score: 0.5    # 0.4 lets unrelated queries through, 0.6 loses typos

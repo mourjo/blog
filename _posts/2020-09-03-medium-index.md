@@ -3,6 +3,7 @@ layout: post
 title:  "Medium Index"
 date:   2020-09-03 07:14:11 +0530
 category: hidden
+semantic_search: false
 tag: hidden
 excerpt_separator: "_____"
 ---

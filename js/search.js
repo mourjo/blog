@@ -32,7 +32,7 @@ function showSearchResults() {
     resultsContainer.style.display = 'block';
 }
 
-async function matchingPosts(q) {
+async function keywordPosts(q) {
     const wordsInQuery = q.toLowerCase()
         .split(/\s+/)
         .filter(w => w.length > 2);
@@ -65,6 +65,35 @@ async function matchingPosts(q) {
     return data
         .filter(post => post.isMatch)
         .sort((a, b) => b.recency_score - a.recency_score);
+}
+
+// Semantic + keyword (BM25) search over this blog's posts, provided by
+// jekyll-semantic-search ({% semantic_search %} in the layout). Articles
+// published elsewhere (Medium etc.) are only in search.json, so they keep the
+// keyword matching above. Until the model has loaded, or if it fails to load,
+// the keyword search is used for everything.
+let semanticReady = false;
+document.addEventListener('semantic-search:ready', () => { semanticReady = true; });
+
+function isExternal(post) {
+    return !post.url.startsWith('/blog/');
+}
+
+async function matchingPosts(q) {
+    const keywordMatches = await keywordPosts(q);
+    if (!semanticReady || !window.SemanticSearch || q.trim().length < 2) {
+        return keywordMatches;
+    }
+    try {
+        const hits = await window.SemanticSearch.search(q, { limit: 10 });
+        return [
+            ...hits.map(hit => ({ title: hit.title, url: hit.url })),
+            ...keywordMatches.filter(isExternal),
+        ];
+    } catch (e) {
+        console.error('Semantic search failed, using keyword search', e);
+        return keywordMatches;
+    }
 }
 
 function debounce(callback, delay = 750) {
