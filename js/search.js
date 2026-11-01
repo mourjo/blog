@@ -9,7 +9,10 @@ const resultsContainer = document.getElementById('search-results');
 
 // ---------- External articles (keyword match) ----------
 
-const externalPosts = (async () => {
+// Controlled by `keyword_search` in _config.yml.
+const keywordSearchEnabled = searchInput.dataset.keywordSearch !== 'false';
+
+const externalPosts = keywordSearchEnabled ? (async () => {
     const response = await fetch(`${BASE_URL}/search.json`);
     if (!response.ok) {
         throw new Error('Failed to fetch search.json');
@@ -19,11 +22,11 @@ const externalPosts = (async () => {
         post.words = `${post.title} ${post.description}`.toLowerCase().split(/\s+/);
     });
     return posts;
-})();
+})() : Promise.resolve([]);
 
 async function matchingExternalPosts(q) {
     const queryWords = q.toLowerCase().split(/\s+/).filter(w => w.length > 2);
-    if (queryWords.length === 0) {
+    if (!keywordSearchEnabled || queryWords.length === 0) {
         return [];
     }
     const posts = await externalPosts;

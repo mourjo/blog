@@ -47,6 +47,10 @@ feed:
     except:
       - hidden
 
+# Keyword matching over the external articles in search.json (Medium etc.),
+# shown after the semantic results. Set to false for semantic search only.
+keyword_search: true
+
 semantic_search:
   model: Xenova/all-MiniLM-L12-v2
   # Cosine similarity cut-off. Tuned by hand: off-topic queries peak at ~0.27,
