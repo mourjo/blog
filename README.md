@@ -27,7 +27,7 @@ Add to `.zshrc`:
 
 ```shell
 eval "$(rbenv init -)"
-export PATH=$PATH:$HOME/.gem/ruby/3.0.0/bin
+export PATH=$PATH:$HOME/.gem/ruby/4.0.0/bin
 ```
 
 Install Jekyll:
