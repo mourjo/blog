@@ -1,61 +1,65 @@
-// Search bar: semantic search over blog posts (jekyll-semantic-search), plus
-// keyword matching over externally published articles listed in search.json.
+// Search bar: hybrid of semantic search (jekyll-semantic-search) and BM25
+// keyword search. See js/hybrid-search.js for how the scores are combined.
 
-const BASE_URL = '/blog';
-const SEMANTIC_LIMIT = 8;
+import { createKeywordSearcher, fuse } from './hybrid-search.js';
+
+const LIMIT = 8;
+const SEMANTIC_GRACE_MS = 300; // show keyword results first if embeddings are slower
 
 const searchInput = document.getElementById('search-bar');
 const resultsContainer = document.getElementById('search-results');
 
-// ---------- External articles (keyword match) ----------
+// Set when `semantic_search.keyword_search` is enabled in _config.yml.
+const keywordIndexUrl = searchInput.dataset.keywordIndex;
 
-// Controlled by `keyword_search` in _config.yml.
-const keywordSearchEnabled = searchInput.dataset.keywordSearch !== 'false';
+// ---------- Loading ----------
 
-const externalPosts = keywordSearchEnabled ? (async () => {
-    const response = await fetch(`${BASE_URL}/search.json`);
-    if (!response.ok) {
-        throw new Error('Failed to fetch search.json');
-    }
-    const posts = await response.json();
-    posts.forEach(post => {
-        post.words = `${post.title} ${post.description}`.toLowerCase().split(/\s+/);
-    });
-    return posts;
-})() : Promise.resolve([]);
+let keywordIndex; // Promise<{ index, searcher } | null>
 
-async function matchingExternalPosts(q) {
-    const queryWords = q.toLowerCase().split(/\s+/).filter(w => w.length > 2);
-    if (!keywordSearchEnabled || queryWords.length === 0) {
-        return [];
-    }
-    const posts = await externalPosts;
-    return posts
-        .filter(post => queryWords.some(qw => post.words.some(pw => pw.includes(qw))))
-        .sort((a, b) => b.recency_score - a.recency_score);
+function loadKeywordIndex() {
+    keywordIndex ??= !keywordIndexUrl ? Promise.resolve(null) : fetch(keywordIndexUrl)
+        .then(response => {
+            if (!response.ok) throw new Error(`Failed to fetch ${keywordIndexUrl}`);
+            return response.json();
+        })
+        .then(index => ({ index, searcher: createKeywordSearcher(index) }))
+        .catch(e => {
+            console.error('Keyword search unavailable', e);
+            return null;
+        });
+    return keywordIndex;
 }
-
-// ---------- Blog posts (semantic) ----------
 
 let modelWarmedUp = false;
 
 // The embedding model is only downloaded once someone shows intent to search.
-function warmUpModel() {
+function warmUp() {
+    loadKeywordIndex();
     if (modelWarmedUp || !window.SemanticSearch) return;
     modelWarmedUp = true;
     window.SemanticSearch.search('warm up', { limit: 1 }).catch(() => {});
 }
 
-async function matchingBlogPosts(q) {
-    if (!window.SemanticSearch || q.trim().length < 3) {
-        return [];
-    }
+async function semanticSearch(q) {
+    if (!window.SemanticSearch || q.length < 3) return { hits: [], floor: 0 };
     try {
-        return await window.SemanticSearch.search(q, { limit: SEMANTIC_LIMIT });
+        const { meta } = await window.SemanticSearch.start();
+        const hits = await window.SemanticSearch.search(q, { limit: 50 });
+        return { hits, floor: meta.min_score ?? 0 };
     } catch (e) {
         console.error('Semantic search unavailable', e);
-        return [];
+        return null;
     }
+}
+
+// Keyword-only ranking, used before (or without) semantic results.
+function keywordOnly(keyword, keywordScores) {
+    const { min_score: keywordMin } = keyword.index.params;
+    return [...keywordScores]
+        .filter(([, score]) => score >= keywordMin)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, LIMIT)
+        .map(([i]) => keyword.index.docs[i]);
 }
 
 // ---------- UI ----------
@@ -88,11 +92,19 @@ function resultElement(url, title) {
 }
 
 function setStatus(text) {
-    resultsContainer.replaceChildren();
     const status = document.createElement('div');
     status.className = 'search-result';
     status.textContent = text;
-    resultsContainer.appendChild(status);
+    resultsContainer.replaceChildren(status);
+    showSearchResults();
+}
+
+function render(results) {
+    if (results.length === 0) {
+        setStatus('No results');
+        return;
+    }
+    resultsContainer.replaceChildren(...results.map(r => resultElement(r.url, r.title)));
     showSearchResults();
 }
 
@@ -104,25 +116,37 @@ async function performSearch() {
         resultsContainer.style.display = 'none';
         return;
     }
-
     if (!searchedOnce) setStatus('Searching…');
 
-    const [blogPosts, external] = await Promise.all([
-        matchingBlogPosts(query),
-        matchingExternalPosts(query),
-    ]);
-    if (query !== latestQuery) return; // a newer search has started
+    const semantic = semanticSearch(query);
+    const keyword = await loadKeywordIndex();
+    const keywordScores = keyword ? keyword.searcher.search(query) : new Map();
 
+    const timeout = new Promise(resolve => setTimeout(() => resolve('timeout'), SEMANTIC_GRACE_MS));
+    if (keyword && await Promise.race([semantic, timeout]) === 'timeout') {
+        if (query !== latestQuery) return;
+        searchedOnce = true;
+        const preliminary = keywordOnly(keyword, keywordScores);
+        if (preliminary.length > 0) render(preliminary);
+    }
+
+    const semanticResult = await semantic;
+    if (query !== latestQuery) return; // a newer search has started
     searchedOnce = true;
-    const items = [
-        ...blogPosts.map(hit => resultElement(hit.url, hit.title)),
-        ...external.map(post => resultElement(post.url, post.title)),
-    ];
-    resultsContainer.replaceChildren(...items);
-    if (items.length > 0) {
-        showSearchResults();
+
+    if (!semanticResult) {
+        // Embeddings failed: fall back to keyword results alone.
+        render(keyword ? keywordOnly(keyword, keywordScores) : []);
+    } else if (!keyword) {
+        render(semanticResult.hits.slice(0, LIMIT));
     } else {
-        setStatus('No results');
+        render(fuse({
+            index: keyword.index,
+            semanticHits: semanticResult.hits,
+            keywordScores,
+            semanticFloor: semanticResult.floor,
+            limit: LIMIT,
+        }));
     }
 }
 
@@ -148,7 +172,7 @@ function searchKeyPress(event) {
 }
 
 function searchFocus() {
-    warmUpModel();
+    warmUp();
     if (searchInput.value && searchedOnce) {
         showSearchResults();
     }

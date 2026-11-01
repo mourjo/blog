@@ -117,7 +117,7 @@ layout: compress
     <div class="post">
       <div class="searchbar-container">
         <div class="search-container" id="search-container">
-          <input type="text" id="search-bar" class="search-bar" placeholder="🔍 Search" data-keyword-search="{% if site.keyword_search == false %}false{% else %}true{% endif %}">
+          <input type="text" id="search-bar" class="search-bar" placeholder="🔍 Search"{% if site.keyword_search_index_url %} data-keyword-index="{{ site.keyword_search_index_url }}"{% endif %}>
           <div class="search-results-container" id="search-results"></div>
         </div>
       </div>

@@ -47,13 +47,23 @@ feed:
     except:
       - hidden
 
-# Keyword matching over the external articles in search.json (Medium etc.),
-# shown after the semantic results. Set to false for semantic search only.
-keyword_search: true
-
+# Search: semantic + BM25 keyword search. Every setting is explained in the
+# README's "Search" section.
 semantic_search:
   model: Xenova/all-MiniLM-L12-v2
-  # Cosine similarity cut-off. Tuned by hand: off-topic queries peak at ~0.27,
-  # the weakest correct match in testing scored ~0.29.
+  # Cosine similarity cut-off. Off-topic queries score up to ~0.26 in the
+  # browser, the weakest correct match in testing ~0.30.
   min_score: 0.28
   preload_model: false   # the ~32 MB model downloads on first focus of the search bar
+
+  # BM25 keyword search, combined with the semantic results to catch exact and
+  # near word matches that embeddings miss.
+  keyword_search:
+    enabled: true
+    weight: 0.3              # share of the final score from BM25 (rest is semantic)
+    min_score: 0.4           # normalised BM25 needed to show a keyword-only match
+    k1: 1.2
+    b: 0.75
+    title_boost: 3           # title words count this many times
+    semantic_ceiling: 0.69   # cosine treated as a perfect semantic match
+    extra_documents: external_articles   # _data file: external articles, keyword-only
